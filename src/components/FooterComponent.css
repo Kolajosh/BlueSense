@@ -1,0 +1,78 @@
+.footer-container {
+  width: 100%;
+  height: 200px;
+}
+
+.left-text {
+  justify-self: start;
+  color: #666666;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-weight: lighter;
+}
+
+.company-name {
+  font-weight: bold;
+}
+
+.right-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  text-decoration: none;
+
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-content: end;
+  text-align: left;
+  list-style: none;
+}
+
+.right-text ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer-items {
+  margin-top: -50px;
+  display: flex;
+  align-items: center;
+}
+
+.col-1 {
+  margin-right: 50px;
+}
+
+.col-2 {
+  margin-right: 100px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #666666;
+}
+
+.blue-link {
+  color: #0f74b9;
+}
+.footer hr {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 0;
+  border-top: 1px solid #0f74b9;
+}
+
+.sub-foot {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  color: #666666;
+}
+
+.sub-foot span {
+  margin-left: 405px;
+}
+
+.contact-right {
+  justify-content: end;
+}
