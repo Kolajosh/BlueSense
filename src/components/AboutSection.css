@@ -1,0 +1,168 @@
+.about-section-1 {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: auto;
+}
+
+.about-section-paragraph {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+.about-heading {
+  padding-top: 50px;
+  margin-left: 50px;
+  font-family: poppins;
+  font-weight: bold;
+  color: #666666;
+}
+
+.about-section-paragraph {
+  font-family: Gill Sans MT;
+  font-weight: 400;
+  font-size: 25px;
+  color: #666666;
+}
+
+.about-blue {
+  font-family: Gill Sans MT;
+  font-weight: 400;
+  font-size: 25px;
+  color: #0f74b9;
+}
+
+.about-section-subparagraph {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-family: Gill Sans MT;
+  font-weight: 400;
+  font-size: 25px;
+  color: #0f74b9;
+}
+
+.about-section-paragraph-list {
+  font-family: Gill Sans MT;
+  font-weight: 400;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  list-style: none;
+}
+
+.about-section-paragraph-list li {
+  font-family: Gill Sans MT;
+  font-weight: 400;
+  font-size: 25px;
+  color: #666666;
+}
+
+.about-section-paragraph-list ol li {
+  color: #0f74b9;
+}
+
+.about-heading-2 {
+  margin-top: 30px;
+  margin-left: 50px;
+  font-family: poppins;
+  font-weight: 600;
+  color: #666666;
+}
+
+.about-section-paragraph-2 {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: Gill Sans MT;
+  font-weight: 400;
+  font-size: 25px;
+  color: #666666;
+}
+
+.about-heading-4 {
+  margin-top: 30px;
+  margin-left: 50px;
+  font-family: poppins;
+  font-weight: 600;
+  color: #666666;
+}
+
+.about-heading-3 {
+  margin-top: 30px;
+  margin-left: 50px;
+  font-family: poppins;
+  font-weight: 600;
+  color: #666666;
+}
+
+.about-section-paragraph-2 {
+  font-family: Gill Sans MT;
+  font-weight: 400;
+  font-size: 25px;
+
+  margin-left: 50px;
+  margin-right: 50px;
+  list-style: none;
+}
+
+.about-blue-subparagraph {
+  font-family: Gill Sans MT;
+  font-weight: 400;
+  font-size: 25px;
+  margin-left: 50px;
+  color: #0f74b9;
+}
+
+.about-section-subparagraph-2 {
+  margin-top: 30px;
+}
+
+.about-section-paragraph-2 li {
+  font-family: Gill Sans MT;
+  font-weight: 400;
+  font-size: 25px;
+  color: #666666;
+}
+
+.about-heading-5 {
+  margin-top: 30px;
+  margin-left: 50px;
+  font-family: poppins;
+  font-weight: 600;
+  color: #666666;
+}
+
+.about-section-paragraph-3 {
+  font-family: Gill Sans MT;
+  font-weight: 400;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #666666;
+}
+
+/*
+2nd section...................
+*/
+
+.about-section-2 {
+  width: 100%;
+  height: auto;
+}
+
+.about-heading-6 {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family: poppins;
+  font-weight: 600;
+  color: #666666;
+}
+
+.about-section-2 p {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  font-family: Gill Sans MT;
+  font-weight: 400;
+  font-size: 25px;
+  color: #666666;
+}

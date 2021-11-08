@@ -8,18 +8,23 @@
   color: #666666;
   margin-top: 50px;
   margin-left: 50px;
+  font-size: 24px;
+}
+
+.left-text p {
+  font-family: Gill Sans MT;
   font-weight: lighter;
 }
 
 .company-name {
-  font-weight: bold;
+  font-family: Gill Sans MT;
+  font-weight: bolder;
 }
 
 .right-text {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-
-  text-decoration: none;
-
+  font-family: poppins;
+  margin-top: -40px;
+  font-size: 24px;
   display: grid;
   grid-template-columns: repeat(5, auto);
   justify-content: end;
@@ -47,12 +52,16 @@
 }
 
 .footer-link {
+  font-family: Gill Sans MT;
+  font-weight: 600;
   text-decoration: none;
   color: #666666;
 }
 
 .blue-link {
   color: #0f74b9;
+  font-family: Gill Sans MT;
+  font-weight: 600;
 }
 .footer hr {
   margin-top: 20px;
@@ -63,16 +72,79 @@
 }
 
 .sub-foot {
+  font-family: Gill Sans MT;
+  font-weight: lighter;
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 10px;
   color: #666666;
 }
 
-.sub-foot span {
-  margin-left: 405px;
+.contact-right {
+  font-family: Gill Sans MT;
+  font-weight: lighter;
+  color: #666666;
+  display: grid;
+  justify-content: end;
+  margin-right: 50px;
+  margin-top: -23px;
+  text-align: left;
 }
 
-.contact-right {
-  justify-content: end;
+@media (max-width: 990px) {
+  .left-text {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .right-text {
+    font-size: 15px;
+    margin-left: 50px;
+    display: inline-block;
+    justify-content: end;
+    text-align: left;
+    list-style: none;
+  }
+
+  .sub-foot {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 10px;
+    margin-top: 10px;
+    color: #666666;
+  }
+
+  .contact-right {
+    font-size: 10px;
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .left-text {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  .right-text {
+    font-size: 10px;
+    margin-left: 50px;
+    display: inline-block;
+    justify-content: end;
+    text-align: left;
+    list-style: none;
+  }
+
+  .sub-foot {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 10px;
+    margin-top: 10px;
+    color: #666666;
+  }
+
+  .contact-right {
+    display: inline-block;
+    margin-left: 50px;
+  }
 }

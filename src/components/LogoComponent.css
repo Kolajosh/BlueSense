@@ -1,8 +1,9 @@
 .section-heading {
+  font-family: poppins;
+  font-weight: 600;
   margin-top: 50px;
   margin-left: 50px;
   color: rgba(102, 102, 102, 0.726);
-  font-family: poppins;
 }
 
 .logo-container {

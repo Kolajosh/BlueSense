@@ -10,6 +10,7 @@ import SignUp from './components/pages/SignUp';
 import Strategy from './components/pages/Strategy';
 import Analytics from './components/pages/Analytics';
 import FooterComponent from './components/FooterComponent';
+import About from './components/pages/About';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
+        <Route path='/about' exact component={About} />
         <Route path='/services' component={Services} />
         <Route path='/products' component={Products} />
         <Route path='/contact' component={Contact} />

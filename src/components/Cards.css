@@ -13,10 +13,11 @@
 }
 
 .card-heading {
+  font-family: poppins;
+  font-weight: 600;
   margin-top: 50px;
   margin-left: 50px;
   color: rgba(102, 102, 102, 0.726);
-  font-family: poppins;
 }
 
 .card-links {
@@ -82,9 +83,10 @@
 }
 
 .middle-text {
+  font-family: Gill Sans, Gill Sans MT;
+  font-weight: lighter;
   margin-top: 5px;
   font-size: 12px;
-  font-weight: lighter;
   color: rgba(102, 102, 102, 0.726);
   transition: 0.3s;
 }
