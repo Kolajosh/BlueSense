@@ -1,0 +1,132 @@
+.partner-head h1 {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family: poppins;
+  font-weight: 600;
+  color: #666666;
+}
+
+.partner-container {
+  display: inline-flex;
+  width: 23.7%;
+  margin: 1% 0 0 1%;
+  perspective: 800px;
+  transition: all 0.3s ease 0s;
+}
+
+.partner-container:hover .partner-icons {
+  transform: rotateY(180deg);
+}
+
+.partner-icons {
+  margin-top: 30px;
+  background: none;
+  cursor: default;
+  height: 400px;
+  border-radius: 40px;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease 0s;
+  width: 100%;
+  -webkit-animation: giro 1s 1;
+  animation: giro 1s 1;
+}
+
+.front-icon {
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  color: white;
+  display: block;
+  height: 350px;
+  padding: 0.8em;
+  position: absolute;
+  width: 100%;
+}
+
+.back-icon {
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  border-radius: 40px;
+  display: block;
+  height: 350px;
+  padding: 0.8em;
+  position: absolute;
+  width: 100%;
+  transform: rotateY(180deg);
+  transition: all 0.2s ease 0s;
+}
+
+.back-icon {
+  text-align: center;
+}
+
+.back-icon p {
+  font-family: Gill Sans MT;
+  color: #fff;
+  text-align: center;
+  line-height: 27px;
+}
+
+.fa-linkedin {
+  margin-top: 50px;
+  color: #fff;
+}
+
+.back-icon {
+  background: radial-gradient(
+    127.83% 128.48% at 50% 50%,
+    #0072a3 0%,
+    #014e82 99.51%
+  );
+}
+.partner-desc p {
+  font-family: Gill Sans MT;
+}
+.partner-desc {
+  font-family: Gill Sans MT;
+  color: #666666;
+  display: flex;
+  position: relative;
+  margin-left: 100px;
+  margin-top: -50px;
+}
+
+.partner-second-desc {
+  margin-left: 230px;
+}
+
+.partner-third-desc {
+  margin-left: 210px;
+}
+
+.partner-fourth-desc {
+  margin-left: 210px;
+}
+
+@media screen and (max-width: 767px) {
+  .partner-container {
+    display: block;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 60%;
+  }
+
+  .partner-desc {
+    display: none;
+  }
+
+  .partner-icons {
+    height: 285px;
+  }
+  .partner-container:last-child {
+    margin-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .partner-container {
+    width: 94.5%;
+  }
+  .partner-icons {
+    height: 260px;
+  }
+}
