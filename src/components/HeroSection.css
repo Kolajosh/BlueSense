@@ -31,11 +31,11 @@
   color: #fff;
   margin-top: 20px;
   margin-left: 50px;
-  font-family: Gill Sans MT;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 22px;
-  line-height: 30px;
+  line-height: 27px;
 }
 
 .hero-container Button {

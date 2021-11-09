@@ -1,0 +1,48 @@
+.analytics-container {
+  width: 737px;
+  height: 550px;
+  background: #f7f7f7;
+}
+
+.analytics-head h1 {
+  padding-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: poppins;
+  font-weight: 600;
+  color: #666666;
+}
+
+.analytics1-body-1 p {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: Gill Sans MT;
+  font-size: 24px;
+  color: #666666;
+}
+
+.analytics1-body-2 p {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 100px;
+  font-family: Gill Sans MT;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: lighter;
+  color: #666666;
+}
+
+.blue {
+  font-family: Gill Sans MT;
+}
+
+.analytics-img {
+  float: right;
+  margin-right: 50px;
+}
+
+.analytics-img img {
+  width: 600px;
+  height: auto;
+}

@@ -1,9 +1,13 @@
 import React from 'react';
+import '../../App.css';
+import AnalyticsSection1 from '../AnalyticsSection1';
+import AnalyticsSection2 from '../AnalyticsSection2';
 
 export default function Analytics() {
   return (
     <>
-      <h1 className='analytics'>Analytics</h1>
+      < AnalyticsSection1 />
+      <AnalyticsSection2 />
     </>
   );
 }

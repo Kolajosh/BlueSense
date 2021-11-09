@@ -1,0 +1,26 @@
+.analytics-container-2 {
+  width: 737px;
+  height: auto;
+}
+
+.analytics2-body-1 p {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 100px;
+  font-family: Gill Sans MT;
+  font-size: 24px;
+  color: #666666;
+}
+
+.analytics2-body-2 {
+  margin-top: 20px;
+  margin-left: 70px;
+  margin-right: 100px;
+}
+
+.analytics2-body-2 li {
+  font-family: Gill Sans MT;
+  font-size: 24px;
+  margin-top: 20px;
+  color: #666666;
+}
