@@ -32,7 +32,7 @@
 }
 
 .nav-links {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-weight: bold;
   color: rgba(102, 102, 102, 0.726);
   text-decoration: none;

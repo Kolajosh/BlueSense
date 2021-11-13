@@ -1,7 +1,7 @@
 .partner-head h1 {
   margin-top: 50px;
   margin-left: 50px;
-  font-family: poppins;
+  font-family: Poppins, sans-serif;
   font-weight: 600;
   color: #666666;
 }
@@ -60,7 +60,7 @@
 }
 
 .back-icon p {
-  font-family: Gill Sans MT;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   color: #fff;
   text-align: center;
   line-height: 27px;

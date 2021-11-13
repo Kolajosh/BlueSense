@@ -155,13 +155,13 @@
   .item-1,
   .item-2,
   .item-3 {
-    margin-left: 100px;
-    width: 300px;
-    height: 300px;
+    margin-left: 50px;
+    width: 250px;
+    height: 250px;
   }
 
   .card-img {
-    width: 100px;
+    width: 80px;
   }
 
   .middle-text {

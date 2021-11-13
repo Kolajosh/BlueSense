@@ -7,7 +7,7 @@
   margin-top: 20px;
   margin-left: 50px;
   margin-right: 100px;
-  font-family: Gill Sans MT;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-size: 24px;
   color: #666666;
 }
@@ -19,7 +19,7 @@
 }
 
 .analytics2-body-2 li {
-  font-family: Gill Sans MT;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-size: 24px;
   margin-top: 20px;
   color: #666666;
