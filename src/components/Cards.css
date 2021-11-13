@@ -13,9 +13,9 @@
 }
 
 .card-heading {
-  font-family: poppins;
+  font-family: Poppins;
   font-weight: 600;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-left: 50px;
   color: rgba(102, 102, 102, 0.726);
 }
@@ -27,11 +27,13 @@
 .item-1,
 .item-2,
 .item-3 {
+  width: 400px;
+  height: 400px;
   padding: 40px 30px;
   border: 1px solid;
   border-color: rgba(102, 102, 102, 0.726);
   border-radius: 40px;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-left: 50px;
   margin-right: 50px;
   display: flex;
@@ -67,7 +69,7 @@
 }
 
 .item-2 p {
-  margin-top: 41px;
+  margin-top: 20px;
 }
 
 .item-3 p {
@@ -76,17 +78,17 @@
 
 .subtitle-flex {
   color: rgba(102, 102, 102, 0.726);
-  font-family: poppins;
+  font-family: Poppins;
   font-weight: 500;
   font-size: 25px;
   transition: 0.3s;
 }
 
 .middle-text {
-  font-family: Gill Sans, Gill Sans MT;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: lighter;
   margin-top: 5px;
-  font-size: 12px;
+  font-size: 11px;
   color: rgba(102, 102, 102, 0.726);
   transition: 0.3s;
 }
@@ -113,18 +115,70 @@
   box-shadow: 0 40px 70px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 968px) {
+  .flex-container {
+    display: flex;
+    width: 100%;
+  }
+  .item-1,
+  .item-2,
+  .item-3 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .subtitle-flex {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .card-img {
+    margin-top: -20px;
+    width: 70px;
+  }
+
+  .middle-text {
+    font-size: 9px;
+    margin-top: -10px;
+  }
+
+  .item-2 p {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 668px) {
   .flex-container {
     display: block;
     width: 500px;
   }
-
+  .item-1,
   .item-2,
   .item-3 {
-    margin-left: 50px;
+    margin-left: 100px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .card-img {
+    width: 100px;
+  }
+
+  .middle-text {
+    font-size: 10px;
+    margin-top: -10px;
+  }
+
+  .item-2 p {
+    margin-top: 10px;
   }
 
   .base {
     transform: rotate(180deg);
+  }
+
+  .subtitle-flex {
+    font-size: 20px;
+    font-weight: 600;
   }
 }

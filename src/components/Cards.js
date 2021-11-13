@@ -12,52 +12,54 @@ function Cards() {
         <h1 className ='card-heading'>
             Core Competencies
         </h1>
-            <div className="flex-container">
-    <div className="item-1">
+    <div className="flex-container">
+         <div className="item-1">
            <Link to ='/strategy' className='card-links'> <div className="icon">
-            <img src={icon} alt='icon'></img>
+            <img src={icon} alt='icon' className='card-img'></img>
         </div>
         <p className="subtitle-flex">Strategy</p>
         </Link>
         <div className="middle-text">
-        As a consulting firm, we take pride in carrying out<br></br>
-        thorough research on our clients businesses and/or<br></br>
-        industries. We also assess your team to draw inferences<br></br>
-        from past and present performances. This is to ensure that<br></br>
-        we come up with the best possible (recommended)<br></br> 
-        strategies that aids the sustainability of these businesses in<br></br> 
-        the long run.
+        <p>As a consulting firm, we take pride in carrying out
+        thorough research on our clients businesses and/or
+        industries. We also assess your team to draw inferences
+        from past and present performances. This is to ensure that
+        we come up with the best possible (recommended) 
+        strategies that aids the sustainability of these businesses in 
+        the long run.</p>
         </div>
         
     </div>
     <div className="item-2">
     <Link to='/learning' className='card-links'>
         <div className="icon">
-            <img src={icon1} alt='icon1'></img>
+            <img src={icon1} alt='icon1' className='card-img'></img>
         </div>
         <p className="subtitle-flex">Learning</p>
         </Link>
         <div className="middle-text">
-        At BlueSense, we offer learning services ranging from<br></br>
-        seminars to team training, and even to personal training for<br></br>
-        executives. This is done with the sole aim of improving on<br></br>
-        these teams, encouraging reflection to yield results, and<br></br>
+        <p>At BlueSense, we offer learning services ranging from
+        seminars to team training, and even to personal training for
+        executives. This is done with the sole aim of improving on
+        these teams, encouraging reflection to yield results, and
         motivating teams for potential achievements.
+        </p>
         </div>
          
     </div>
     <div className="item-3">
         <Link to='/advisory' className='card-links'>
         <div className="icon">
-        <img src={icon2} alt='icon2'></img>
+        <img src={icon2} alt='icon2' className='card-img'></img>
         </div>
         <p className="subtitle-flex">Advisory</p>
         </Link>
         <div className="middle-text">
-        As a team, we are constantly looking to help<br></br>
-        businesses thrive in the fast changing business world,<br></br>
-        and we do this by giving recommendations backed<br></br>
+        <p>As a team, we are constantly looking to help
+        businesses thrive in the fast changing business world,
+        and we do this by giving recommendations backed
         with research, to our clients.
+        </p>
         </div>
         
     </div>

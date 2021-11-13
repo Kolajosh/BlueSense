@@ -19,14 +19,14 @@
 }
 
 .about-section-paragraph {
-  font-family: Gill Sans MT;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
   font-size: 25px;
   color: #666666;
 }
 
 .about-blue {
-  font-family: Gill Sans MT;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
   font-size: 25px;
   color: #0f74b9;
@@ -35,14 +35,14 @@
 .about-section-subparagraph {
   margin-left: 50px;
   margin-top: 30px;
-  font-family: Gill Sans MT;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
   font-size: 25px;
   color: #0f74b9;
 }
 
 .about-section-paragraph-list {
-  font-family: Gill Sans MT;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
   font-size: 25px;
   margin-left: 50px;
@@ -51,7 +51,7 @@
 }
 
 .about-section-paragraph-list li {
-  font-family: Gill Sans MT;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
   font-size: 25px;
   color: #666666;
@@ -72,7 +72,7 @@
 .about-section-paragraph-2 {
   margin-left: 50px;
   margin-right: 50px;
-  font-family: Gill Sans MT;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
   font-size: 25px;
   color: #666666;
@@ -95,7 +95,7 @@
 }
 
 .about-section-paragraph-2 {
-  font-family: Gill Sans MT;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
   font-size: 25px;
 
@@ -105,7 +105,7 @@
 }
 
 .about-blue-subparagraph {
-  font-family: Gill Sans MT;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
   font-size: 25px;
   margin-left: 50px;
@@ -117,7 +117,7 @@
 }
 
 .about-section-paragraph-2 li {
-  font-family: Gill Sans MT;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
   font-size: 25px;
   color: #666666;
@@ -132,7 +132,7 @@
 }
 
 .about-section-paragraph-3 {
-  font-family: Gill Sans MT;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
   font-size: 25px;
   margin-left: 50px;
@@ -161,7 +161,7 @@
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 30px;
-  font-family: Gill Sans MT;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
   font-size: 25px;
   color: #666666;
