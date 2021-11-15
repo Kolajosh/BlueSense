@@ -1,6 +1,8 @@
 import React from 'react'
 import './AnalyticsSection1.css'
 import analytics from '../images/analytics.png'
+import { Link } from 'react-router-dom';
+
 
 
 function AnalyticsSection1() {
@@ -8,6 +10,13 @@ function AnalyticsSection1() {
         <>
          <div className='analytics-img'>
                 <img src = {analytics} alt=''></img>
+            </div>
+            <div className='button-analytics'>
+            <button className='big-button'>
+                        <Link to ='/contact' className='big-btn-link'> 
+                        Schedule Consultation <i class="fas fa-caret-right"></i>
+                        </Link>
+                    </button>
             </div>
             <div className ='analytics-container'>
                 <div className='analytics-head'>

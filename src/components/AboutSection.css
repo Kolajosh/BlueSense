@@ -1,7 +1,7 @@
 .about-section-1 {
   background-color: #f7f7f7;
   width: 100%;
-  height: auto;
+  height: 1250px;
 }
 
 .about-section-paragraph {
@@ -11,10 +11,11 @@
 }
 
 .about-heading {
-  padding-top: 50px;
+  padding-top: 70px;
   margin-left: 50px;
-  font-family: poppins;
-  font-weight: bold;
+  font-family: Poppins, sans-serif;
+  font-size: 54px;
+  font-weight: 600;
   color: #666666;
 }
 
@@ -64,7 +65,8 @@
 .about-heading-2 {
   margin-top: 30px;
   margin-left: 50px;
-  font-family: poppins;
+  font-family: Poppins, sans-serif;
+  font-size: 35px;
   font-weight: 600;
   color: #666666;
 }
@@ -81,7 +83,8 @@
 .about-heading-4 {
   margin-top: 30px;
   margin-left: 50px;
-  font-family: poppins;
+  font-family: Poppins, sans-serif;
+  font-size: 35px;
   font-weight: 600;
   color: #666666;
 }
@@ -89,7 +92,8 @@
 .about-heading-3 {
   margin-top: 30px;
   margin-left: 50px;
-  font-family: poppins;
+  font-family: Poppins, sans-serif;
+  font-size: 35px;
   font-weight: 600;
   color: #666666;
 }
@@ -98,7 +102,6 @@
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
   font-size: 25px;
-
   margin-left: 50px;
   margin-right: 50px;
   list-style: none;
@@ -126,7 +129,8 @@
 .about-heading-5 {
   margin-top: 30px;
   margin-left: 50px;
-  font-family: poppins;
+  font-family: Poppins, sans-serif;
+  font-size: 35px;
   font-weight: 600;
   color: #666666;
 }
@@ -152,7 +156,8 @@
 .about-heading-6 {
   margin-top: 50px;
   margin-left: 50px;
-  font-family: poppins;
+  font-family: Poppins, sans-serif;
+  font-size: 35px;
   font-weight: 600;
   color: #666666;
 }

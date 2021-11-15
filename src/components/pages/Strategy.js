@@ -1,9 +1,14 @@
 import React from 'react';
+import '../../App.css';
+
+import StrategySection from '../StrategySection';
+import StrategySection2 from '../StrategySection2';
 
 export default function Strategy() {
   return (
     <>
-      <h1 className='strategy'>Strategy</h1>
+      <StrategySection />
+      <StrategySection2 />
     </>
   );
 }

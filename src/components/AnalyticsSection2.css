@@ -24,3 +24,27 @@
   margin-top: 20px;
   color: #666666;
 }
+
+.big-text {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+}
+
+.big-text ul {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 50px;
+  list-style: none;
+  color: #666666;
+}
+
+.big-text-2 {
+  margin-left: 250px;
+}
+
+.big-text h1 {
+  font-size: 50px;
+}
+.big-text p {
+  font-size: 18px;
+}
