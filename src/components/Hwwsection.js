@@ -13,8 +13,22 @@ function Hwwsection() {
             challenges your company+teams on a day-to-day; then build out proactive solutionsthat utilise our expertise + experience to solve your 
             most pressing problems and attain set goals & objectives.
             </p>
+            <div className='hww-foot-div'>
             <h1 className='hww-foot'>45 <span class="icon-right-arrow-123"></span>3.5 MONTHS <span class="icon-right-arrow-123"></span> $100M+</h1>
-            <p className='hww-sub-foot'>Projects Executed<span>Average Project Length</span><span className='sub-foot3'>Added to Client Bottomline</span></p>
+            </div>
+            <div className='hww-foot-div'>
+                <ul className='hww-foot-ul'>
+                    <li className='hww-foot-list'>
+                    Projects Executed
+                    </li>
+                    <li>
+                    Average Project Length
+                    </li>
+                    <li>
+                    Added to Client Bottomline
+                    </li>
+                </ul>
+            </div>
         </div>   
         </>
     )

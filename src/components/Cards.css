@@ -155,9 +155,14 @@
   .item-1,
   .item-2,
   .item-3 {
-    margin-left: 50px;
+    margin-left: 75px;
     width: 250px;
     height: 250px;
+  }
+
+  .item-2,
+  .item-3 {
+    margin-top: 40px;
   }
 
   .card-img {
@@ -165,7 +170,7 @@
   }
 
   .middle-text {
-    font-size: 10px;
+    font-size: 9px;
     margin-top: -10px;
   }
 
@@ -180,5 +185,9 @@
   .subtitle-flex {
     font-size: 20px;
     font-weight: 600;
+  }
+
+  .card-heading {
+    font-size: 25px;
   }
 }
