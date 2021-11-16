@@ -12,22 +12,29 @@ function ProfileIcons() {
                         Team
                     </h1>
                 </div>
-               <div className='profile-icons'>
+            <div className='icons1'>
+                <ul className='picons'>
+                    <div className='picon1'>
+                    <li>
                     <img src ={ife} alt=''></img>
-                    <img src ={kola} alt='' className='iprofile-2'></img>
-                </div>
-                <div className='profile-desc'>
-                    <div>
-                    <p>Ifeoluwa Komolafe</p>
-                    <p className='blue'>Business Analyst</p>
+                    </li>
+                    <li>
+                        <p>Ifeoluwa Komolafe</p>
+                        <p className='blue'>Business Analyst</p>
+                    </li>
                     </div>
-                    <div className='second-desc'>
-                    <p>Kolawole Ayoola</p>
-                    <p className='blue'>Web Develpment Intern</p>
+                    <div className='picon2'>
+                    <li>
+                    <img src ={kola} alt=''></img>
+                    </li>
+                    <li>
+                        <p>Kolawole Ayoola</p>
+                        <p className='blue'>Web Development Intern</p>
+                    </li>
                     </div>
-                </div>
+                </ul>
             </div>
-
+            </div>
            
         </>
     )

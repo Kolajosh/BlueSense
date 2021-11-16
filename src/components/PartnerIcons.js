@@ -13,87 +13,103 @@ function PartnerIcons() {
                         Partners
                     </h1>
                 </div>
-            <div className='partner-container'>
-               <div className='partner-icons'>
-                   <div className='front-icon'>
-                    <img src ={christian} alt=''></img>
-                    </div>
-                    <div className='back-icon'>
-                    <p className='ppp'>Christian is a consultant + coach. He helps organisations 
-                        in the continent build people.  As Lead Partner for Reuben 
-                        & Company Project, he helps build teams to work seamlessly, 
-                        analyse (through concrete research), the best strategies for 
-                        growth and advise startups on how to effectively improve human 
-                        energy.</p>
-                        <i class="fab fa-linkedin"></i>
-                    </div>
-                </div>
-            </div>
 
-            <div className='partner-container'>
-               <div className='partner-icons'>
-                   <div className='front-icon'>
-                    <img src ={emmanuel} alt=''></img>
-                    </div>
-                    <div className='back-icon'>
-                    <p>Emmanuel is a multiple CISCO certified IT Speacialist with 8+ years experience in planning, 
-          implementing and supporting network and security infrastructure in Canada, UK, and Nigeria. 
-          He has experience with Saipem, Siemens UK, to mention but a few.</p>
-                        <i class="fab fa-linkedin"></i>
+                <ul className = 'pticons-list'>
+                <div className='pticons'>
+                    <div className= 'pticons-1'>
+                        
+                            <div className='pticons-1-front'>
+                            <img src ={christian} alt=''></img>
+                            </div>
+                            <div className='pticons-1-back'>
+                            <p>
+                            Christian is a consultant + coach. He helps organisations 
+                            in the continent build people.  As Lead Partner for Reuben 
+                            & Company Project, he helps build teams to work seamlessly, 
+                            analyse (through concrete research), the best strategies for 
+                            growth and advise startups on how to effectively improve human 
+                            energy.
+                            </p>
+                            <i class="fab fa-linkedin"></i>
+                            </div>
+                        
+                        <li>
+                        <p>Christian Reuben</p>
+                        <p className='blue'>Lead Partner</p>
+                        </li>
                     </div>
                 </div>
-            </div>
 
-            <div className='partner-container'>
-               <div className='partner-icons'>
-                   <div className='front-icon'>
-                    <img src ={seye} alt=''></img>
+                <div className='pticons'>
+                    <div className= 'pticons-1'>
+                        
+                            <div className='pticons-1-front'>
+                            <img src ={emmanuel} alt=''></img>
+                            </div>
+                            <div className='pticons-1-back'>
+                            <p>
+                            Emmanuel is a multiple CISCO certified IT Speacialist with 8+ years experience in planning, 
+                            implementing and supporting network and security infrastructure in Canada, UK, and Nigeria. 
+                            He has experience with Saipem, Siemens UK, to mention but a few.
+                            </p>
+                            <i class="fab fa-linkedin"></i>
+                            </div>
+                        
+                        <li>
+                        <p>Emmanuel Thom-manuel</p>
+                        <p className='blue'>Operations Partner</p>
+                        </li>
                     </div>
-                    <div className='back-icon'>
-                    <p>Seye is an award winning still-life photographer and environmentalist. 
-      Inspired by nature, culture and happenings around her, she enjoys telling 
-      stories with her images. She tells these stories throught photography that 
-      is as thought-provoking as it is beautiful. She is a skilled creative artist 
-      who works with vision and compassion.</p>
-                        <i class="fab fa-linkedin"></i>
-                    </div>
-                </div>
-            </div>
+               </div>
 
-            <div className='partner-container'>
-               <div className='partner-icons'>
-                   <div className='front-icon'>
-                    <img src ={natasha} alt=''></img>
+               <div className='pticons'>
+                    <div className= 'pticons-1'>
+                        
+                            <div className='pticons-1-front'>
+                            <img src ={seye} alt=''></img>
+                            </div>
+                            <div className='pticons-1-back'>
+                            <p>
+                            Seye is an award winning still-life photographer and environmentalist. 
+                            Inspired by nature, culture and happenings around her, she enjoys telling 
+                            stories with her images. She tells these stories throught photography that 
+                            is as thought-provoking as it is beautiful. She is a skilled creative artist 
+                            who works with vision and compassion.
+                            </p>
+                            <i class="fab fa-linkedin"></i>
+                            </div>
+                        
+                        <li>
+                        <p>Seye Jimo</p>
+                        <p className='blue'>Creative Partner</p>
+                        </li>
                     </div>
-                    <div className='back-icon'>
-                    <p>Seye is an award winning still-life photographer and environmentalist. 
-      Inspired by nature, culture and happenings around her, she enjoys telling 
-      stories with her images. She tells these stories throught photography that 
-      is as thought-provoking as it is beautiful. She is a skilled creative artist 
-      who works with vision and compassion.</p>
-                        <i class="fab fa-linkedin"></i>
-                    </div>
-                </div>
-            </div>
+             </div>
 
-            <div className='partner-desc'>
-                    <div>
-                    <p>Christian Reuben</p>
-                    <p className='blue'>Lead Partner</p>
+             <div className='pticons'>
+                    <div className= 'pticons-1'>
+                        
+                            <div className='pticons-1-front'>
+                            <img src ={natasha} alt=''></img>
+                            </div>
+                            <div className='pticons-1-back'>
+                            <p>
+                            Natasha has a PhD in Risk Assesment Management and vast experience working in different sectors. 
+                            She has a strong passion for addressing risk management issues and improving business outcomes. 
+                            She has a concrete background in research with a focus on Risk Management that she deploys on client projects.
+                            </p>
+                            <i class="fab fa-linkedin"></i>
+                            </div>
+                        
+                        <li>
+                        <p>Natasha Oyibo</p>
+                        <p className='blue'>Research Partner</p>
+                        </li>
                     </div>
-                    <div className='partner-second-desc'>
-                    <p>Emmanuel Thom-manuel</p>
-                    <p className='blue'>Operations Partner</p>
-                    </div>
-                    <div className='partner-third-desc'>
-                    <p>Seye Jimo</p>
-                    <p className='blue'>Creative Partner</p>
-                    </div>
-                    <div className='partner-fourth-desc'>
-                    <p>Natasha Oyibo PhD</p>
-                    <p className='blue'>Research Partner</p>
-                    </div>
+        
                 </div>
+</ul>
+
 
         </>
     )

@@ -12,61 +12,34 @@
   color: #666666;
 }
 
-.profile-icons {
-  display: inline-flex;
-  margin-top: 50px;
-  margin-left: 50px;
-}
-
-.iprofile-2 {
-  margin-left: 36px;
-}
-
-.profile-desc {
-  display: flex;
-  margin-left: 100px;
-  margin-top: 30px;
-  color: #666666;
-}
-
-.profile-desc p {
-  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
-}
-
 .blue {
   color: #0f74b9;
 }
 
-.second-desc {
-  margin-left: 230px;
+.icons1 {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+}
+
+.icons1 ul {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 50px;
+  list-style: none;
+  color: #666666;
+}
+
+.icons1 p {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+}
+
+.icons1 img {
+  width: 270px;
+}
+
+.picon2 {
+  margin-left: 70px;
 }
 
 @media screen and (max-width: 767px) {
-  .profile-icons {
-    display: block;
-    margin-left: 50px;
-    margin-top: 50px;
-    width: 60%;
-  }
-
-  .profile-icons img {
-    width: 120px;
-  }
-
-  .iprofile-2 {
-    margin-top: 30px;
-    margin-left: 30px;
-  }
-
-  .profile-desc {
-    display: absolute;
-    font-size: 15px;
-    margin-left: 60px;
-    margin-top: 30px;
-    color: #666666;
-  }
-
-  .second-desc {
-    margin-left: 30px;
-  }
 }

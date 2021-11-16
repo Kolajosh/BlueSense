@@ -9,7 +9,7 @@
 
 .navbar-logo {
   justify-self: start;
-  margin-left: 20px;
+  margin-left: -150px;
   cursor: pointer;
 }
 
@@ -34,7 +34,7 @@
 .nav-links {
   font-family: Poppins, sans-serif;
   font-weight: bold;
-  color: rgba(102, 102, 102, 0.726);
+  color: #666666;
   text-decoration: none;
   padding: 0.5rem 1rem;
 }

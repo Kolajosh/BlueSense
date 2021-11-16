@@ -6,7 +6,15 @@
   color: #666666;
 }
 
-.partner-container {
+.pticons-list {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 50px;
+  list-style: none;
+  color: #666666;
+}
+
+.pticons {
   display: inline-flex;
   width: 23.7%;
   margin: 1% 0 0 1%;
@@ -14,119 +22,78 @@
   transition: all 0.3s ease 0s;
 }
 
-.partner-container:hover .partner-icons {
+.pticons:hover .pticons-1 {
   transform: rotateY(180deg);
 }
 
-.partner-icons {
-  margin-top: 30px;
+.pticons-1 {
   background: none;
   cursor: default;
-  height: 400px;
+  height: 270px;
+  width: 270px;
   border-radius: 40px;
   transform-style: preserve-3d;
   transition: transform 0.4s ease 0s;
-  width: 100%;
   -webkit-animation: giro 1s 1;
   animation: giro 1s 1;
 }
 
-.front-icon {
+.pticons-1-front {
   backface-visibility: hidden;
   box-sizing: border-box;
-  color: white;
   display: block;
   height: 350px;
-  padding: 0.8em;
   position: absolute;
   width: 100%;
 }
 
-.back-icon {
+.pticons-1-back {
   backface-visibility: hidden;
   box-sizing: border-box;
   border-radius: 40px;
-  display: block;
-  height: 350px;
-  padding: 0.8em;
+  height: 270px;
+  width: 270px;
   position: absolute;
-  width: 100%;
   transform: rotateY(180deg);
   transition: all 0.2s ease 0s;
-}
-
-.back-icon {
   text-align: center;
 }
 
-.back-icon p {
+.pticons-1-back p {
+  padding: 0.7em;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-size: 14px;
   color: #fff;
-  text-align: center;
-  line-height: 27px;
+  line-height: 25px;
 }
 
 .fa-linkedin {
-  margin-top: 50px;
   color: #fff;
 }
 
-.back-icon {
+.pticons-1 li {
+  margin-top: 280px;
+  backface-visibility: hidden;
+}
+
+.pticons-1 li p {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+}
+
+.pticons-1-back {
   background: radial-gradient(
     127.83% 128.48% at 50% 50%,
     #0072a3 0%,
     #014e82 99.51%
   );
 }
-.partner-desc p {
-  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
-}
-.partner-desc {
-  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
-  color: #666666;
-  display: flex;
-  position: relative;
-  margin-left: 100px;
-  margin-top: -50px;
+
+.pticons img {
+  width: 270px;
 }
 
-.partner-second-desc {
-  margin-left: 230px;
+.fa-linkedin {
+  align-items: center;
 }
 
-.partner-third-desc {
-  margin-left: 210px;
-}
-
-.partner-fourth-desc {
-  margin-left: 210px;
-}
-
-@media screen and (max-width: 767px) {
-  .partner-container {
-    display: block;
-    margin-left: 50px;
-    margin-top: 50px;
-    width: 60%;
-  }
-
-  .partner-desc {
-    display: none;
-  }
-
-  .partner-icons {
-    height: 285px;
-  }
-  .partner-container:last-child {
-    margin-bottom: 3%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .partner-container {
-    width: 94.5%;
-  }
-  .partner-icons {
-    height: 260px;
-  }
-}
+/*----------------------------  section ------------------------------*/
