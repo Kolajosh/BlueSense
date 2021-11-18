@@ -1,0 +1,73 @@
+.container {
+  margin: 3vw 10vw;
+}
+
+.contact-head h1 {
+  font-family: Poppins, sans-serif;
+  color: #666666;
+}
+
+.contact-head p {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: #666666;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.message {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-size: 18px;
+  grid-row: span 2;
+  background: #f0f0f0;
+  border-radius: 10px;
+  border: 0px;
+  padding-bottom: 70px;
+  padding-left: 10px;
+  word-wrap: break-word;
+}
+
+.t-field {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-size: 18px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  border: 0px;
+  padding: 12px;
+}
+
+.message::placeholder {
+  color: #0f74b9;
+}
+.t-field::placeholder {
+  color: #0f74b9;
+}
+
+.button-contact {
+  grid-column: 2;
+  justify-content: end;
+  object-position: right;
+  text-align: right;
+}
+
+.c-button {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  padding: 5px 30px;
+  font-size: 18px;
+  border-radius: 40px;
+  background-color: #0f74b9;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-align: right;
+}
+
+input,
+textarea {
+  padding: 5px;
+}
