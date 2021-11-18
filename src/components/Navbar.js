@@ -13,7 +13,7 @@ function Navbar() {
 
   const onMouseEnter = () => {
     if (window.innerWidth < 960) {
-      setDropdown(false);
+      setDropdown(true);
     } else {
       setDropdown(true);
     }
@@ -48,17 +48,18 @@ function Navbar() {
             onMouseLeave={onMouseLeave}
           >
             <Link
-              to='/services'
+              to='/core'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Core <i className='fas fa-caret-down' />
+              Core <i class='fas fa-caret-down' />
+              {dropdown && <Dropdown />}
             </Link>
-            {dropdown && <Dropdown />}
+            
           </li>
           <li className='nav-item'>
             <Link
-              to='/products'
+              to='/blog'
               className='nav-links'
               onClick={closeMobileMenu}
             >

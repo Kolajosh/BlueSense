@@ -28,6 +28,10 @@
   content: \e900;
 }
 
+.fa-arrow-down {
+  display: none;
+}
+
 /* icon font */
 
 @font-face {
@@ -218,33 +222,24 @@
     font-size: 8px;
   }
 }
-@media (max-width: 400px) {
-  .hww-big-ul {
-    display: block;
-  }
-  .hww-foot-ul {
-    display: block;
-    font-size: 11px;
-    padding-left: 200px;
-    margin-top: -95px;
-  }
 
-  .icon-right-arrow-123 {
-    display: none;
-  }
-}
 @media (max-width: 600px) {
+  .hww-foot-div {
+    display: grid;
+  }
   .hww-big-ul {
-    display: block;
+    grid-template-columns: 1;
   }
   .hww-foot-ul {
-    display: block;
+    grid-template-columns: 2;
     font-size: 11px;
-    padding-left: 200px;
-    margin-top: -80px;
   }
 
   .icon-right-arrow-123 {
     display: none;
+  }
+  .fa-arrow-down {
+    display: initial;
+    padding: 2px;
   }
 }

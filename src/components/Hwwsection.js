@@ -16,13 +16,13 @@ function Hwwsection() {
             <div className='hww-foot-div'>
             <ul className='hww-big-ul'>
                     <li className='hww-big-list'>
-                    <h1>45 <span class="icon-right-arrow-123"></span></h1> 
+                    <h1>45 <span class="icon-right-arrow-123"></span><li> <i class="fas fa-arrow-down"></i></li></h1> 
                     </li>
                     <li>
-                    <h1>3.5 MONTHS <span class="icon-right-arrow-123"></span></h1>
+                    <h1>3.5 MONTHS <span class="icon-right-arrow-123"></span><li> <i class="fas fa-arrow-down"></i></li></h1>
                     </li>
                     <li>
-                    <h1>$100+</h1>
+                    <h1>$100+ <li><i class="fas fa-arrow-down"></i></li></h1>
                     </li>
                 </ul>
                 <ul className='hww-foot-ul'>
