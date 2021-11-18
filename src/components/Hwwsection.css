@@ -24,18 +24,6 @@
   font-size: 23px;
 }
 
-.hww-foot-div {
-  width: 100%;
-}
-
-.hww-foot {
-  text-align: center;
-  margin-top: -10px;
-  color: rgba(102, 102, 102, 0.726);
-  font-family: Poppins;
-  font-size: auto;
-}
-
 .icon-right-arrow-123:before {
   content: \e900;
 }
@@ -57,8 +45,8 @@
 [class^="icon-"],
 [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
   font-family: "icomoon" !important;
   font-style: normal;
   font-weight: normal;
@@ -76,6 +64,24 @@
   color: #b3b3b3;
 }
 
+.hww-big-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 10px 10px 10px;
+  width: 100%;
+  padding-right: 130px;
+  padding-left: 135px;
+  text-decoration: none;
+  list-style: none;
+  color: #0f74b9;
+}
+
+.hww-big-ul h1 {
+  font-family: Poppins, sans-serif;
+  color: #666666;
+}
+
 .hww-foot-ul {
   display: flex;
   justify-content: space-between;
@@ -84,16 +90,24 @@
   width: 100%;
   padding-right: 130px;
   padding-left: 135px;
-  margin-top: -70px;
+  margin-top: -30px;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   text-decoration: none;
   list-style: none;
   color: #0f74b9;
 }
 
-@media (max-width: 1068px) {
+@media (max-width: 1300px) {
   .hww-container {
     height: 300px;
+  }
+
+  .hww-big-ul {
+    margin-left: -30px;
+  }
+
+  .hww-big-ul h1 {
+    font-size: 22px;
   }
 
   .hww-heading {
@@ -109,46 +123,114 @@
     font-size: 18px;
   }
 
-  .hww-foot {
-    text-align: left;
-    margin-top: -10px;
-    margin-left: 25px;
-    font-size: 24px;
-  }
-
   .hww-foot-ul {
     padding-right: 100px;
-    padding-left: 27px;
-    margin-top: -35px;
+    padding-left: 106px;
+    margin-top: -30px;
     font-size: 15px;
   }
 }
 
-@media (max-width: 668px) {
+@media (max-width: 1068px) {
   .hww-heading {
     margin-top: 50px;
     margin-left: 50px;
     font-size: 25px;
   }
 
+  .hww-big-ul h1 {
+    font-size: 18px;
+  }
+
   .hww-body {
     margin-top: 0px;
     margin-left: 50px;
     margin-right: 50px;
+    font-size: 15px;
+  }
+
+  .hww-foot-ul {
+    padding-right: 100px;
+    padding-left: 106px;
+    margin-top: -30px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 898px) {
+  .hww-heading {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 25px;
+  }
+
+  .hww-big-ul h1 {
+    font-size: 15px;
+  }
+
+  .hww-body {
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 15px;
+  }
+
+  .hww-foot-ul {
+    padding-right: 100px;
+    padding-left: 106px;
+    margin-top: -30px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 758px) {
+  .hww-heading {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 25px;
+  }
+
+  .hww-big-ul h1 {
     font-size: 12px;
   }
 
-  .hww-foot {
-    text-align: left;
-    margin-top: 10px;
+  .hww-body {
+    margin-top: 0px;
     margin-left: 50px;
+    margin-right: 50px;
+    font-size: 13px;
+  }
+
+  .hww-foot-ul {
+    padding-right: 100px;
+    padding-left: 106px;
+    margin-top: -30px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .hww-big-ul h1 {
     font-size: 10px;
   }
 
   .hww-foot-ul {
-    padding-right: 30px;
-    padding-left: 50px;
-    margin-top: -35px;
     font-size: 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hww-big-ul {
+    display: block;
+  }
+  .hww-foot-ul {
+    display: block;
+    font-size: 11px;
+    padding-left: 200px;
+    margin-top: -80px;
+  }
+
+  .icon-right-arrow-123 {
+    display: none;
   }
 }

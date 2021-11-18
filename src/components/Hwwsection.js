@@ -14,9 +14,17 @@ function Hwwsection() {
             most pressing problems and attain set goals & objectives.
             </p>
             <div className='hww-foot-div'>
-            <h1 className='hww-foot'>45 <span class="icon-right-arrow-123"></span>3.5 MONTHS <span class="icon-right-arrow-123"></span> $100M+</h1>
-            </div>
-            <div className='hww-foot-div'>
+            <ul className='hww-big-ul'>
+                    <li className='hww-big-list'>
+                    <h1>45 <span class="icon-right-arrow-123"></span></h1> 
+                    </li>
+                    <li>
+                    <h1>3.5 MONTHS <span class="icon-right-arrow-123"></span></h1>
+                    </li>
+                    <li>
+                    <h1>$100+</h1>
+                    </li>
+                </ul>
                 <ul className='hww-foot-ul'>
                     <li className='hww-foot-list'>
                     Projects Executed
