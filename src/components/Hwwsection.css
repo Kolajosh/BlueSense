@@ -218,7 +218,21 @@
     font-size: 8px;
   }
 }
+@media (max-width: 570px) {
+  .hww-big-ul {
+    display: block;
+  }
+  .hww-foot-ul {
+    display: block;
+    font-size: 11px;
+    padding-left: 200px;
+    margin-top: -90px;
+  }
 
+  .icon-right-arrow-123 {
+    display: none;
+  }
+}
 @media (max-width: 600px) {
   .hww-big-ul {
     display: block;
