@@ -58,7 +58,13 @@ function FooterComponent() {
                         </li>
                         <li>
                             <Link to='/' className='footer-link'>
-                                Home
+                            <i class="fab fa-twitter-square"></i>
+                            </Link>
+                            <Link to='/' className='footer-link'>
+                            <i class="fab fa-facebook-square"></i>
+                            </Link>
+                            <Link to='/' className='footer-link'>
+                            <i class="fab fa-linkedin"></i>
                             </Link>
                         </li>
                         <li>

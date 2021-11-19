@@ -67,8 +67,9 @@
   line-height: 25px;
 }
 
-.fa-linkedin {
+.pticons-1-back i {
   color: #fff;
+  align-items: center;
 }
 
 .pticons-1 li {
@@ -92,10 +93,6 @@
   width: 270px;
 }
 
-.fa-linkedin {
-  align-items: center;
-}
-
 /*----------------------------  section ------------------------------*/
 
 @media screen and (max-width: 968px) {
@@ -113,6 +110,9 @@
     font-size: 14px;
     line-height: 13px;
   }
+  .pticons-1-front {
+    height: 200px;
+  }
 }
 
 @media screen and (max-width: 668px) {
@@ -129,7 +129,7 @@
   .pticons-1-back p {
     display: none;
   }
-  .fa-linkedin {
+  .pticons-1-back i {
     align-items: center;
     padding: 40px;
   }
