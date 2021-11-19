@@ -13,12 +13,12 @@
 }
 
 .left-text p {
-  font-family: Gill Sans MT;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: lighter;
 }
 
 .company-name {
-  font-family: Gill Sans MT;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: bolder;
 }
 
@@ -31,6 +31,10 @@
   justify-content: end;
   text-align: left;
   list-style: none;
+}
+
+.right-text li {
+  font-family: Poppins, sans-serif;
 }
 
 .right-text ul {
@@ -53,16 +57,14 @@
 }
 
 .footer-link {
-  font-family: Gill Sans MT;
-  font-weight: 600;
+  font-family: Poppins, sans-serif;
   text-decoration: none;
   color: #666666;
 }
 
 .blue-link {
   color: #0f74b9;
-  font-family: Gill Sans MT;
-  font-weight: 600;
+  font-family: Poppins, sans-serif;
 }
 .footer hr {
   margin-top: 20px;
@@ -73,7 +75,7 @@
 }
 
 .sub-foot {
-  font-family: Gill Sans MT;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: lighter;
   margin-left: 50px;
   margin-right: 50px;
@@ -82,7 +84,7 @@
 }
 
 .contact-right {
-  font-family: Gill Sans MT;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: lighter;
   color: #666666;
   display: grid;
