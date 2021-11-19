@@ -97,3 +97,47 @@
 }
 
 /*----------------------------  section ------------------------------*/
+
+@media screen and (max-width: 968px) {
+  .pticons-1 img {
+    width: 150px;
+  }
+  .pticons-1 li {
+    margin-top: 160px;
+  }
+  .pticons-1-back {
+    height: 200px;
+    width: 200px;
+  }
+  .pticons-1-back p {
+    font-size: 14px;
+    line-height: 13px;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .pticons-1 img {
+    width: 100px;
+  }
+  .icons1 p {
+    font-size: 13px;
+  }
+  .pticons-1-back {
+    height: 100px;
+    width: 100px;
+  }
+  .pticons-1-back p {
+    display: none;
+  }
+  .fa-linkedin {
+    align-items: center;
+    padding: 40px;
+  }
+  .pticons-1 li {
+    margin-top: 110px;
+    font-size: 13px;
+  }
+  .partner-head h1 {
+    font-size: 25px;
+  }
+}

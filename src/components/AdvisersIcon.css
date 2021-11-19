@@ -41,5 +41,15 @@
   margin-left: 70px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 968px) {
+  .advisers-head h1 {
+    margin-top: -30px;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .advisers-head h1 {
+    margin-top: -50px;
+    font-size: 25px;
+  }
 }

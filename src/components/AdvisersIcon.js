@@ -19,8 +19,8 @@ function AdvisersIcon() {
                     <img src ={olaleye} alt=''></img>
                     </li>
                     <li>
-                        <p>Ifeoluwa Komolafe</p>
-                        <p className='blue'>Business Analyst</p>
+                        <p>Andrew Olaleye</p>
+                        <p className='blue'>Ex. Mckinsey(5yrs)<br></br>Harvard MBA</p>
                     </li>
                     </div>
                     <div className='picon2'>
@@ -28,8 +28,8 @@ function AdvisersIcon() {
                     <img src ={garza} alt=''></img>
                     </li>
                     <li>
-                        <p>Kolawole Ayoola</p>
-                        <p className='blue'>Web Development Intern</p>
+                        <p>Andrew Garza</p>
+                        <p className='blue'>Ex. Bain(5yrs)<br></br>Stanford MBA</p>
                     </li>
                     </div>
                 </ul>

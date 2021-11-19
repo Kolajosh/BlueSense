@@ -41,5 +41,26 @@
   margin-left: 70px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 968px) {
+  .icons1 img {
+    width: 150px;
+  }
+  .picon2 {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .icons1 img {
+    width: 100px;
+  }
+  .icons1 p {
+    font-size: 13px;
+  }
+  .profile-head h1 {
+    font-size: 25px;
+  }
+  .picon2 {
+    margin-left: 10px;
+  }
 }

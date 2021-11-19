@@ -108,6 +108,10 @@ li {
     display: block;
   }
 
+  .navbar img {
+    margin-left: 18px;
+  }
+
   .nav-links::after {
     display: block;
     width: 0;

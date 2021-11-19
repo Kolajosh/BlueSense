@@ -1,7 +1,7 @@
 .about-section-1 {
   background-color: #f7f7f7;
   width: 100%;
-  height: 1250px;
+  height: auto;
 }
 
 .about-section-paragraph {
@@ -141,6 +141,7 @@
   font-size: 25px;
   margin-left: 50px;
   margin-right: 50px;
+  padding-bottom: 50px;
   color: #666666;
 }
 
@@ -170,4 +171,58 @@
   font-weight: 400;
   font-size: 25px;
   color: #666666;
+}
+
+@media screen and (max-width: 968px) {
+  .about-section-1 p {
+    font-size: 20px;
+  }
+  .about-section-1 span {
+    font-size: 20px;
+  }
+  .about-section-1 li {
+    font-size: 20px;
+  }
+  .about-section-paragraph-2 {
+    font-size: 20px;
+  }
+  .about-section-2 p {
+    font-size: 20px;
+  }
+  .about-section-1 h1 {
+    font-size: 35px;
+  }
+  .about-section-1 h2 {
+    font-size: 25px;
+  }
+  .about-section-2 h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .about-section-1 p {
+    font-size: 18px;
+  }
+  .about-section-1 span {
+    font-size: 18px;
+  }
+  .about-section-1 li {
+    font-size: 18px;
+  }
+  .about-section-paragraph-2 {
+    font-size: 18px;
+  }
+  .about-section-2 p {
+    font-size: 18px;
+  }
+  .about-section-1 h1 {
+    font-size: 35px;
+  }
+  .about-section-1 h2 {
+    font-size: 25px;
+  }
+  .about-section-2 h2 {
+    font-size: 25px;
+  }
 }
