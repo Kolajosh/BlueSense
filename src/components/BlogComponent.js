@@ -47,6 +47,23 @@ function BlogComponent() {
           </div>
         </div>
       </div>
+
+      <div className='blog-1'>
+        <div className='blog-post-1-img'>
+          <img src={blog3} alt=''></img>
+        </div>
+        <div className='blog-post-1'>
+          <div className='blog-text-1'>
+            <h2>6 Guides to Fundraising for your Startup</h2>
+            <p>
+              Raising funds for your startup is not as difficult as you think;
+              because there are more investors out there than there are
+              startups. These six ...
+            </p>
+            <button className='read-more-btn'>Read More</button>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
