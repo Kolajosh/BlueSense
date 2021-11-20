@@ -115,7 +115,7 @@
   box-shadow: 0 40px 70px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 968px) {
+@media (max-width: 988px) {
   .flex-container {
     display: flex;
     width: 100%;
@@ -147,7 +147,7 @@
   }
 }
 
-@media (max-width: 668px) {
+@media (max-width: 698px) {
   .flex-container {
     display: block;
     width: 500px;

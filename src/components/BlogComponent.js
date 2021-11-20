@@ -48,12 +48,12 @@ function BlogComponent() {
         </div>
       </div>
 
-      <div className='blog-1'>
-        <div className='blog-post-1-img'>
+      <div className='blog-3'>
+        <div className='blog-post-3-img'>
           <img src={blog3} alt=''></img>
         </div>
-        <div className='blog-post-1'>
-          <div className='blog-text-1'>
+        <div className='blog-post-3'>
+          <div className='blog-text-3'>
             <h2>6 Guides to Fundraising for your Startup</h2>
             <p>
               Raising funds for your startup is not as difficult as you think;

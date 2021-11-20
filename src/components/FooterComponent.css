@@ -101,7 +101,7 @@
 
 @media (max-width: 990px) {
   .left-text {
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 10px;
   }
 
@@ -112,6 +112,10 @@
     justify-content: end;
     text-align: left;
     list-style: none;
+  }
+
+  .col-2 {
+    margin-right: 250px;
   }
 
   .sub-foot {
@@ -130,12 +134,12 @@
 
 @media (max-width: 768px) {
   .left-text {
-    font-size: 10px;
+    font-size: 13px;
     margin-bottom: 10px;
   }
 
   .right-text {
-    font-size: 10px;
+    font-size: 11px;
     margin-left: 50px;
     display: inline-block;
     justify-content: end;
@@ -149,6 +153,10 @@
     font-size: 10px;
     margin-top: 10px;
     color: #666666;
+  }
+
+  .col-2 {
+    margin-right: 120px;
   }
 
   .contact-right {

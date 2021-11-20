@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import logo from '../images/bluesense.png'
-import { Link } from 'react-router-dom';
-import './Navbar.css';
-import Dropdown from './Dropdown';
+import React, { useState } from "react";
+import logo from "../images/bluesense.png";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
+import Dropdown from "./Dropdown";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -34,9 +34,9 @@ function Navbar() {
           <img src={logo} alt='logo'></img>
         </Link>
         <div className='menu-icon' onClick={handleClick}>
-          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
-        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className='nav-item'>
             <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
               About
@@ -45,37 +45,23 @@ function Navbar() {
           <li
             className='nav-item'
             onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}
-          >
-            <Link
-              to='/core'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
+            onMouseLeave={onMouseLeave}>
+            <Link to='' className='nav-links' onClick={closeMobileMenu}>
               Core <i class='fas fa-caret-down' />
               {dropdown && <Dropdown />}
             </Link>
-            
           </li>
           <li className='nav-item'>
-            <Link
-              to='/blog'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
+            <Link to='/blog' className='nav-links' onClick={closeMobileMenu}>
               Blog
             </Link>
           </li>
           <li className='nav-item'>
-            <Link
-              to='/contact'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
+            <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
               Contact
             </Link>
           </li>
-         </ul>
+        </ul>
       </nav>
     </>
   );
