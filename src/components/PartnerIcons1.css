@@ -1,0 +1,104 @@
+.paticon1-head h1 {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  color: #666666;
+}
+
+.paticons-list {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 50px;
+  color: #666666;
+}
+
+.paticon1 {
+  position: relative;
+  width: 100%;
+  height: 270px;
+}
+
+.paticon1 img {
+  width: 270px;
+  height: 270px;
+}
+
+.paticon1 li {
+  list-style: none;
+}
+
+.paticon1 li p {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+}
+
+.overlay1 {
+  position: absolute;
+  background-color: #66666694;
+  border-radius: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 270px;
+  height: 270px;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.overlay1 i {
+  position: relative;
+}
+.paticon1:hover .overlay1 {
+  opacity: 1;
+}
+
+.overlay1 p {
+  color: white;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+
+  font-size: 13px;
+  position: absolute;
+  width: 70%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .paticon1 img {
+    width: 150px;
+    height: 150px;
+  }
+  .overlay1 {
+    width: 150px;
+    height: 150px;
+    bottom: 120px;
+  }
+  .overlay1 p {
+    font-size: 8px;
+    width: 85%;
+  }
+}
+@media screen and (max-width: 668px) {
+  .paticon1 img {
+    width: 80px;
+    height: 80px;
+  }
+  .overlay1 {
+    display: none;
+  }
+  .paticon1 {
+    height: 220px;
+  }
+  .paticon1 li {
+    font-size: 13px;
+  }
+  .paticon1-head h1 {
+    font-size: 25px;
+  }
+}

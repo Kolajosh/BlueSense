@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../images/bluesense.png";
+import logo from "../images/bluesenselogo.png";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Dropdown from "./Dropdown";

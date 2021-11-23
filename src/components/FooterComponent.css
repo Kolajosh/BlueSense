@@ -19,7 +19,7 @@
 
 .company-name {
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
-  font-weight: bolder;
+  font-weight: 600;
 }
 
 .right-text {
@@ -115,7 +115,7 @@
   }
 
   .col-2 {
-    margin-right: 250px;
+    margin-right: 200px;
   }
 
   .sub-foot {
@@ -156,7 +156,7 @@
   }
 
   .col-2 {
-    margin-right: 120px;
+    margin-right: 100px;
   }
 
   .contact-right {

@@ -69,7 +69,7 @@
 }
 
 .item-2 p {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .item-3 p {
@@ -93,6 +93,23 @@
   transition: 0.3s;
 }
 
+.middle-text-2 {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-weight: lighter;
+  margin-top: -25px;
+  font-size: 11px;
+  color: rgba(102, 102, 102, 0.726);
+  transition: 0.3s;
+}
+
+.middle-text-1 {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-weight: lighter;
+  margin-top: 5px;
+  font-size: 11px;
+  color: rgba(102, 102, 102, 0.726);
+  transition: 0.3s;
+}
 .item-1,
 .item-2 {
   position: relative;
@@ -141,9 +158,19 @@
     font-size: 9px;
     margin-top: -10px;
   }
-
+  .middle-text-2 {
+    margin-top: -40px;
+    font-size: 9px;
+  }
+  .middle-text-1 {
+    margin-top: -25px;
+    font-size: 9px;
+  }
   .item-2 p {
-    margin-top: 10px;
+    margin-top: 40px;
+  }
+  .item-1 p {
+    margin-top: 25px;
   }
 }
 
@@ -170,12 +197,20 @@
   }
 
   .middle-text {
-    font-size: 9px;
     margin-top: -10px;
+  }
+  .middle-text-2 {
+    margin-top: -10px;
+  }
+  .middle-text-1 {
+    margin-top: 15px;
   }
 
   .item-2 p {
     margin-top: 10px;
+  }
+  .item-1 p {
+    margin-top: -10px;
   }
 
   .base {

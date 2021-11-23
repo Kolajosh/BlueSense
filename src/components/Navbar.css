@@ -14,6 +14,7 @@
 }
 
 .navbar img {
+  width: 120px;
   margin-left: 50px;
 }
 
@@ -38,7 +39,8 @@
 
 .nav-links {
   font-family: Poppins, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
+  font-weight: 500;
   color: #666666;
   text-decoration: none;
   padding: 0.5rem 1rem;
