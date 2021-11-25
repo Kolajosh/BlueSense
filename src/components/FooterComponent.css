@@ -25,7 +25,7 @@
 .right-text {
   font-family: Poppins, sans-serif;
   margin-top: -20px;
-  font-size: 18px;
+  font-size: 16px;
   display: grid;
   grid-template-columns: repeat(5, auto);
   justify-content: end;

@@ -2,14 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./ContactSection.css";
 import emailjs from "emailjs-com";
 
-const Result = () => {
-  return (
-    <div>
-      <p>Message sent</p>
-    </div>
-  );
-};
-
 function ContactSection(props) {
   const initialValues = {
     name: "",
@@ -31,24 +23,33 @@ function ContactSection(props) {
   const [result, showResult] = useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
+    if (
+      !formValues.message ||
+      !formValues.email ||
+      !formValues.name ||
+      !formValues.phone ||
+      !formValues.subject
+    ) {
+      setIsSubmit(false);
+    } else {
+      setIsSubmit(true);
+      emailjs
+        .sendForm(
+          "service_ntfhzd8",
+          "template_o5527py",
+          e.target,
+          "user_sc09DmLC2475WRQJDOeWU"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    }
     setFormErrors(validate(formValues));
-    setIsSubmit(true);
-
-    emailjs
-      .sendForm(
-        "service_ntfhzd8",
-        "template_o5527py",
-        e.target,
-        "user_sc09DmLC2475WRQJDOeWU"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
 
     e.target.reset();
     showResult(true);
@@ -81,13 +82,24 @@ function ContactSection(props) {
     if (!values.subject) {
       errors.subject = "Subject is required!";
     }
+    if (
+      !formValues.message ||
+      !formValues.email ||
+      !formValues.name ||
+      !formValues.subject ||
+      !formValues.phone
+    ) {
+      errors.submit = "Message not sent";
+    } else {
+      errors.submit = "Message Sent";
+    }
 
     return errors;
   };
 
   // hide result
   setTimeout(() => {
-    showResult(false);
+    setFormErrors(false);
   }, 5000);
   return (
     <>
@@ -103,7 +115,7 @@ function ContactSection(props) {
 
         <form action='' className='form' onSubmit={sendEmail}>
           <div className='field'>
-            <p>{formErrors.name}</p>
+            <p className='t-red'>{formErrors.name}</p>
             <input
               className='t-field'
               type='text'
@@ -114,7 +126,7 @@ function ContactSection(props) {
             />
           </div>
           <div className='field'>
-            <p>{formErrors.email}</p>
+            <p className='t-red'>{formErrors.email}</p>
             <input
               className='t-field'
               type='text'
@@ -125,7 +137,7 @@ function ContactSection(props) {
             />
           </div>
           <div className='field'>
-            <p>{formErrors.phone}</p>
+            <p className='t-red'>{formErrors.phone}</p>
             <input
               className='t-field'
               type='text'
@@ -136,9 +148,8 @@ function ContactSection(props) {
             />
           </div>
           <div className='field'>
-            <p>{formErrors.message}</p>
+            <p className='t-red'>{formErrors.message}</p>
             <textarea
-              row='3'
               className='message'
               type='text'
               name='message'
@@ -148,7 +159,7 @@ function ContactSection(props) {
             />
           </div>
           <div className='field'>
-            <p>{formErrors.subject}</p>
+            <p className='t-red'>{formErrors.subject}</p>
             <input
               className='t-field'
               type='text'
@@ -162,7 +173,7 @@ function ContactSection(props) {
             <button className='c-button'>
               Submit <i class='fas fa-caret-right'></i>
             </button>
-            <div className='row'>{result ? <Result /> : null}</div>
+            <p className='t-red'>{formErrors.submit}</p>
           </div>
         </form>
       </div>

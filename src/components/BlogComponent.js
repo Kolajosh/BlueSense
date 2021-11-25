@@ -26,7 +26,15 @@ function BlogComponent() {
               overtime. The best founders have a clear vision for the company
               they run. This is easily the most important of all ...
             </p>
-            <button className='read-more-btn'>Read More</button>
+            <button className='read-more-btn'>
+              <a
+                href='https://www.linkedin.com/pulse/why-competition-futile-your-startup-bluesensegroup/'
+                target='_blank'
+                rel='noopener noreferrer'>
+                {" "}
+                Read More
+              </a>
+            </button>
           </div>
         </div>
       </div>
@@ -43,7 +51,14 @@ function BlogComponent() {
               market. You want to create a unique product and start with a small
               niche before scaling. Large and ...
             </p>
-            <button className='read-more-btn'>Read More</button>
+            <button className='read-more-btn'>
+              <a
+                href='https://www.linkedin.com/pulse/why-competition-futile-your-startup-bluesensegroup/'
+                target='_blank'
+                rel='noopener noreferrer'>
+                Read More
+              </a>
+            </button>
           </div>
         </div>
       </div>
@@ -60,7 +75,14 @@ function BlogComponent() {
               because there are more investors out there than there are
               startups. These six ...
             </p>
-            <button className='read-more-btn'>Read More</button>
+            <button className='read-more-btn'>
+              <a
+                href='https://www.linkedin.com/pulse/6-guides-fundraising-your-startup-bluesensegroup/?trackingId=LestDvtMBolKzG4fxg3AXg%3D%3D'
+                target='_blank'
+                rel='noopener noreferrer'>
+                Read More
+              </a>
+            </button>
           </div>
         </div>
       </div>
