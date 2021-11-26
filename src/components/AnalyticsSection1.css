@@ -14,11 +14,11 @@
 }
 
 .analytics1-body-1 {
-  width: 750px;
+  width: 740px;
 }
 
 .analytics1-body-2 {
-  width: 750px;
+  width: 740px;
 }
 
 .analytics1-body-1 p {
@@ -56,8 +56,94 @@
 }
 
 .button-analytics {
-  position: absolute;
-  left: 1040px;
-  top: 990px;
-  margin-right: 50px;
+  position: relative;
+  margin-top: 10px;
+  padding-left: 350px;
+}
+
+@media screen and (max-width: 1300px) {
+  .analytics1-body-1 p {
+    font-size: 20px;
+  }
+  .analytics1-body-2 p {
+    font-size: 20px;
+  }
+  .analytics-img img {
+    width: 500px;
+  }
+  .button-analytics {
+    position: relative;
+    margin-top: 10px;
+    padding-left: 250px;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .analytics1-body-1 p {
+    font-size: 18px;
+    margin-left: 75px;
+  }
+  .analytics1-body-2 p {
+    font-size: 18px;
+  }
+  .analytics-img img {
+    width: 400px;
+  }
+  .analytics-container {
+    height: 470px;
+  }
+  .analytics1-body-1 {
+    width: 550px;
+  }
+  .analytics1-body-2 {
+    width: 550px;
+  }
+  .button-analytics {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .analytics1-body-1 p {
+    font-size: 15px;
+    margin-left: 50px;
+  }
+  .analytics1-body-2 p {
+    font-size: 15px;
+  }
+  .analytics-img img {
+    width: 300px;
+  }
+  .analytics-container {
+    height: 470px;
+  }
+  .analytics1-body-1 {
+    width: 500px;
+  }
+  .analytics1-body-2 {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .analytics1-body-1 p {
+    font-size: 15px;
+    margin-left: 75px;
+  }
+  .analytics1-body-2 p {
+    font-size: 15px;
+  }
+  .analytics-img img {
+    display: none;
+  }
+  .analytics1-body-1 {
+    width: 100%;
+  }
+  .analytics1-body-2 {
+    width: 100%;
+  }
+  .analytics-container {
+    width: 100%;
+    height: 400px;
+  }
 }
