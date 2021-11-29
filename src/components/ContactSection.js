@@ -20,7 +20,6 @@ function ContactSection(props) {
     console.log(formValues);
   };
 
-  const [result, showResult] = useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
     if (
@@ -52,7 +51,6 @@ function ContactSection(props) {
     setFormErrors(validate(formValues));
 
     e.target.reset();
-    showResult(true);
   };
 
   useEffect(() => {
