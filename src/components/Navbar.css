@@ -69,6 +69,7 @@ li {
 }
 
 .nav-links-mobile {
+  z-index: 1;
   display: none;
 }
 

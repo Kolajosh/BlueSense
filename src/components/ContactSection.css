@@ -80,3 +80,18 @@ input,
 textarea {
   padding: 5px;
 }
+
+@media screen and (max-width: 698px) {
+  .form {
+    display: block;
+  }
+  .t-field {
+    margin-top: 10px;
+  }
+  .message {
+    margin-top: 10px;
+  }
+  .button-contact {
+    margin-top: 10px;
+  }
+}

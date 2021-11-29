@@ -8,14 +8,15 @@ function AdvisorySection() {
     <>
       <div className='advisory-img'>
         <img src={advisory} alt=''></img>
+        <div className='button-advisory'>
+          <button className='big-button'>
+            <Link to='/contact' className='big-btn-link'>
+              Schedule Consultation <i class='fas fa-caret-right'></i>
+            </Link>
+          </button>
+        </div>
       </div>
-      <div className='button-advisory'>
-        <button className='big-button'>
-          <Link to='/contact' className='big-btn-link'>
-            Schedule Consultation <i class='fas fa-caret-right'></i>
-          </Link>
-        </button>
-      </div>
+
       <div className='advisory-container'>
         <div className='advisory-head'>
           <h1>Advisory</h1>
@@ -62,6 +63,13 @@ function AdvisorySection() {
             Relationships with <br></br>
             technology companies + their executives
           </p>
+        </div>
+        <div className='button-advisory-2'>
+          <button className='big-button-2'>
+            <Link to='/contact' className='big-btn-link-2'>
+              Schedule Consultation <i class='fas fa-caret-right'></i>
+            </Link>
+          </button>
         </div>
       </div>
     </>

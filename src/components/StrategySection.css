@@ -1,6 +1,6 @@
 .strategy-container {
-  width: 737px;
-  height: 440px;
+  width: 100%;
+  height: auto;
   background: white;
 }
 
@@ -14,6 +14,7 @@
 }
 
 .strategy1-body-1 p {
+  width: 40%;
   margin-top: 20px;
   margin-left: 100px;
   margin-right: 100px;
@@ -23,9 +24,11 @@
 }
 
 .strategy1-body-2 p {
+  width: 45%;
   margin-top: 20px;
   margin-left: 50px;
   margin-right: 100px;
+  padding-bottom: 20px;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -48,9 +51,9 @@
 }
 
 .button-strategy {
-  position: absolute;
-  left: 1043px;
-  top: 970px;
+  position: relative;
+  margin-top: 10px;
+  padding-left: 350px;
 }
 
 .big-button {
@@ -73,4 +76,67 @@
 .big-button:hover {
   transform: translateY(-10px);
   transition: 0.5s;
+}
+
+@media screen and (max-width: 1300px) {
+  .strategy1-body-1 p {
+    font-size: 20px;
+  }
+  .strategy1-body-2 p {
+    font-size: 20px;
+  }
+  .strategy-img img {
+    width: 500px;
+  }
+  .button-strategy {
+    padding-left: 250px;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .strategy1-body-1 p {
+    font-size: 18px;
+    margin-left: 75px;
+  }
+  .strategy1-body-2 p {
+    font-size: 18px;
+  }
+  .strategy-img img {
+    width: 400px;
+  }
+  .button-strategy {
+    display: none;
+  }
+
+  .big-button-2 {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .strategy1-body-1 p {
+    font-size: 15px;
+    margin-left: 50px;
+  }
+  .strategy1-body-2 p {
+    font-size: 15px;
+  }
+  .strategy-img img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .strategy1-body-1 p {
+    font-size: 15px;
+    margin-left: 75px;
+    width: 80%;
+  }
+  .strategy1-body-2 p {
+    font-size: 15px;
+    width: 80%;
+  }
+  .strategy-img img {
+    display: none;
+  }
 }

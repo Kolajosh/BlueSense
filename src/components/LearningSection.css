@@ -1,17 +1,17 @@
 .learning-container {
-  width: 737px;
-  height: 720px;
+  width: 100%;
+  height: auto;
   background: white;
 }
 
 .learning-container-2 {
   width: 100%;
-  height: 340px;
+  height: auto;
   background: #f7f7f7;
 }
 
 .learning-container-2 h1 {
-  padding-top: 50px;
+  padding-top: 20px;
   margin-left: 50px;
   font-family: Poppins, sans-serif;
   font-size: 50px;
@@ -29,6 +29,7 @@
 }
 
 .learning1-body-1 p {
+  width: 45%;
   margin-top: 20px;
   margin-left: 100px;
   margin-right: 100px;
@@ -38,14 +39,20 @@
 }
 
 .learning1-body-2 p {
+  width: 40%;
   margin-top: 20px;
   margin-left: 50px;
   margin-right: 100px;
+  padding-bottom: 20px;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: lighter;
   color: #666666;
+}
+
+.learning2-body-div {
+  padding-bottom: 20px;
 }
 
 .blue {
@@ -85,6 +92,27 @@
   color: white;
 }
 
+.button-learning-2 {
+  display: none;
+}
+
+.big-learning-button-2 {
+  padding: 12px 26px;
+  font-size: 18px;
+  border-radius: 40px;
+  background-color: #0f74b9;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.big-learning-btn-link {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
 .big-button:hover {
   transform: translateY(-10px);
   transition: 0.5s;
@@ -95,4 +123,85 @@
   color: #0f74b9;
   font-size: 18px;
   margin-left: 50px;
+}
+
+@media screen and (max-width: 1300px) {
+  .learning1-body-1 p {
+    font-size: 20px;
+  }
+  .learning1-body-2 p {
+    font-size: 20px;
+  }
+  .learning-img img {
+    width: 500px;
+  }
+  .button-learning {
+    padding-left: 250px;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .learning1-body-1 p {
+    font-size: 18px;
+    margin-left: 75px;
+  }
+  .learning1-body-2 p {
+    font-size: 18px;
+  }
+  .learning-img img {
+    width: 400px;
+  }
+  .button-learning {
+    display: none;
+  }
+  .button-learning-2 {
+    display: initial;
+    margin-left: 50px;
+  }
+  .big-learning-button-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .learning1-body-1 p {
+    font-size: 15px;
+    margin-left: 50px;
+  }
+  .learning1-body-2 p {
+    font-size: 15px;
+  }
+  .learning-img img {
+    width: 300px;
+  }
+  .learning-container-2 h1 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .learning1-body-1 p {
+    margin-left: 75px;
+    width: 80%;
+  }
+  .learning1-body-2 p {
+    width: 80%;
+  }
+  .learning-img img {
+    display: none;
+  }
+  .learning-container-2 h1 {
+    font-size: 24px;
+  }
+  .big-learning-button-2 {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  .learning-container-2 h1 {
+    font-size: 24px;
+  }
+  .learning-container-2 p {
+    font-size: 15px;
+  }
 }

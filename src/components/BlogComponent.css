@@ -149,6 +149,7 @@
     margin-top: -150px;
     width: 400px;
     height: 400px;
+    z-index: -1;
   }
   .blog-text-1 {
     position: relative;
