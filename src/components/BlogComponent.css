@@ -172,6 +172,12 @@
   }
 }
 
+@media screen and (max-width: 680px) {
+  .blog-header img {
+    height: 220px;
+  }
+}
+
 /*------------------------ 2nd blog section ------------------------------*/
 
 .blog-2 {

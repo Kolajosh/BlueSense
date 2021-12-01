@@ -25,6 +25,9 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
 }
+.form-mobile {
+  display: none;
+}
 .message {
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-size: 18px;
@@ -83,7 +86,12 @@ textarea {
 
 @media screen and (max-width: 698px) {
   .form {
+    display: none;
+  }
+  .form-mobile {
     display: block;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
   }
   .t-field {
     margin-top: 10px;

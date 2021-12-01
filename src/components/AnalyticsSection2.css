@@ -61,6 +61,11 @@
   cursor: pointer;
 }
 
+.big-button-a:hover {
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+
 @media screen and (max-width: 1300px) {
   .analytics2-body-1 p {
     font-size: 20px;

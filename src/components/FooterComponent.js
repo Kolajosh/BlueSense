@@ -78,13 +78,17 @@ function FooterComponent() {
               </ul>
             </div>
             <hr />
-            <p className='sub-foot'>
-              <i class='far fa-copyright'></i>2013-2021 BlueSense. Reuben &
-              Company. Lagos. Nigeria. All Rights Reserved.{" "}
-            </p>
-            <p className='contact-right'>
-              info@bluesense.co &nbsp; +234 806 578 4615
-            </p>
+            <div className='subfoot'>
+              <div className='sub-foot'>
+                <p>
+                  <i class='far fa-copyright'></i>2013-2021 BlueSense. Reuben &
+                  Company. Lagos. Nigeria. All Rights Reserved.{" "}
+                </p>
+              </div>
+              <div className='contact-right'>
+                <p>info@bluesense.co &nbsp; +234 806 578 4615</p>
+              </div>
+            </div>
           </div>
         </div>
       </footer>

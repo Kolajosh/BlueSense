@@ -24,14 +24,14 @@ function HeroSection() {
         </p>
       </div>
       <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          butttonSize='btn--large'>
-          <Link to='/contact' className='btn-link'>
+        <Link to='/contact' className='btn-link'>
+          <Button
+            className='btns'
+            buttonStyle='btn--primary'
+            butttonSize='btn--large'>
             Schedule Consultation <i class='fas fa-angle-right'></i>
-          </Link>
-        </Button>
+          </Button>
+        </Link>
       </div>
     </div>
   );

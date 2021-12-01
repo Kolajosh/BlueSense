@@ -113,7 +113,7 @@
   color: white;
 }
 
-.big-button:hover {
+.big-learning-button-2:hover {
   transform: translateY(-10px);
   transition: 0.5s;
 }
