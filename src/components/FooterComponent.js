@@ -47,7 +47,7 @@ function FooterComponent() {
                     </Link>
                   </li>
                   <li>
-                    <Link to='/' className='footer-link'>
+                    <Link to='/privacypolicy' className='footer-link'>
                       <span className='blue-link'>Privacy Policy</span>
                     </Link>
                   </li>
@@ -59,15 +59,21 @@ function FooterComponent() {
                     </Link>
                   </li>
                   <li>
-                    <Link to='/' className='footer-link'>
-                      <i class='fab fa-linkedin'></i>
-                    </Link>
-                    <Link to='/' className='footer-link'>
-                      <i class='fab fa-twitter-square'></i>
-                    </Link>
-                    <Link to='/' className='footer-link'>
-                      <i class='fab fa-facebook-square'></i>
-                    </Link>
+                    <a
+                      href='https://www.linkedin.com/company/bluesensegroup/'
+                      className='footer-link'>
+                      <i class='fab fa-linkedin '></i>
+                    </a>
+                    <a
+                      href='https://www.twitter.com/bluesensegroup/'
+                      className='footer-link'>
+                      <i class='fab fa-twitter-square '></i>
+                    </a>
+                    <a
+                      href='https://www.facebook.com/bluesensegroup/'
+                      className='footer-link'>
+                      <i class='fab fa-facebook-square '></i>
+                    </a>
                   </li>
                   <li>
                     <Link to='/about' className='footer-link'>

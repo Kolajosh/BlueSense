@@ -1,6 +1,5 @@
 import React from "react";
 import "./ProfileIcons.css";
-import ife from "../images/Mask-Group-4.png";
 import kola from "../images/Mask-Group-5.png";
 function ProfileIcons() {
   return (
@@ -13,11 +12,11 @@ function ProfileIcons() {
           <ul className='picons'>
             <div className='picon1'>
               <li>
-                <img src={ife} alt=''></img>
+                <img src={kola} alt=''></img>
               </li>
               <li>
-                <p>Ifeoluwa Komolafe</p>
-                <p className='blue'>Business Analyst</p>
+                <p>Kolawole Ayoola</p>
+                <p className='blue'>Web Development Intern</p>
               </li>
             </div>
             <div className='picon2'>

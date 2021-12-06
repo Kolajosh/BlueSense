@@ -100,6 +100,10 @@
   margin-right: 50px;
 }
 
+.footer-link i {
+  font-size: 22px;
+}
+
 @media (max-width: 990px) {
   .left-text {
     font-size: 18px;
@@ -162,5 +166,8 @@
   }
   .contact-right {
     margin-left: 50px;
+  }
+  .footer-link i {
+    font-size: 15px;
   }
 }
