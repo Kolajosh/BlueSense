@@ -6,7 +6,7 @@ function CookieSection() {
     <>
       <div className='cookie-container'>
         <div className='cookie-head'>
-          <h2>BlueSense does not use cookies</h2>
+          <h3>BlueSense does not use cookies</h3>
         </div>
       </div>
     </>
