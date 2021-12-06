@@ -76,7 +76,7 @@ function FooterComponent() {
                     </a>
                   </li>
                   <li>
-                    <Link to='/about' className='footer-link'>
+                    <Link to='/cookiepolicy' className='footer-link'>
                       <span className='blue-link'>Cookie Policy</span>
                     </Link>
                   </li>

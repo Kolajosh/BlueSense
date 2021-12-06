@@ -12,6 +12,7 @@ import Analytics from "./components/pages/Analytics";
 import FooterComponent from "./components/FooterComponent";
 import About from "./components/pages/About";
 import PrivacyPolicy from "./components/pages/PrivacyPolicy";
+import CookiePolicy from "./components/pages/CookiePolicy";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path='/analytics' component={Analytics} />
         <Route path='/strategy' component={Strategy} />
         <Route path='/privacypolicy' component={PrivacyPolicy} />
+        <Route path='/cookiepolicy' component={CookiePolicy} />
       </Switch>
       <FooterComponent />
     </Router>
