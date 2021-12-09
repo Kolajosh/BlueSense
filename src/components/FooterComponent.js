@@ -30,7 +30,7 @@ function FooterComponent() {
                     </Link>
                   </li>
                   <li>
-                    <Link to='/' className='footer-link'>
+                    <Link to='/terms' className='footer-link'>
                       <span className='blue-link'>Terms of use</span>
                     </Link>
                   </li>

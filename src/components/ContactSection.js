@@ -149,6 +149,7 @@ function ContactSection(props) {
             <p className='t-red'>{formErrors.message}</p>
             <textarea
               className='message'
+              rows=''
               type='text'
               name='message'
               placeholder='Message'

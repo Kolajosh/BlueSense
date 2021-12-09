@@ -40,8 +40,9 @@
   color: #666666;
 }
 
-.p-heading {
-  font-weight: 550;
+.p-sect-2 h3 {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
 }
 .p-sect-2 li {
   margin-left: 50px;

@@ -1,0 +1,32 @@
+.terms-container {
+  width: 100%;
+  height: auto;
+  background: #f7f7f7;
+}
+.terms-sect-1 {
+  width: 90%;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+.terms-sect-1 h1,
+h3 {
+  font-family: Poppins, sans-serif;
+  color: #666666;
+  font-weight: 600;
+}
+.terms-sect-1 p {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-size: 18px;
+  color: #666666;
+}
+
+@media screen and (max-width: 640px) {
+  .terms-sect-1 {
+    width: 100%;
+  }
+  .terms-sect-1 p {
+    font-size: 15px;
+  }
+}
