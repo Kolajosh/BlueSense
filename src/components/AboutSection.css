@@ -202,27 +202,27 @@
 
 @media screen and (max-width: 668px) {
   .about-section-1 p {
-    font-size: 18px;
+    font-size: 15px;
   }
   .about-section-1 span {
-    font-size: 18px;
+    font-size: 15px;
   }
   .about-section-1 li {
-    font-size: 18px;
+    font-size: 15px;
   }
   .about-section-paragraph-2 {
-    font-size: 18px;
+    font-size: 15px;
   }
   .about-section-2 p {
-    font-size: 18px;
+    font-size: 15px;
   }
   .about-section-1 h1 {
-    font-size: 35px;
+    font-size: 32px;
   }
   .about-section-1 h2 {
-    font-size: 25px;
+    font-size: 22px;
   }
   .about-section-2 h2 {
-    font-size: 25px;
+    font-size: 22px;
   }
 }

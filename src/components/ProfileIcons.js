@@ -16,7 +16,10 @@ function ProfileIcons() {
               </li>
               <li>
                 <p>Kolawole Ayoola</p>
-                <p className='blue'>Web Development Intern</p>
+                <p className='blue'>
+                  Web Development
+                  <br /> Intern
+                </p>
               </li>
             </div>
             <div className='picon2'>
@@ -25,7 +28,10 @@ function ProfileIcons() {
               </li>
               <li>
                 <p>Kolawole Ayoola</p>
-                <p className='blue'>Web Development Intern</p>
+                <p className='blue'>
+                  Web Development
+                  <br /> Intern
+                </p>
               </li>
             </div>
           </ul>

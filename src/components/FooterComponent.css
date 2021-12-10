@@ -161,6 +161,7 @@
 
 @media (max-width: 620px) {
   .subfoot {
+    margin-right: 50px;
     display: block;
     justify-content: space-between;
   }
@@ -169,5 +170,11 @@
   }
   .footer-link i {
     font-size: 12px;
+  }
+  .sub-foot {
+    font-size: 10px;
+  }
+  .contact-right {
+    font-size: 10px;
   }
 }

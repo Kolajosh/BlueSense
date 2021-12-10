@@ -29,7 +29,7 @@
 
 .hero-text-container p {
   color: #fff;
-  width: 600px;
+  width: 50%;
   margin-top: 50px;
   margin-left: 50px;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
@@ -81,7 +81,7 @@
 
   .hero-text-container p {
     color: #fff;
-    width: 380px;
+    width: 80%;
     margin-top: 40px;
     margin-left: 25px;
     font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;

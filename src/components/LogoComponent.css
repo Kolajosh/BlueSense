@@ -73,7 +73,7 @@
   }
 
   .logo-img {
-    width: 90%;
+    width: 100%;
     height: auto;
     transform: translate(-50%, -50%);
     filter: grayscale(100%);
@@ -92,7 +92,7 @@
     width: 100%;
     height: auto;
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 20px;
     box-sizing: border-box;
   }
 
