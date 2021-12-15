@@ -44,8 +44,12 @@ function Hwwsection() {
           </ul>
           <ul className='hww-foot-ul'>
             <li className='hww-foot-list'>Projects Executed</li>
-            <li>Average Project Length</li>
-            <li>Added to Client Bottomline</li>
+            <div className='hww1'>
+              <li>Average Project Length</li>
+            </div>
+            <div className='hww2'>
+              <li>Added to Client Bottomline</li>
+            </div>
           </ul>
         </div>
       </div>

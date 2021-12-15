@@ -82,6 +82,7 @@
 input,
 textarea {
   padding: 5px;
+  resize: none;
 }
 
 @media screen and (max-width: 698px) {
