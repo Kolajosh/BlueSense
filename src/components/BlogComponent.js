@@ -86,6 +86,27 @@ function BlogComponent() {
           </div>
         </div>
       </div>
+
+      <div className='read-more-div'>
+        <h4>Click the button below to access more blog articles on Linkedin</h4>
+        <button className='read-more-btn'>
+          <a
+            href='https://www.linkedin.com/company/bluesensegroup/posts/?feedView=articles'
+            target='_blank'
+            rel='noopener noreferrer'>
+            Read More
+          </a>
+        </button>
+        <h4>Click the button below to access more blog articles on Medium</h4>
+        <button className='read-more-btn'>
+          <a
+            href='https://bluesense.medium.com/'
+            target='_blank'
+            rel='noopener noreferrer'>
+            Read More
+          </a>
+        </button>
+      </div>
     </>
   );
 }
