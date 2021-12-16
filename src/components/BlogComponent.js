@@ -53,7 +53,7 @@ function BlogComponent() {
             </p>
             <button className='read-more-btn'>
               <a
-                href='https://www.linkedin.com/pulse/why-competition-futile-your-startup-bluesensegroup/'
+                href='https://www.bluesense.org/post/traits-of-great-founders'
                 target='_blank'
                 rel='noopener noreferrer'>
                 Read More
