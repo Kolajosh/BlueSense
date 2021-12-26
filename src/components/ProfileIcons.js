@@ -23,16 +23,8 @@ function ProfileIcons() {
               </li>
             </div>
             <div className='picon2'>
-              <li>
-                <img src={kola} alt=''></img>
-              </li>
-              <li>
-                <p>Kolawole Ayoola</p>
-                <p className='blue'>
-                  Web Development
-                  <br /> Intern
-                </p>
-              </li>
+              <li></li>
+              <li></li>
             </div>
           </ul>
         </div>
