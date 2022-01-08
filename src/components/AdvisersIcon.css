@@ -1,0 +1,55 @@
+.advisers-container {
+  width: 100%;
+  height: auto;
+}
+
+.advisers-head h1 {
+  margin-left: 50px;
+  margin-top: 100px;
+
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  color: #666666;
+}
+
+.blue {
+  color: #0f74b9;
+}
+
+.icons1 {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+}
+
+.icons1 ul {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 50px;
+  list-style: none;
+  color: #666666;
+}
+
+.icons1 p {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+}
+
+.icons1 img {
+  width: 270px;
+}
+
+.picon2 {
+  margin-left: 70px;
+}
+
+@media screen and (max-width: 968px) {
+  .advisers-head h1 {
+    margin-top: -30px;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .advisers-head h1 {
+    margin-top: -50px;
+    font-size: 25px;
+  }
+}

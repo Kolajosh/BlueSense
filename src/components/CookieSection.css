@@ -1,0 +1,15 @@
+.cookie-container {
+  width: 100%;
+}
+.cookie-head {
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+.cookie-head h1 {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  color: #666666;
+  object-position: center;
+}

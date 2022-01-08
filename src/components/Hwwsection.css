@@ -1,0 +1,291 @@
+.hww-container {
+  margin-top: 50px;
+  width: 100%;
+  height: 400px;
+  display: grid;
+  background: #f7f7f7;
+}
+
+.hww-heading {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-left: 50px;
+  color: rgba(102, 102, 102, 0.726);
+}
+
+.hww-body {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-weight: lighter;
+  margin-top: -30px;
+  margin-left: 50px;
+  color: #666666;
+  margin-right: 50px;
+  font-size: 23px;
+}
+
+.icon-right-arrow-123:before {
+  content: \e900;
+}
+
+.fa-arrow-down {
+  display: none;
+}
+
+/* icon font */
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf") format("truetype"),
+    url("../fonts/icomoon.woff") format("woff"),
+    url("../fonts/icomoon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "icomoon" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-right-arrow-123:before {
+  content: "\e900";
+  color: #b3b3b3;
+}
+
+.hww-big-ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  padding-right: 150px;
+  padding-left: 135px;
+  text-decoration: none;
+  list-style: none;
+  color: #0f74b9;
+}
+
+.hww-big-ul h1 {
+  font-family: Poppins, sans-serif;
+  color: #666666;
+}
+
+.hww-foot-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 10px 10px 10px;
+  width: 100%;
+  padding-right: 130px;
+  padding-left: 135px;
+  margin-top: -30px;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: #0f74b9;
+}
+
+.hww1 {
+  margin-left: -115px;
+}
+
+.hww2 {
+  margin-right: -75px;
+}
+
+@media (max-width: 1300px) {
+  .hww-container {
+    height: 300px;
+  }
+
+  .hww-big-ul {
+    margin-left: -30px;
+  }
+
+  .hww-big-ul h1 {
+    font-size: 22px;
+  }
+
+  .hww-heading {
+    margin-top: 50px;
+    margin-left: 25px;
+    font-size: 25px;
+  }
+
+  .hww-body {
+    margin-top: -20px;
+    margin-left: 25px;
+    margin-right: 50px;
+    font-size: 18px;
+  }
+
+  .hww-foot-ul {
+    padding-right: 100px;
+    padding-left: 106px;
+    margin-top: -30px;
+    font-size: 15px;
+  }
+  .hww1 {
+    margin-left: -67px;
+  }
+
+  .hww2 {
+    margin-right: -30px;
+  }
+}
+
+@media (max-width: 1068px) {
+  .hww-heading {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 25px;
+  }
+
+  .hww-big-ul h1 {
+    font-size: 18px;
+  }
+
+  .hww-body {
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 15px;
+  }
+
+  .hww-foot-ul {
+    padding-right: 100px;
+    padding-left: 106px;
+    margin-top: -30px;
+    font-size: 12px;
+  }
+  .hww1 {
+    margin-left: -57px;
+  }
+
+  .hww2 {
+    margin-right: -5px;
+  }
+}
+
+@media (max-width: 898px) {
+  .hww-heading {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 25px;
+  }
+
+  .hww-big-ul h1 {
+    font-size: 15px;
+  }
+
+  .hww-body {
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 15px;
+  }
+
+  .hww-foot-ul {
+    padding-right: 100px;
+    padding-left: 106px;
+    margin-top: -30px;
+    font-size: 13px;
+  }
+  .hww1 {
+    margin-left: -43px;
+  }
+
+  .hww2 {
+    margin-right: -30px;
+  }
+}
+
+@media (max-width: 758px) {
+  .hww-heading {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 25px;
+  }
+
+  .hww-big-ul h1 {
+    font-size: 12px;
+  }
+
+  .hww-body {
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 13px;
+  }
+
+  .hww-foot-ul {
+    padding-right: 100px;
+    padding-left: 106px;
+    margin-top: -30px;
+    font-size: 10px;
+  }
+  .hww1 {
+    margin-left: -37px;
+  }
+
+  .hww2 {
+    margin-right: -2px;
+  }
+}
+
+@media (max-width: 650px) {
+  .hww-big-ul h1 {
+    font-size: 10px;
+  }
+
+  .hww-foot-ul li {
+    font-size: 9px;
+  }
+  .hww-foot-div {
+    display: grid;
+  }
+  .hww-big-ul {
+    grid-template-columns: 1;
+  }
+  .hww-foot-ul {
+    grid-template-columns: 2;
+    font-size: 10px;
+    text-align: left;
+  }
+
+  .hww-foot-ul li {
+    font-size: 9px;
+  }
+
+  .icon-right-arrow-123 {
+    display: none;
+  }
+  .fa-arrow-down {
+    display: initial;
+    padding: 2px;
+  }
+  .hww-foot-ul {
+    padding-left: 70px;
+  }
+  .hww1 {
+    margin-left: -1px;
+  }
+  .hww2 {
+    margin-right: 10px;
+  }
+}

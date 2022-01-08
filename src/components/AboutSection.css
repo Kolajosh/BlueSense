@@ -1,0 +1,228 @@
+.about-section-1 {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: auto;
+}
+
+.about-section-paragraph {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+.about-heading {
+  padding-top: 70px;
+  margin-left: 50px;
+  font-family: Poppins, sans-serif;
+  font-size: 54px;
+  font-weight: 600;
+  color: #666666;
+}
+
+.about-section-paragraph {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #666666;
+}
+
+.about-blue {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #0f74b9;
+}
+
+.about-section-subparagraph {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #0f74b9;
+}
+
+.about-section-paragraph-list {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  list-style: none;
+}
+
+.about-section-paragraph-list li {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #666666;
+}
+
+.about-section-paragraph-list ol li {
+  color: #0f74b9;
+}
+
+.about-heading-2 {
+  margin-top: 30px;
+  margin-left: 50px;
+  font-family: Poppins, sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: #666666;
+}
+
+.about-section-paragraph-2 {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #666666;
+}
+
+.about-heading-4 {
+  margin-top: 30px;
+  margin-left: 50px;
+  font-family: Poppins, sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: #666666;
+}
+
+.about-heading-3 {
+  margin-top: 30px;
+  margin-left: 50px;
+  font-family: Poppins, sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: #666666;
+}
+
+.about-section-paragraph-2 {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  list-style: none;
+}
+
+.about-blue-subparagraph {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-left: 50px;
+  color: #0f74b9;
+}
+
+.about-section-subparagraph-2 {
+  margin-top: 30px;
+}
+
+.about-section-paragraph-2 li {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #666666;
+}
+
+.about-heading-5 {
+  margin-top: 30px;
+  margin-left: 50px;
+  font-family: Poppins, sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: #666666;
+}
+
+.about-section-paragraph-3 {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 50px;
+  color: #666666;
+}
+
+/*
+2nd section...................
+*/
+
+.about-section-2 {
+  width: 100%;
+  height: auto;
+}
+
+.about-heading-6 {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family: Poppins, sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: #666666;
+}
+
+.about-section-2 p {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #666666;
+}
+
+@media screen and (max-width: 968px) {
+  .about-section-1 p {
+    font-size: 20px;
+  }
+  .about-section-1 span {
+    font-size: 20px;
+  }
+  .about-section-1 li {
+    font-size: 20px;
+  }
+  .about-section-paragraph-2 {
+    font-size: 20px;
+  }
+  .about-section-2 p {
+    font-size: 20px;
+  }
+  .about-section-1 h1 {
+    font-size: 35px;
+  }
+  .about-section-1 h2 {
+    font-size: 25px;
+  }
+  .about-section-2 h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .about-section-1 p {
+    font-size: 15px;
+  }
+  .about-section-1 span {
+    font-size: 15px;
+  }
+  .about-section-1 li {
+    font-size: 15px;
+  }
+  .about-section-paragraph-2 {
+    font-size: 15px;
+  }
+  .about-section-2 p {
+    font-size: 15px;
+  }
+  .about-section-1 h1 {
+    font-size: 32px;
+  }
+  .about-section-1 h2 {
+    font-size: 22px;
+  }
+  .about-section-2 h2 {
+    font-size: 22px;
+  }
+}
