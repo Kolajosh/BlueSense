@@ -1,4 +1,4 @@
 [[redirects]]
 from ="/*"
 to = "/404.js"
-status = 404
+status = 200
