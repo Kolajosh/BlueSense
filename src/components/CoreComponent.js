@@ -26,7 +26,7 @@ function CoreComponent() {
                     </Link>
                  </div>
                  <div className='advisory-click'>
-                 <Link to='/adviisory'>
+                 <Link to='/advisory'>
                         <img src={advisory}></img>
                     </Link>
                  </div>
