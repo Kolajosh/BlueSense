@@ -15,24 +15,26 @@ import PrivacyPolicy from "./components/pages/PrivacyPolicy";
 import CookiePolicy from "./components/pages/CookiePolicy";
 import Terms from "./components/pages/Terms.js";
 import Core from "./components/pages/Core"
+import Notfoundpage from "./components/pages/Notfoundpage";
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Switch>
-        <Route path='/' exact component={Home} />
-        <Route path='/about' exact component={About} />
-        <Route path='/blog' component={Blog} />
-        <Route path='/learning' component={Learning} />
-        <Route path='/contact' component={Contact} />
-        <Route path='/advisory' component={Advisory} />
-        <Route path='/analytics' component={Analytics} />
-        <Route path='/strategy' component={Strategy} />
-        <Route path='/privacypolicy' component={PrivacyPolicy} />
-        <Route path='/cookiepolicy' component={CookiePolicy} />
-        <Route path='/terms' component={Terms} />
-        <Route path='/core' component={Core} />
+        <Route exact path='/'  component={Home} />
+        <Route exact path='/about'  component={About} />
+        <Route exact path='/blog' component={Blog} />
+        <Route exact path='/learning' component={Learning} />
+        <Route exact path='/contact' component={Contact} />
+        <Route exact path='/advisory' component={Advisory} />
+        <Route exact path='/analytics' component={Analytics} />
+        <Route exact path='/strategy' component={Strategy} />
+        <Route exact path='/privacypolicy' component={PrivacyPolicy} />
+        <Route exact path='/cookiepolicy' component={CookiePolicy} />
+        <Route exact path='/terms' component={Terms} />
+        <Route exact path='/core' component={Core} />
+        <Route component={Notfoundpage}/>
       </Switch>
       <FooterComponent />
     </Router>
