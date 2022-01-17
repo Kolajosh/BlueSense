@@ -15,7 +15,6 @@ import PrivacyPolicy from "./components/pages/PrivacyPolicy";
 import CookiePolicy from "./components/pages/CookiePolicy";
 import Terms from "./components/pages/Terms.js";
 import Core from "./components/pages/Core"
-//import Notfoundpage from "./components/pages/Notfoundpage";
 import custom404 from "./components/pages/404";
 
 function App() {
