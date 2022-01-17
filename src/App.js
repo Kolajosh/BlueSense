@@ -15,7 +15,8 @@ import PrivacyPolicy from "./components/pages/PrivacyPolicy";
 import CookiePolicy from "./components/pages/CookiePolicy";
 import Terms from "./components/pages/Terms.js";
 import Core from "./components/pages/Core"
-import Notfoundpage from "./components/pages/Notfoundpage";
+//import Notfoundpage from "./components/pages/Notfoundpage";
+import custom404 from "./components/pages/404";
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
         <Route exact path='/cookiepolicy' component={CookiePolicy} />
         <Route exact path='/terms' component={Terms} />
         <Route exact path='/core' component={Core} />
-        <Route component={Notfoundpage}/>
+        <Route component={custom404}/>
+        
       </Switch>
       <FooterComponent />
     </Router>

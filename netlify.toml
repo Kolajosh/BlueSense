@@ -1,0 +1,4 @@
+[[redirects]]
+from ="/*"
+to = "/custom404"
+status = 404

@@ -1,8 +1,8 @@
-/*import React from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
-import './Notfoundpagecomponent.css'
+import '../Notfoundpagecomponent.css'
 
-function notfoundpagecomponent() {
+function custom404() {
     return (
         <>
             <div className='error404'>
@@ -14,5 +14,4 @@ function notfoundpagecomponent() {
     )
 }
 
-export default notfoundpagecomponent
-*/
+export default custom404
