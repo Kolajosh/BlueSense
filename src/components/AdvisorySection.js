@@ -40,7 +40,7 @@ function AdvisorySection() {
             managers build the skills needed for long-term success.
           </p>
           <p>
-            <span className='blue'>Bluesense</span> advisory brings together
+            <span className='blue'>BlueSense</span> advisory brings together
             expertise in technology, management, design, strategy, organisation,
             and analytics to help clients reinvent themselves. We partner with
             our clients to build, operate, and then transfer newly acquired

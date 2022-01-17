@@ -14,6 +14,7 @@ import About from "./components/pages/About";
 import PrivacyPolicy from "./components/pages/PrivacyPolicy";
 import CookiePolicy from "./components/pages/CookiePolicy";
 import Terms from "./components/pages/Terms.js";
+import Core from "./components/pages/Core"
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path='/privacypolicy' component={PrivacyPolicy} />
         <Route path='/cookiepolicy' component={CookiePolicy} />
         <Route path='/terms' component={Terms} />
+        <Route path='/core' component={Core} />
       </Switch>
       <FooterComponent />
     </Router>

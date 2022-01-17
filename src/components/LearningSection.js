@@ -26,7 +26,7 @@ function LearningSection() {
             In a world where competition can come from any geography or sector,
             and customer loyalty can dissolve in a click, the most reliable path
             to growth is meeting customers’ unmet needs.{" "}
-            <span className='blue'>Blusense</span> learning shows companies how
+            <span className='blue'>BlueSense</span> learning shows companies how
             to fill those gaps.
           </p>
         </div>
@@ -39,7 +39,7 @@ function LearningSection() {
             rigor.
           </p>
           <p>
-            <span className='blue'>Bluesense</span> learning brings together
+            <span className='blue'>BlueSense</span> learning brings together
             expertise in technology, management, design, strategy, organisation,
             and analytics to help clients reinvent themselves. We partner with
             our clients to build, operate, and then transfer newly acquired

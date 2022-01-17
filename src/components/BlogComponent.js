@@ -10,7 +10,7 @@ function BlogComponent() {
     <>
       <div className='blog-header'>
         <img src={bigblog} alt=''></img>
-        <h1>Bluesense Blog</h1>
+        <h1>BlueSense Blog</h1>
       </div>
 
       <div className='blog-1'>
