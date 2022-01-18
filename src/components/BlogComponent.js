@@ -108,7 +108,7 @@ function BlogComponent() {
       </div>
 
       <div className="read-more-div">
-        <h4>Visit our social media blogs below for more articles</h4>
+        <h3>Visit our social media blogs below for more articles</h3>
 
         <a
           href="https://www.linkedin.com/company/bluesensegroup/posts/?feedView=articles"
