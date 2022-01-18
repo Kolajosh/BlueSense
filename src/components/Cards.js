@@ -8,17 +8,17 @@ import "./Cards.css";
 function Cards() {
   return (
     <>
-      <h1 className='card-heading'>Core Competencies</h1>
-      <div className='flex-container'>
-        <div className='item-1'>
-          <Link to='/strategy' className='card-links'>
+      <h1 className="card-heading">Core Competencies</h1>
+      <div className="flex-container">
+        <div className="item-1">
+          <Link to="/strategy" className="card-links">
             {" "}
-            <div className='icon'>
-              <img src={icon} alt='icon' className='card-img'></img>
+            <div className="icon">
+              <img src={icon} alt="icon" className="card-img"></img>
             </div>
-            <p className='subtitle-flex'>Strategy</p>
+            <p className="subtitle-flex">Strategy</p>
           </Link>
-          <div className='middle-text-1'>
+          <div className="middle-text-1">
             <p>
               As a consulting firm, we take pride in carrying out thorough
               research on our clients businesses and/or industries. We also
@@ -29,14 +29,14 @@ function Cards() {
             </p>
           </div>
         </div>
-        <div className='item-2'>
-          <Link to='/learning' className='card-links'>
-            <div className='icon'>
-              <img src={icon1} alt='icon1' className='card-img'></img>
+        <div className="item-2">
+          <Link to="/learning" className="card-links">
+            <div className="icon">
+              <img src={icon1} alt="icon1" className="card-img"></img>
             </div>
-            <p className='subtitle-flex'>Learning</p>
+            <p className="subtitle-flex">Learning</p>
           </Link>
-          <div className='middle-text-2'>
+          <div className="middle-text-2">
             <p>
               At BlueSense, we offer learning services ranging from seminars to
               team training, and even to personal training for executives. This
@@ -46,14 +46,14 @@ function Cards() {
             </p>
           </div>
         </div>
-        <div className='item-3'>
-          <Link to='/advisory' className='card-links'>
-            <div className='icon'>
-              <img src={icon2} alt='icon2' className='card-img'></img>
+        <div className="item-3">
+          <Link to="/advisory" className="card-links">
+            <div className="icon">
+              <img src={icon2} alt="icon2" className="card-img"></img>
             </div>
-            <p className='subtitle-flex'>Advisory</p>
+            <p className="subtitle-flex">Advisory</p>
           </Link>
-          <div className='middle-text'>
+          <div className="middle-text">
             <p>
               As a team, we are constantly looking to help businesses thrive in
               the fast changing business world, and we do this by giving
@@ -63,16 +63,16 @@ function Cards() {
         </div>
       </div>
 
-      <div className='card-container'>
-        <div className='card-item-1'>
-          <Link to='/strategy' className='card-links-1'>
+      <div className="card-container">
+        <div className="card-item-1">
+          <Link to="/strategy" className="card-links-1">
             {" "}
-            <div className='card-icon-1'>
-              <img src={icon} alt='icon' className='card-img-1'></img>
+            <div className="card-icon-1">
+              <img src={icon} alt="icon" className="card-img-1"></img>
             </div>
-            <h2 className='card-subtitle-flex'>Strategy</h2>
+            <h2 className="card-subtitle-flex">Strategy</h2>
           </Link>
-          <div className='card-middle-text-1'>
+          <div className="card-middle-text-1">
             <p>
               As a consulting firm, we take pride in carrying out thorough
               research on our clients businesses and/or industries. We also
@@ -84,15 +84,15 @@ function Cards() {
           </div>
         </div>
 
-        <div className='card-item-1'>
-          <Link to='/learning' className='card-links-1'>
+        <div className="card-item-1">
+          <Link to="/learning" className="card-links-1">
             {" "}
-            <div className='card-icon-1'>
-              <img src={icon1} alt='icon' className='card-img-1'></img>
+            <div className="card-icon-1">
+              <img src={icon1} alt="icon" className="card-img-1"></img>
             </div>
-            <h2 className='card-subtitle-flex'>Learning</h2>
+            <h2 className="card-subtitle-flex">Learning</h2>
           </Link>
-          <div className='card-middle-text-1'>
+          <div className="card-middle-text-1">
             <p>
               At BlueSense, we offer learning services ranging from seminars to
               team training, and even to personal training for executives. This
@@ -103,15 +103,15 @@ function Cards() {
           </div>
         </div>
 
-        <div className='card-item-1'>
-          <Link to='/advisory' className='card-links-1'>
+        <div className="card-item-1">
+          <Link to="/advisory" className="card-links-1">
             {" "}
-            <div className='card-icon-1'>
-              <img src={icon2} alt='icon' className='card-img-1'></img>
+            <div className="card-icon-1">
+              <img src={icon2} alt="icon" className="card-img-1"></img>
             </div>
-            <h2 className='card-subtitle-flex'>Advisory</h2>
+            <h2 className="card-subtitle-flex">Advisory</h2>
           </Link>
-          <div className='card-middle-text-1'>
+          <div className="card-middle-text-1">
             <p>
               As a team, we are constantly looking to help businesses thrive in
               the fast changing business world, and we do this by giving

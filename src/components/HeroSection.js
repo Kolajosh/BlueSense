@@ -7,12 +7,12 @@ import { Link } from "react-router-dom";
 
 function HeroSection() {
   return (
-    <div className='hero-container'>
-      <img src={home} alt='homepic'></img>
+    <div className="hero-container">
+      <img src={home} alt="homepic"></img>
       <h1>
         Thinking about transforming<br></br>your start-up? We know how
       </h1>
-      <div className='hero-text-container'>
+      <div className="hero-text-container">
         <p>
           BlueSense is a business intelligence management consulting firm. We
           are the trusted advisors to some of the country&rsquo;s leading
@@ -23,13 +23,14 @@ function HeroSection() {
           challenges allow us to address problems that no one else can.
         </p>
       </div>
-      <div className='hero-btns'>
-        <Link to='/contact' className='btn-link'>
+      <div className="hero-btns">
+        <Link to="/contact" className="btn-link">
           <Button
-            className='btns'
-            buttonStyle='btn--primary'
-            butttonSize='btn--large'>
-            Schedule Consultation <i class='fas fa-angle-right'></i>
+            className="btns"
+            buttonStyle="btn--primary"
+            butttonSize="btn--large"
+          >
+            Schedule Consultation <i class="fas fa-angle-right"></i>
           </Button>
         </Link>
       </div>
