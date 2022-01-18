@@ -17,6 +17,10 @@ function BlogComponent() {
           name="description"
           content="BlueSense Business Intelligence Management Consulting Firm"
         />
+        <meta
+          name="keywords"
+          content="Business, Consultng, Startups, Intelligence, Blog, Articles"
+        />
       </Helmet>
       <div className="blog-header">
         <img src={bigblog} alt=""></img>

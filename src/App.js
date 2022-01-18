@@ -29,6 +29,10 @@ function App() {
           name="description"
           content="BlueSense is a business intelligence management consulting firm. We are the trusted advisors to some of the country’s leading startups, technology companies and a handful of international institutions. We work with leading organisations like yours across private, public and nonprofit sectors to produce bankable results."
         />
+        <meta
+          name="keywords"
+          content="Business, Consultng, Startups, Intelligence, Strategy, "
+        />
       </Helmet>
       <Navbar />
       <Switch>

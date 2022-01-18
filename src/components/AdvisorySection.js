@@ -15,6 +15,10 @@ function AdvisorySection() {
           name="description"
           content="BlueSense Advisory helps teams and managers build the skills needed for long-term success."
         />
+        <meta
+          name="keywords"
+          content="Business, Consultng,  Strategy, Consult, Contact, advisory, advise"
+        />
       </Helmet>
       <div className="advisory-img">
         <img src={advisory} alt=""></img>

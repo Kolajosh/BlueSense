@@ -110,6 +110,10 @@ function ContactSection(props) {
           name="description"
           content="BlueSense Business Intelligence Management Consulting Firm"
         />
+        <meta
+          name="keywords"
+          content="Business, Consultng, Startups, Intelligence, Strategy, Consult, Contact"
+        />
       </Helmet>
       <div className="container">
         <div className="contact-head">

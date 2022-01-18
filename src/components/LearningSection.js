@@ -15,6 +15,10 @@ function LearningSection() {
           name="description"
           content="BlueSense learning brings together expertise in technology, management, design, strategy, organisation, and analytics to help clients reinvent themselves. "
         />
+        <meta
+          name="keywords"
+          content="Business, Consultng, Startups, learning, Strategy, learn, Contact, workshop"
+        />
       </Helmet>
       <div className="learning-img">
         <img src={learning} alt=""></img>
