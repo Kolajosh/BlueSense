@@ -47,7 +47,11 @@ function Navbar() {
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
           >
-            <Link to="/core" className="nav-links" onClick={closeMobileMenu}>
+            <Link
+              to="/analytics"
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
               Core <i class="fas fa-caret-down" />
               {dropdown && <Dropdown />}
             </Link>

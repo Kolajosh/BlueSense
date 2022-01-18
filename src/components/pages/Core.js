@@ -1,12 +1,13 @@
-import React from 'react'
-import CoreComponent from '../CoreComponent'
+/*import React from "react";
+import CoreComponent from "../CoreComponent";
 
 function Core() {
-    return (
-        <>
-            <CoreComponent/>
-        </>
-    )
+  return (
+    <>
+      <CoreComponent />
+    </>
+  );
 }
 
-export default Core
+export default Core;
+*/
