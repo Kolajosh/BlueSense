@@ -21,19 +21,21 @@ import custom404 from "./components/pages/404";
 function App() {
   return (
     <Router>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>BlueSense | Business Consulting</title>
-        <link rel="canonical" href="https://bluesense.co" />
-        <meta
-          name="description"
-          content="BlueSense is a business intelligence management consulting firm. We are the trusted advisors to some of the country’s leading startups, technology companies and a handful of international institutions. We work with leading organisations like yours across private, public and nonprofit sectors to produce bankable results."
-        />
-        <meta
-          name="keywords"
-          content="Business, Consultng, Startups, Intelligence, Strategy, "
-        />
-      </Helmet>
+      <head>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>BlueSense | Business Consulting</title>
+          <link rel="canonical" href="https://bluesense.co" />
+          <meta
+            name="description"
+            content="BlueSense is a business intelligence management consulting firm. We are the trusted advisors to some of the country’s leading startups, technology companies and a handful of international institutions. We work with leading organisations like yours across private, public and nonprofit sectors to produce bankable results."
+          />
+          <meta
+            name="keywords"
+            content="Business, Consultng, Startups, Intelligence, Strategy, "
+          />
+        </Helmet>
+      </head>
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />

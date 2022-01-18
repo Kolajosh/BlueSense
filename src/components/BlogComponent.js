@@ -11,7 +11,7 @@ function BlogComponent() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>BlueSense | Blog</title>
+        <title>Blog | BlueSense</title>
         <link rel="canonical" href="https://bluesense.co/blog" />
         <meta
           name="description"

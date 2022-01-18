@@ -8,7 +8,7 @@ function AboutSection() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>BlueSense | About</title>
+        <title>About | BlueSense</title>
         <link rel="canonical" href="https://bluesense.co/about" />
         <meta
           name="description"
