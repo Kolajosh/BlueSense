@@ -45,6 +45,7 @@ function BlogComponent() {
                 href="https://https://www.bluesense.org/post/traits-of-great-founders"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="bluesense post"
               >
                 {" "}
                 Read More
@@ -71,6 +72,7 @@ function BlogComponent() {
                 href="https://www.linkedin.com/pulse/why-competition-futile-your-startup-bluesensegroup/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="bluesense post"
               >
                 Read More
               </a>
@@ -96,6 +98,7 @@ function BlogComponent() {
                 href="https://www.linkedin.com/pulse/6-guides-fundraising-your-startup-bluesensegroup/?trackingId=LestDvtMBolKzG4fxg3AXg%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="bluesense post"
               >
                 Read More
               </a>
@@ -111,6 +114,7 @@ function BlogComponent() {
           href="https://www.linkedin.com/company/bluesensegroup/posts/?feedView=articles"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="bluesense post"
         >
           <i class="fab fa-linkedin" />{" "}
         </a>
@@ -119,6 +123,7 @@ function BlogComponent() {
           href="https://bluesense.medium.com/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="bluesense post"
         >
           <i class="fab fa-medium" />
         </a>
