@@ -9,7 +9,6 @@ function AboutSection() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>About | BlueSense</title>
-        <link rel="canonical" href="https://bluesense.co/about" />
         <meta
           name="description"
           content="BlueSense is a business intelligence consulting firm that is committed to improving clarity, trust, and learning in the workplace. BlueSense has three core competencies:..."
@@ -18,6 +17,7 @@ function AboutSection() {
           name="keywords"
           content="Business, Consultng, Startups, Intelligence, Strategy, About"
         />
+        <link rel="canonical" href="https://bluesense.co/about" />
       </Helmet>
       <div className="about-section-1">
         <h1 className="about-heading">About</h1>
