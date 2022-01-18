@@ -4,7 +4,7 @@ to = "/custom404"
 status = 404
 
 [[plugins]]
-package = `@netlify/plugin-lighthouse`
+package = "@netlify/plugin-lighthouse"
 [plugins.inputs]
 [plugins.inputs.thresholds]
 performance = 0.9
