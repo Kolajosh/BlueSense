@@ -1,8 +1,3 @@
-[[redirects]]
-from ="/*"
-to = "/custom404"
-status = 404
-
 [[plugins]]
 package = "@netlify/plugin-lighthouse"
 [plugins.inputs]
