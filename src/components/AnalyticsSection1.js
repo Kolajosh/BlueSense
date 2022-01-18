@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./AnalyticsSection1.css";
 import analytics from "../images/analytics.png";
 import { Link } from "react-router-dom";
@@ -6,6 +7,12 @@ import { Link } from "react-router-dom";
 function AnalyticsSection1() {
   return (
     <>
+    <Helmet>
+      <meta charSet="utf-8"/>
+      <title>BlueSense | Core | Analytics</title>
+      <link rel="canonical" href="https://bluesense.co/analytics"/>
+      <meta name="description" content="At BlueSense, our suite of solutions packages proprietary data, software, analytics, and expertise provide clients with a clear view of complex problems."/>
+      </Helmet>
       <div className='analytics-img'>
         <img src={analytics} alt=''></img>
         <div className='button-analytics'>

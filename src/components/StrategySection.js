@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./StrategySection.css";
 import strategy from "../images/strategy.png";
 import { Link } from "react-router-dom";
@@ -6,6 +7,12 @@ import { Link } from "react-router-dom";
 function StrategySection() {
   return (
     <>
+    <Helmet>
+      <meta charSet="utf-8"/>
+      <title>BlueSense | Core | Strategy</title>
+      <link rel="canonical" href="https://bluesense.co/strategy"/>
+      <meta name="description" content="BlueSense Strategy applies the latest analytics tools and state-of-the-art techniques—like machine learning, data mining, and sequential pattern analysis—to change the way companies interact with customers and to help them optimise internal processes. We continue to expand the scope of skills and experience it brings to our clients. "/>
+      </Helmet>
       <div className='strategy-img'>
         <img src={strategy} alt=''></img>
         <div className='button-strategy'>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./BlogComponent.css";
 import bigblog from "../images/blog-head.png";
 import blog1 from "../images/blog1.png";
@@ -8,6 +9,12 @@ import blog3 from "../images/blog3.png";
 function BlogComponent() {
   return (
     <>
+    <Helmet>
+      <meta charSet="utf-8"/>
+      <title>BlueSense | Blog</title>
+      <link rel="canonical" href="https://bluesense.co/blog"/>
+      <meta name="description" content="BlueSense Business Intelligence Management Consulting Firm"/>
+      </Helmet>
       <div className='blog-header'>
         <img src={bigblog} alt=''></img>
         <h1>BlueSense Blog</h1>

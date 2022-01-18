@@ -1,9 +1,18 @@
 import React from 'react'
+import { Helmet } from "react-helmet";
+
 import './AboutSection.css'
 
 function AboutSection() {
     return (
+        
         <>
+        <Helmet>
+      <meta charSet="utf-8"/>
+      <title>BlueSense | About</title>
+      <link rel="canonical" href="https://bluesense.co/about"/>
+      <meta name="description" content="BlueSense is a business intelligence consulting firm that is committed to improving clarity, trust, and learning in the workplace. BlueSense has three core competencies:..."/>
+      </Helmet>
             <div className='about-section-1'>
                 <h1 className='about-heading'>
                     About
