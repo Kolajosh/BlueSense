@@ -9,11 +9,13 @@ function ProfileIcons() {
           <h1>Team</h1>
         </div>
         <div className="icons1">
-          <ul className="picons">
-            <div className="picon1">
+          <div className="picon1">
+            <ul className="picons">
               <li>
                 <img src={kola} alt=""></img>
               </li>
+            </ul>
+            <ul>
               <li>
                 <p>Kolawole Ayoola</p>
                 <p className="blue">
@@ -21,12 +23,14 @@ function ProfileIcons() {
                   <br /> Intern
                 </p>
               </li>
-            </div>
-            <div className="picon2">
+            </ul>
+          </div>
+          <div className="picon2">
+            <ul>
               <li></li>
               <li></li>
-            </div>
-          </ul>
+            </ul>
+          </div>
         </div>
       </div>
     </>

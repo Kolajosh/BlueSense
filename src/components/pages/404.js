@@ -6,7 +6,7 @@ function custom404() {
   return (
     <>
       <div className="error404">
-        <h2>404 Page Not Found!</h2>
+        <h1>404 Page Not Found!</h1>
         <p>
           The page you're looking for does not exist! Click
           <Link to="/" className="home-link">

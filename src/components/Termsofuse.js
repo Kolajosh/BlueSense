@@ -4,17 +4,17 @@ import "./Termsofuse.css";
 function Termsofuse() {
   return (
     <>
-      <div className='terms-container'>
-        <div className='terms-sect-1'>
+      <div className="terms-container">
+        <div className="terms-sect-1">
           <h1>Terms and Conditions</h1>
           <p>
-            Last Updated: <span className='blue'>8th December 2021</span>
+            Last Updated: <span className="blue">8th December 2021</span>
           </p>
           <br />
           <p>
             Please read these Terms and Conditions carefully before using the
             http://www.bluesense.co website operated by{" "}
-            <span className='blue'>BlueSense</span>.
+            <span className="blue">BlueSense</span>.
           </p>
           <br />
           <p>
@@ -29,15 +29,15 @@ function Termsofuse() {
             access the Service.
           </p>
           <br />
-          <h3>Links To Other Websites</h3>
+          <h2>Links To Other Websites</h2>
           <p>
             Our Service may contain links to third-party web sites or services
             that are not owned or controlled by{" "}
-            <span className='blue'>BlueSense</span>.
+            <span className="blue">BlueSense</span>.
           </p>
           <br />
           <p>
-            <span className='blue'>BlueSense</span> has no control over, and
+            <span className="blue">BlueSense</span> has no control over, and
             assumes no responsibility for, the content, privacy policies, or
             practices of any third party web sites or services. You further
             acknowledge and agree that BlueSense shall not be responsible or

@@ -19,72 +19,90 @@ function FooterComponent() {
             <div className="right-text">
               <ul className="footer-items">
                 <div className="col-2">
-                  <li>
-                    <Link to="/" className="footer-link">
-                      Home
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/about" className="footer-link">
-                      About
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/terms" className="footer-link">
-                      <span className="blue-link">Terms of use</span>
-                    </Link>
-                  </li>
+                  <ul>
+                    <li>
+                      <Link to="/" className="footer-link">
+                        Home
+                      </Link>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <Link to="/about" className="footer-link">
+                        About
+                      </Link>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <Link to="/terms" className="footer-link">
+                        <span className="blue-link">Terms of use</span>
+                      </Link>
+                    </li>
+                  </ul>
                 </div>
                 <div className="col-2">
-                  <li>
-                    <Link to="/blog" className="footer-link">
-                      Blog
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/contact" className="footer-link">
-                      Contact
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/privacypolicy" className="footer-link">
-                      <span className="blue-link">Privacy Policy</span>
-                    </Link>
-                  </li>
+                  <ul>
+                    <li>
+                      <Link to="/blog" className="footer-link">
+                        Blog
+                      </Link>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <Link to="/contact" className="footer-link">
+                        Contact
+                      </Link>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <Link to="/privacypolicy" className="footer-link">
+                        <span className="blue-link">Privacy Policy</span>
+                      </Link>
+                    </li>
+                  </ul>
                 </div>
                 <div className="col-1">
-                  <li>
-                    <Link to="/core" className="footer-link">
-                      Core
-                    </Link>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.linkedin.com/company/bluesensegroup/"
-                      className="linkedin"
-                    >
-                      <i class="fab fa-linkedin "></i>
-                    </a>
-                    <a
-                      href="https://www.twitter.com/bluesensegroup/"
-                      className="footer-link"
-                      aria-label="twitter"
-                    >
-                      <i class="fab fa-twitter-square "></i>
-                    </a>
-                    <a
-                      href="https://www.facebook.com/bluesensegroup/"
-                      className="footer-link"
-                      aria-label="facebook"
-                    >
-                      <i class="fab fa-facebook-square "></i>
-                    </a>
-                  </li>
-                  <li>
-                    <Link to="/cookiepolicy" className="footer-link">
-                      <span className="blue-link">Cookie Policy</span>
-                    </Link>
-                  </li>
+                  <ul>
+                    <li>
+                      <Link to="/core" className="footer-link">
+                        Core
+                      </Link>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/company/bluesensegroup/"
+                        className="linkedin"
+                      >
+                        <i class="fab fa-linkedin "></i>
+                      </a>
+                      <a
+                        href="https://www.twitter.com/bluesensegroup/"
+                        className="footer-link"
+                        aria-label="twitter"
+                      >
+                        <i class="fab fa-twitter-square "></i>
+                      </a>
+                      <a
+                        href="https://www.facebook.com/bluesensegroup/"
+                        className="footer-link"
+                        aria-label="facebook"
+                      >
+                        <i class="fab fa-facebook-square "></i>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <Link to="/cookiepolicy" className="footer-link">
+                        <span className="blue-link">Cookie Policy</span>
+                      </Link>
+                    </li>
+                  </ul>
                 </div>
               </ul>
             </div>
