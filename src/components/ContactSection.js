@@ -120,8 +120,8 @@ function ContactSection(props) {
           <h1>Contact</h1>
           <p>
             Want to connect with <span className="blue">BlueSense:</span> to
-            discuss possible consulting engagements,<br></br>
-            please get in touch with us via the info/form below.
+            discuss possible consulting engagements, please get in touch with us
+            via the info/form below.
           </p>
         </div>
 
