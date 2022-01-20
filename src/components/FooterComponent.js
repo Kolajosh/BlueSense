@@ -35,7 +35,7 @@ function FooterComponent() {
                   </ul>
                   <ul>
                     <li>
-                      <Link to="/terms" className="footer-link">
+                      <Link to="/terms" className="footer-link" target="_blank">
                         <span className="blue-link">Terms of use</span>
                       </Link>
                     </li>
@@ -58,7 +58,11 @@ function FooterComponent() {
                   </ul>
                   <ul>
                     <li>
-                      <Link to="/privacypolicy" className="footer-link">
+                      <Link
+                        to="/privacypolicy"
+                        className="footer-link"
+                        target="_blank"
+                      >
                         <span className="blue-link">Privacy Policy</span>
                       </Link>
                     </li>
@@ -76,22 +80,28 @@ function FooterComponent() {
                     <li>
                       <a
                         href="https://www.linkedin.com/company/bluesensegroup/"
+                        target="_blank"
                         className="footer-link"
                         aria-label="linkedin"
+                        rel="noreferrer"
                       >
                         <i class="fab fa-linkedin "></i>
                       </a>
                       <a
                         href="https://www.twitter.com/bluesensegroup/"
+                        target="_blank"
                         className="footer-link"
                         aria-label="twitter"
+                        rel="noreferrer"
                       >
                         <i class="fab fa-twitter-square "></i>
                       </a>
                       <a
                         href="https://www.facebook.com/bluesensegroup/"
+                        target="_blank"
                         className="footer-link"
                         aria-label="facebook"
+                        rel="noreferrer"
                       >
                         <i class="fab fa-facebook-square "></i>
                       </a>
@@ -99,7 +109,11 @@ function FooterComponent() {
                   </ul>
                   <ul>
                     <li>
-                      <Link to="/cookiepolicy" className="footer-link">
+                      <Link
+                        to="/cookiepolicy"
+                        className="footer-link"
+                        target="_blank"
+                      >
                         <span className="blue-link">Cookie Policy</span>
                       </Link>
                     </li>
@@ -111,7 +125,7 @@ function FooterComponent() {
             <div className="subfoot">
               <div className="sub-foot">
                 <p>
-                  <i class="far fa-copyright"></i>2013-2021 BlueSense. Reuben &
+                  <i class="far fa-copyright"></i>2013-2022 BlueSense. Reuben &
                   Company. Lagos. Nigeria. All Rights Reserved.{" "}
                 </p>
               </div>

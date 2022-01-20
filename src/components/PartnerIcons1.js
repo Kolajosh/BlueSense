@@ -8,13 +8,13 @@ import "./PartnerIcons1.css";
 function PartnerIcons1() {
   return (
     <>
-      <div className='paticon1-head'>
+      <div className="paticon1-head">
         <h1>Partners</h1>
       </div>
-      <ul className='paticons-list'>
-        <div className='paticon1'>
-          <img src={christian} alt=''></img>
-          <div className='overlay1'>
+      <ul className="paticons-list">
+        <div className="paticon1">
+          <img src={christian} alt=""></img>
+          <div className="overlay1">
             <p>
               Christian is a consultant + coach. He helps organisations in the
               continent build people. As Lead Partner for Reuben & Company
@@ -22,18 +22,18 @@ function PartnerIcons1() {
               concrete research), the best strategies for growth and advise
               startups on how to effectively improve human energy. <br></br>
               <br></br>
-              <i class='fab fa-linkedin'></i>
+              <i class="fab fa-linkedin"></i>
             </p>
           </div>
           <li>
             <p>Christian Reuben</p>
-            <p className='blue'>Lead Partner</p>
+            <p className="blue">Lead Partner</p>
           </li>
         </div>
 
-        <div className='paticon1'>
-          <img src={emmanuel} alt=''></img>
-          <div className='overlay1'>
+        <div className="paticon1">
+          <img src={emmanuel} alt=""></img>
+          <div className="overlay1">
             <p>
               Emmanuel is a multiple CISCO certified IT Speacialist with 8+
               years experience in planning, implementing and supporting network
@@ -41,18 +41,22 @@ function PartnerIcons1() {
               experience with Saipem, Siemens UK, to mention but a few.{" "}
               <br></br>
               <br></br>
-              <i class='fab fa-linkedin'></i>
+              <i class="fab fa-linkedin"></i>
             </p>
           </div>
           <li>
-            <p>Emmanuel Thom-manuel</p>
-            <p className='blue'>Operations Partner</p>
+            <p className="emmanuel">Emmanuel Thom-manuel</p>
+            <p className="emmanuel1">
+              Emmanuel
+              <br /> Thom-manuel
+            </p>
+            <p className="blue">Operations Partner</p>
           </li>
         </div>
 
-        <div className='paticon1'>
-          <img src={seye} alt=''></img>
-          <div className='overlay1'>
+        <div className="paticon1">
+          <img src={seye} alt=""></img>
+          <div className="overlay1">
             <p>
               Seye is an award winning still-life photographer and
               environmentalist. Inspired by nature, culture and happenings
@@ -61,18 +65,18 @@ function PartnerIcons1() {
               it is beautiful. She is a skilled creative artist who works with
               vision and compassion. <br></br>
               <br></br>
-              <i class='fab fa-linkedin'></i>
+              <i class="fab fa-linkedin"></i>
             </p>
           </div>
           <li>
             <p>Seye Jimo</p>
-            <p className='blue'>Creative Partner</p>
+            <p className="blue">Creative Partner</p>
           </li>
         </div>
 
-        <div className='paticon1'>
-          <img src={natasha} alt=''></img>
-          <div className='overlay1'>
+        <div className="paticon1">
+          <img src={natasha} alt=""></img>
+          <div className="overlay1">
             <p>
               Natasha has a PhD in Risk Assesment Management and vast experience
               working in different sectors. She has a strong passion for
@@ -80,12 +84,12 @@ function PartnerIcons1() {
               She has a concrete background in research with a focus on Risk
               Management that she deploys on client projects. <br></br>
               <br></br>
-              <i class='fab fa-linkedin'></i>
+              <i class="fab fa-linkedin"></i>
             </p>
           </div>
           <li>
             <p>Natasha Oyibo</p>
-            <p className='blue'>Research Partner</p>
+            <p className="blue">Research Partner</p>
           </li>
         </div>
       </ul>
