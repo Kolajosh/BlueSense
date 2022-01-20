@@ -4,50 +4,50 @@ import "./Hwwsection.css";
 function Hwwsection() {
   return (
     <>
-      <div className='hww-container'>
-        <h1 className='hww-heading'>How We Work</h1>
-        <p className='hww-body'>
+      <div className="hww-container">
+        <h1 className="hww-heading">How We Work</h1>
+        <p className="hww-body">
           How we work we support organisations through a detailed
           diagnostic-approach; researching organisational problems to find out
           what challenges your company+teams on a day-to-day; then build out
           proactive solutionsthat utilise our expertise + experience to solve
           your most pressing problems and attain set goals & objectives.
         </p>
-        <div className='hww-foot-div'>
-          <ul className='hww-big-ul'>
-            <li className='hww-big-list'>
+        <div className="hww-foot-div">
+          <ul className="hww-big-ul">
+            <li className="hww-big-list">
               <h1>
-                45 <span class='icon-right-arrow-123'></span>
+                45 <span class="icon-right-arrow-123"></span>
                 <li>
                   {" "}
-                  <i class='fas fa-arrow-down'></i>
+                  <i class="fas fa-arrow-down"></i>
+                </li>
+              </h1>
+            </li>
+            <li className="hww-big-list1">
+              <h1>
+                3.5 MONTHS <span class="icon-right-arrow-123"></span>
+                <li>
+                  {" "}
+                  <i class="fas fa-arrow-down"></i>
                 </li>
               </h1>
             </li>
             <li>
-              <h1>
-                3.5 MONTHS <span class='icon-right-arrow-123'></span>
-                <li>
-                  {" "}
-                  <i class='fas fa-arrow-down'></i>
-                </li>
-              </h1>
-            </li>
-            <li>
-              <h1>
+              <h1 className="hww-big-list2">
                 $100+{" "}
                 <li>
-                  <i class='fas fa-arrow-down'></i>
+                  <i class="fas fa-arrow-down"></i>
                 </li>
               </h1>
             </li>
           </ul>
-          <ul className='hww-foot-ul'>
-            <li className='hww-foot-list'>Projects Executed</li>
-            <div className='hww1'>
+          <ul className="hww-foot-ul">
+            <li className="hww-foot-list">Projects Executed</li>
+            <div className="hww1">
               <li>Average Project Length</li>
             </div>
-            <div className='hww2'>
+            <div className="hww2">
               <li>Added to Client Bottomline</li>
             </div>
           </ul>
