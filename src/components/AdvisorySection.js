@@ -9,7 +9,7 @@ function AdvisorySection() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>BlueSense | Core | Advisory</title>
+        <title>Advisory | Core | BlueSense</title>
         <link rel="canonical" href="https://bluesense.co/advisory" />
         <meta
           name="description"

@@ -9,7 +9,7 @@ function LearningSection() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>BlueSense | Core | Learning</title>
+        <title>Learning | Core | BlueSense</title>
         <link rel="canonical" href="https://bluesense.co/learning" />
         <meta
           name="description"
@@ -17,7 +17,7 @@ function LearningSection() {
         />
         <meta
           name="keywords"
-          content="Business, Consultng, Startups, learning, Strategy, learn, Contact, workshop"
+          content="Business, Consultng, Startups, learning, Strategy, learn, Contact, workshop, leadership"
         />
       </Helmet>
       <div className="learning-img">

@@ -9,7 +9,7 @@ function StrategySection() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>BlueSense | Core | Strategy</title>
+        <title>Strategy | Core | BlueSense</title>
         <link rel="canonical" href="https://bluesense.co/strategy" />
         <meta
           name="description"
@@ -17,7 +17,7 @@ function StrategySection() {
         />
         <meta
           name="keywords"
-          content="Business, Consultng, Startups, Intelligence, Strategy, Consult, Contact, critical"
+          content="Business, Consultng, Startups, Intelligence, Strategy, Consult, Contact, critical, business, planning"
         />
       </Helmet>
       <div className="strategy-img">

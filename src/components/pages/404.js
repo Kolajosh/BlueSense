@@ -1,10 +1,15 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import "../404.css";
 
 function custom404() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>404 PageNotFounnd | BlueSense</title>
+      </Helmet>
       <div className="error404">
         <h1>404 Page Not Found!</h1>
         <p>

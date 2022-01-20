@@ -76,7 +76,8 @@ function FooterComponent() {
                     <li>
                       <a
                         href="https://www.linkedin.com/company/bluesensegroup/"
-                        className="linkedin"
+                        className="footer-link"
+                        aria-label="linkedin"
                       >
                         <i class="fab fa-linkedin "></i>
                       </a>

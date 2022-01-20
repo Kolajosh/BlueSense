@@ -104,7 +104,7 @@ function ContactSection(props) {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>BlueSense | Contact</title>
+        <title>Contact | BlueSense</title>
         <link rel="canonical" href="https://bluesense.co/contact" />
         <meta
           name="description"

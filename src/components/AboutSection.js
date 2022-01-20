@@ -16,7 +16,7 @@ function AboutSection() {
         />
         <meta
           name="keywords"
-          content="Business, Consultng, Startups, Intelligence, Strategy, About"
+          content="Business, Consultng, Startups, Intelligence, Strategy, About, Information, Bluesense"
         />
       </Helmet>
       <div className="about-section-1">
