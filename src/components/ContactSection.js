@@ -35,7 +35,7 @@ function ContactSection(props) {
       setIsSubmit(true);
       emailjs
         .sendForm(
-          "service_wevcbf6",
+          "service_017ymhr",
           "template_envdqpg",
           e.target,
           "user_sc09DmLC2475WRQJDOeWU"
