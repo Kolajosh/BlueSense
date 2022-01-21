@@ -28,9 +28,7 @@ function AboutSection() {
           competencies:
         </p>
         <p className="about-section-subparagraph">
-          <span className="about-blue">
-            Simplicity + Innovation + Challenging Excellence
-          </span>
+          <span className="about-blue">Advisory + Strategy + Learning</span>
         </p>
         <ol className="about-section-paragraph-list">
           <li>
