@@ -10,7 +10,7 @@ function AnalyticsSection1() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Analytics | Core | BlueSense</title>
-        <link rel="canonical" href="https://bluesense.co/analytics" />
+        <link rel="canonical" href="https://www.bluesense.co/analytics" />
         <meta
           name="description"
           content="At BlueSense, our suite of solutions packages proprietary data, software, analytics, and expertise provide clients with a clear view of complex problems."

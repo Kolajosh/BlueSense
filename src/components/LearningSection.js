@@ -10,7 +10,7 @@ function LearningSection() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Learning | Core | BlueSense</title>
-        <link rel="canonical" href="https://bluesense.co/learning" />
+        <link rel="canonical" href="https://www.bluesense.co/learning" />
         <meta
           name="description"
           content="BlueSense learning brings together expertise in technology, management, design, strategy, organisation, and analytics to help clients reinvent themselves. "
