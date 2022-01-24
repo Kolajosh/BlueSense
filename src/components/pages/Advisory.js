@@ -9,7 +9,7 @@ export default function Advisory() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Advisory | Core | BlueSense</title>
-        <link rel="canonical" href="https://www.bluesense.co/advisory" />
+        <link rel="canonical" href="https://www.bluesense.co/advisory/" />
         <meta
           name="description"
           content="BlueSense Advisory helps teams and managers build the skills needed for long-term success."

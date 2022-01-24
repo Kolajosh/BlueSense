@@ -23,7 +23,7 @@ function TraitsOfGreatFounders() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Traits Of Great Founders | Blog | BlueSense</title>
-        <link rel="canonical" href="//www.bluesense.co/traitsofgoodfounders" />
+        <link rel="canonical" href="//www.bluesense.co/traitsofgoodfounders/" />
         <meta
           name="description"
           content="The best companies today, started out with the best founders. The best founders have unique qualities which they have honed overtime. The best founders have a clear vision for the company they run. This is easily the most important of all qualities of a great..."

@@ -23,7 +23,7 @@ function SixGuides() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>6 Guides | Blog | BlueSense</title>
-        <link rel="canonical" href="https://www.bluesense.co/6guides" />
+        <link rel="canonical" href="https://www.bluesense.co/6guides/" />
         <meta
           name="description"
           content="Raising funds for your startup is not as difficult as you think; because there are more investors out there than there are startups. These six elements will help you convince investors to put their money in your startup?..."

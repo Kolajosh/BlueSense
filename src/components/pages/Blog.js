@@ -9,7 +9,7 @@ export default function Blog() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Blog | BlueSense</title>
-        <link rel="canonical" href="https://www.bluesense.co/blog" />
+        <link rel="canonical" href="https://www.bluesense.co/blog/" />
         <meta
           name="description"
           content="BlueSense Business Intelligence Management Consulting Firm"

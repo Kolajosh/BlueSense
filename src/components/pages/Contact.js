@@ -9,7 +9,7 @@ export default function Contact() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Contact | BlueSense</title>
-        <link rel="canonical" href="https://www.bluesense.co/contact" />
+        <link rel="canonical" href="https://www.bluesense.co/contact/" />
         <meta
           name="description"
           content="BlueSense Business Intelligence Management Consulting Firm"
