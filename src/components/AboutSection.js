@@ -24,30 +24,22 @@ function AboutSection() {
         <p className="about-section-paragraph">
           <span className="about-blue">BlueSense</span> is a business
           intelligence consulting firm that is committed to improving clarity,
-          trust, and learning in the workplace. BlueSense has three core
-          competencies:
+          trust, and learning in the workplace.
         </p>
         <p className="about-section-subparagraph">
-          <span className="about-blue">Advisory + Strategy + Learning</span>
+          <span className="about-blue"> BlueSense</span> has three core
+          competencies:
+          <br /> Advisory, Strategy and Learning.{" "}
+          <span className="about-blue">i&nbsp; BlueSense Advisory</span>
+          provides research-based recommendations and improvement study for
+          client consideration and decision making.
+          <span className="about-blue">ii&nbsp; BlueSense Strategy</span> helps
+          you garner the most insightful information you need to make critical
+          decisions that can give your company a competitive edge.
+          <span className="about-blue">iii &nbsp;BlueSense Learning</span> is at
+          our core and helps you effectively build a competitive team that sets
+          your company apart.
         </p>
-        <ol className="about-section-paragraph-list">
-          <li>
-            <span className="about-blue">i</span>&nbsp; BlueSense Advisory
-            provides research-based recommendations and improvement study for
-            client consideration and decision making.
-          </li>
-          <li>
-            <span className="about-blue">ii</span>&nbsp; BlueSense Strategy
-            helps you garner the most insightful information you need to make
-            critical decisions that can give your company a competitive edge.
-          </li>
-          <li>
-            <span className="about-blue">iii</span> &nbsp;BlueSense Learning is
-            at our core and helps you effectively build a competitive team that
-            sets your company apart.
-          </li>
-        </ol>
-
         <h2 className="about-heading-2">Our History</h2>
         <p className="about-section-paragraph-2">
           We started our consulting services 7+ years ago; since then we have
@@ -56,39 +48,25 @@ function AboutSection() {
           hand-in-hand with top tier executives like you to guide them through
           the rough patches of building a robust business in the continent.
         </p>
-
         <h2 className="about-heading-3">Mission Statement</h2>
         <p className="about-section-paragraph-2">
           Our mission is to help build the next generation of top tier companies
           in the continent.
         </p>
-
         <h2 className="about-heading-4">Values</h2>
-        <p className="about-section-paragraph-2">Our values are:</p>
-        <p className="about-section-subparagraph-2">
-          <span className="about-blue-subparagraph">
-            Simplicity + Innovation + Challenging Excellence
-          </span>
+        <p className="about-section-paragraph-2">
+          Our values are: Simplicity. Innovation + Challenging Excellence <br />
+          <span className="about-blue">i&nbsp; Simplicity: </span>we believe the
+          most complex problems in the world can be solved by clarity in
+          thinking. We have a robust history of simplifying challenges for our
+          clientele.
+          <span className="about-blue">ii&nbsp; Innovation: </span>we help
+          companies find the most innovative ways to improve their teams +
+          company.
+          <span className="about-blue">iii&nbsp; Challenging Excellence:</span>
+          we work with exceptional clients whom we support to raise their game
+          to #1 in what they do; not just in the continent but in the world.
         </p>
-        <ol className="about-section-paragraph-2">
-          <li>
-            <span className="about-blue">i</span>&nbsp; Simplicity: we believe
-            the most complex problems in the world can be solved by clarity in
-            thinking. We have a robust history of simplifying challenges for our
-            clientele.
-          </li>
-          <li>
-            <span className="about-blue">ii</span>&nbsp; Innovation: we help
-            companies find the most innovative ways to improve their teams +
-            company.
-          </li>
-          <li>
-            <span className="about-blue">iii</span>&nbsp; Challenging
-            Excellence: we work with exceptional clients whom we support to
-            raise their game to #1 in what they do; not just in the continent
-            but in the world.
-          </li>
-        </ol>
         <h2 className="about-heading-5">Vision</h2>
         <p className="about-section-paragraph-3">
           Africa is becoming the next hub for companies + innovation; we want to

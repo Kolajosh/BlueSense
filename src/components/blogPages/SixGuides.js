@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./TraitsOfGreatFounders.css";
 import blog3 from "../../images/blog3.png";
 import {
@@ -16,9 +17,22 @@ import {
   WhatsappIcon,
 } from "react-share";
 
-function TraitsOfGreatFounders() {
+function SixGuides() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>6 Guides | Blog | BlueSense</title>
+        <link rel="canonical" href="https://www.bluesense.co/6guides" />
+        <meta
+          name="description"
+          content="Raising funds for your startup is not as difficult as you think; because there are more investors out there than there are startups. These six elements will help you convince investors to put their money in your startup?..."
+        />
+        <meta
+          name="keywords"
+          content="Business, guides, Consultng, Startups, Intelligence, Strategy, "
+        />
+      </Helmet>
       <div className="head-img">
         <img src={blog3} alt="Traits"></img>
         <h1>6 Guides to Fundraising for your Startup</h1>
@@ -156,4 +170,4 @@ function TraitsOfGreatFounders() {
   );
 }
 
-export default TraitsOfGreatFounders;
+export default SixGuides;

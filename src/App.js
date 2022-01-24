@@ -18,7 +18,7 @@ import Terms from "./components/pages/Terms.js";
 import custom404 from "./components/pages/404";
 import TraitsOfGreatFounders from "./components/blogPages/TraitsOfGreatFounders";
 import WhyCompetion from "./components/blogPages/WhyCompetition";
-import SixGuides from "./components/blogPages/6Guides";
+import SixGuides from "./components/blogPages/SixGuides";
 
 function App() {
   return (

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./TraitsOfGreatFounders.css";
 import blog1 from "../../images/blog1.png";
 import {
@@ -19,6 +20,19 @@ import {
 function TraitsOfGreatFounders() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Traits Of Great Founders | Blog | BlueSense</title>
+        <link rel="canonical" href="//www.bluesense.co/traitsofgoodfounders" />
+        <meta
+          name="description"
+          content="The best companies today, started out with the best founders. The best founders have unique qualities which they have honed overtime. The best founders have a clear vision for the company they run. This is easily the most important of all qualities of a great..."
+        />
+        <meta
+          name="keywords"
+          content="bluesense blog, Business, Consultng, founders, Intelligence, Blog, Articles"
+        />
+      </Helmet>
       <div className="head-img">
         <img src={blog1} alt="Traits"></img>
         <h1>Traits of great founders</h1>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./TraitsOfGreatFounders.css";
 import blog2 from "../../images/blog2.png";
 import {
@@ -16,9 +17,22 @@ import {
   WhatsappIcon,
 } from "react-share";
 
-function TraitsOfGreatFounders() {
+function WhyCompetition() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Why Competition is futile for Startups | Blog | BlueSense</title>
+        <link rel="canonical" href="//www.bluesense.co/whycompetition" />
+        <meta
+          name="description"
+          content="You should never start a startup in a massive or over-saturated market. You want to create a unique product and start with a small niche before scaling. Large and existing markets usually mean that you have tons of competition..."
+        />
+        <meta
+          name="keywords"
+          content="bluesense blog, competition, Business, Consultng, founders, Intelligence, Blog, Articles"
+        />
+      </Helmet>
       <div className="head-img">
         <img src={blog2} alt="Traits"></img>
         <h1>Why Competition is futile for your Startup</h1>
@@ -111,4 +125,4 @@ function TraitsOfGreatFounders() {
   );
 }
 
-export default TraitsOfGreatFounders;
+export default WhyCompetition;
