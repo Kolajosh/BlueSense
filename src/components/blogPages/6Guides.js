@@ -82,13 +82,24 @@ function TraitsOfGreatFounders() {
           <br /> Finally - you need to understand what the potential investor is
           interested in, why you may be an attractive opportunity, and what sets
           them (and you) apart from the competition. Here are a few things to
-          consider: i. Look at which companies they’ve backed in the past ii.
-          Can you discern any trends in the previous investment decisions? iii.
-          Are they sector agnostic? iv. What’s their average ticket size? v. Do
-          they co-invest? vi. Are they stage agnostic? (pre-Seed, Seed, Series
-          A, etc.) vii. What is the average valuation of their portfolio
-          companies? viii. What content are they sharing on social media: what
-          are they tweeting and retweeting?
+          consider: <br />
+          <br />
+          <span className="blue">i.</span>&nbsp; Look at which companies they’ve
+          backed in the past <br />
+          <span className="blue">ii.</span>&nbsp; Can you discern any trends in
+          the previous investment decisions? <br />
+          <span className="blue">iii.</span>&nbsp; Are they sector agnostic?{" "}
+          <br />
+          <span className="blue">iv.</span>&nbsp; What’s their average ticket
+          size?
+          <br />
+          <span className="blue">v.</span>&nbsp; Do they co-invest? <br />
+          <span className="blue">vi.</span>&nbsp; Are they stage agnostic?
+          (pre-Seed, Seed, Series A, etc.) <br />
+          <span className="blue">vii.</span>&nbsp; What is the average valuation
+          of their portfolio companies? <br />
+          <span className="blue">viii.</span>&nbsp; What content are they
+          sharing on social media: what are they tweeting and retweeting?
         </p>
       </div>
       <div className="share-buttons">
