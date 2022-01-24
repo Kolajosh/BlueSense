@@ -18,27 +18,18 @@ function Hwwsection() {
             <li className="hww-big-list">
               <h1>
                 45 <span class="icon-right-arrow-123"></span>
-                <li>
-                  {" "}
-                  <i class="fas fa-arrow-down"></i>
-                </li>
+                <li> </li>
               </h1>
             </li>
             <li className="hww-big-list1">
               <h1>
                 3.5 MONTHS <span class="icon-right-arrow-123"></span>
-                <li>
-                  {" "}
-                  <i class="fas fa-arrow-down"></i>
-                </li>
+                <li> </li>
               </h1>
             </li>
             <li>
               <h1 className="hww-big-list2">
-                $100+{" "}
-                <li>
-                  <i class="fas fa-arrow-down"></i>
-                </li>
+                $100+ <li></li>
               </h1>
             </li>
           </ul>
@@ -51,6 +42,35 @@ function Hwwsection() {
               <li>Added to Client Bottomline</li>
             </div>
           </ul>
+        </div>
+
+        <div className="hww-box">
+          <div className="hww-box-1">
+            <div className="hww-box-title">
+              <h2>45</h2>
+            </div>
+            <div className="hww-box-content">
+              <p>Projects Executed</p>
+            </div>
+          </div>
+
+          <div className="hww-box-2">
+            <div className="hww-box-title">
+              <h2>3.5 MONTHS</h2>
+            </div>
+            <div className="hww-box-content">
+              <p>Average Project Length</p>
+            </div>
+          </div>
+
+          <div className="hww-box-3">
+            <div className="hww-box-title">
+              <h2>$100+</h2>
+            </div>
+            <div className="hww-box-content">
+              <p>Added to Client Bottomline</p>
+            </div>
+          </div>
         </div>
       </div>
     </>

@@ -1,7 +1,7 @@
 .hww-container {
   margin-top: 50px;
   width: 100%;
-  height: 400px;
+  height: auto;
   display: grid;
   background: #f7f7f7;
 }
@@ -17,7 +17,6 @@
 .hww-body {
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: lighter;
-  margin-top: -30px;
   margin-left: 50px;
   color: #666666;
   margin-right: 50px;
@@ -108,6 +107,49 @@
   margin-right: -75px;
 }
 
+.hww-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+.hww-box-1,
+.hww-box-2,
+.hww-box-3 {
+  background-color: #fafafb;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  width: 85px;
+  height: 60px;
+  margin: 10px;
+}
+.hww-box-1,
+.hww-box-2,
+.hww-box-3,
+h2 {
+  font-family: Poppins sans-serif;
+  font-size: 11px;
+  font-weight: bolder;
+}
+.hww-box-1,
+.hww-box-2,
+.hww-box-3,
+p {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-size: 8px;
+}
+.hww-box-title {
+  margin-top: 10px;
+}
+.hww-box-content {
+  margin-top: 0px;
+  color: #0f74b9;
+}
+
+.hww-box {
+  display: none;
+}
 @media (max-width: 1300px) {
   .hww-container {
     height: 300px;
@@ -249,53 +291,11 @@
 }
 
 @media (max-width: 650px) {
-  .hww-big-ul h1 {
-    font-size: 9px;
-  }
-  .hww-foot-ul li {
-    font-size: 8px;
-  }
   .hww-foot-div {
-    display: grid;
-  }
-  .hww-big-ul {
-    grid-template-columns: 1;
-    margin-left: 5px;
-  }
-  .hww-big-list {
-    margin-left: -20px;
-  }
-  .hww-big-list1 {
-    padding-left: 10px;
-  }
-  .hww-big-list2 {
-    padding-left: 10px;
-  }
-  .hww-foot-ul {
-    grid-template-columns: 2;
-    font-size: 10px;
-    text-align: left;
-  }
-
-  .hww-foot-ul li {
-    font-size: 8px;
-  }
-
-  .icon-right-arrow-123 {
     display: none;
   }
-  .fa-arrow-down {
-    display: initial;
-    padding: 2px;
-  }
-  .hww-foot-ul {
-    padding-left: 70px;
-  }
-  .hww1 {
-    margin-left: -1px;
-  }
-  .hww2 {
-    margin-right: 0px;
+  .hww-box {
+    display: flex;
   }
 }
 
