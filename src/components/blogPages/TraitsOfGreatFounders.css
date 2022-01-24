@@ -1,0 +1,76 @@
+.head-img {
+  width: 100%;
+  height: auto;
+}
+.head-img img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
+
+.head-img h1 {
+  font-family: Popins, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #666666;
+  font-size: 54px;
+  font-weight: 600;
+}
+.blog1-text {
+  width: 100%;
+  height: auto;
+}
+.blog1-text p {
+  margin-left: 250px;
+  margin-right: 250px;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-size: 25px;
+  color: #666666;
+}
+.share-buttons {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.share-buttons h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+  .head-img h1 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .blog1-text p {
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .head-img h1 {
+    font-size: 34px;
+    font-weight: 600;
+  }
+  .blog1-text p {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 624px) {
+  .head-img h1 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .blog1-text p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 15px;
+  }
+}

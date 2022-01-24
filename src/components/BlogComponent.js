@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 import "./BlogComponent.css";
 import bigblog from "../images/blog-head.png";
 import blog1 from "../images/blog1.png";
@@ -41,15 +42,7 @@ function BlogComponent() {
               they run. This is easily the most important of all ...
             </p>
             <button className="read-more-btn">
-              <a
-                href="https://https://www.bluesense.org/post/traits-of-great-founders"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="bluesense post"
-              >
-                {" "}
-                Read More
-              </a>
+              <Link to="/traitsofgoodfounders"> Read More</Link>
             </button>
           </div>
         </div>

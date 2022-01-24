@@ -16,6 +16,7 @@ import PrivacyPolicy from "./components/pages/PrivacyPolicy";
 import CookiePolicy from "./components/pages/CookiePolicy";
 import Terms from "./components/pages/Terms.js";
 import custom404 from "./components/pages/404";
+import TraitsOfGreatFounders from "./components/blogPages/TraitsOfGreatFounders";
 
 function App() {
   return (
@@ -47,6 +48,11 @@ function App() {
         <Route exact path="/privacypolicy" component={PrivacyPolicy} />
         <Route exact path="/cookiepolicy" component={CookiePolicy} />
         <Route exact path="/terms" component={Terms} />
+        <Route
+          exact
+          path="/traitsofgoodfounders"
+          component={TraitsOfGreatFounders}
+        />
         <Route component={custom404} />
       </Switch>
       <FooterComponent />
