@@ -19,7 +19,7 @@ function BlogComponent() {
         />
         <meta
           name="keywords"
-          content="Business, Consultng, Startups, Intelligence, Blog, Articles"
+          content="bluesense blog, Business, Consultng, Startups, Intelligence, Blog, Articles"
         />
       </Helmet>
       <div className="blog-header">
