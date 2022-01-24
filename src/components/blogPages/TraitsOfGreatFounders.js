@@ -76,7 +76,7 @@ function TraitsOfGreatFounders() {
       <div className="share-buttons">
         <h3>Share</h3>
         <FacebookShareButton
-          url="https://www.bluesense.co/about"
+          url="https://www.bluesense.co/traitsofgoodfounders"
           quote={"Traits of great founders"}
           hashtag={"#Article"}
         >
@@ -84,7 +84,7 @@ function TraitsOfGreatFounders() {
         </FacebookShareButton>
 
         <WhatsappShareButton
-          url="https://www.bluesense.co/about"
+          url="https://www.bluesense.co/traitsofgoodfounders"
           quote={"Traits of great founders"}
           hashtag={"#Article"}
         >
@@ -92,7 +92,7 @@ function TraitsOfGreatFounders() {
         </WhatsappShareButton>
 
         <TwitterShareButton
-          url="https://www.bluesense.co/about"
+          url="https://www.bluesense.co/traitsofgoodfounders"
           quote={"Traits of great founders"}
           hashtag={"#Article"}
         >
@@ -100,7 +100,7 @@ function TraitsOfGreatFounders() {
         </TwitterShareButton>
 
         <LinkedinShareButton
-          url="https://www.bluesense.co/about"
+          url="https://www.bluesense.co/traitsofgoodfounders"
           quote={"Traits of great founders"}
           hashtag={"#Article"}
         >
@@ -108,7 +108,7 @@ function TraitsOfGreatFounders() {
         </LinkedinShareButton>
 
         <TelegramShareButton
-          url="https://www.bluesense.co/about"
+          url="https://www.bluesense.co/traitsofgoodfounders"
           quote={"Traits of great founders"}
           hashtag={"#Article"}
         >
@@ -116,7 +116,7 @@ function TraitsOfGreatFounders() {
         </TelegramShareButton>
 
         <EmailShareButton
-          url="https://www.bluesense.co/about"
+          url="https://www.bluesense.co/traitsofgoodfounders"
           quote={"Traits of great founders"}
           hashtag={"#Article"}
         >

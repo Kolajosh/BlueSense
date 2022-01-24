@@ -61,14 +61,7 @@ function BlogComponent() {
               niche before scaling. Large and ...
             </p>
             <button className="read-more-btn">
-              <a
-                href="https://www.linkedin.com/pulse/why-competition-futile-your-startup-bluesensegroup/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="bluesense post"
-              >
-                Read More
-              </a>
+              <Link to="/whycompetition"> Read More</Link>
             </button>
           </div>
         </div>
@@ -87,14 +80,7 @@ function BlogComponent() {
               startups. These six ...
             </p>
             <button className="read-more-btn">
-              <a
-                href="https://www.linkedin.com/pulse/6-guides-fundraising-your-startup-bluesensegroup/?trackingId=LestDvtMBolKzG4fxg3AXg%3D%3D"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="bluesense post"
-              >
-                Read More
-              </a>
+              <Link to="/6guides"> Read More</Link>
             </button>
           </div>
         </div>
