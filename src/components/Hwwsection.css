@@ -124,18 +124,32 @@
   height: 60px;
   margin: 10px;
 }
-.hww-box-1,
-.hww-box-2,
-.hww-box-3,
-h2 {
-  font-family: Poppins sans-serif;
+.hww-box-1 h2 {
+  font-family: Poppins, sans-serif;
   font-size: 11px;
   font-weight: bolder;
 }
-.hww-box-1,
-.hww-box-2,
-.hww-box-3,
-p {
+.hww-box-2 h2 {
+  font-family: Poppins, sans-serif;
+  font-size: 11px;
+  font-weight: bolder;
+}
+.hww-box-3 h2 {
+  font-family: Poppins, sans-serif;
+  font-size: 11px;
+  font-weight: bolder;
+}
+.hww-box-1 p {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-size: 8px;
+  font-weight: 200;
+}
+.hww-box-2 p {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-size: 8px;
+  font-weight: 200;
+}
+.hww-box-3 p {
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-size: 8px;
   font-weight: 200;
@@ -143,6 +157,7 @@ p {
 .hww-box-title {
   margin-top: 10px;
 }
+
 .hww-box-content {
   margin-top: 0px;
   color: #0f74b9;
