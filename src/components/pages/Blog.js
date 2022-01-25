@@ -12,7 +12,7 @@ export default function Blog() {
         <link rel="canonical" href="https://www.bluesense.co/blog/" />
         <meta
           name="description"
-          content="BlueSense Business Intelligence Management Consulting Firm"
+          content="View BlueSense Blog for Related Articles"
         />
         <meta
           name="keywords"

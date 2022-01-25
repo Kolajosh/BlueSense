@@ -11,15 +11,15 @@ export default function Home() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Blog | BlueSense</title>
+        <title>BlueSense | Business Consulting</title>
         <link rel="canonical" href="https://www.bluesense.co/" />
         <meta
           name="description"
-          content="BlueSense Business Intelligence Management Consulting Firm"
+          content="BlueSense is a business intelligence management consulting firm. We are the trusted advisors to some of the country’s leading startups, technology companies and a handful of international institutions. We work with leading organisations like yours across private, public and nonprofit sectors to produce bankable results."
         />
         <meta
           name="keywords"
-          content="bluesense blog, Business, Consultng, Startups, Intelligence, Blog, Articles"
+          content="Business, Consultng, Startups, Intelligence, Strategy, "
         />
       </Helmet>
       <HeroSection />
