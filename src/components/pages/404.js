@@ -8,7 +8,7 @@ function custom404() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>404 PageNotFounnd | BlueSense</title>
+        <title>404 PageNotFounnd</title>
       </Helmet>
       <div className="error404">
         <h1>404 Page Not Found!</h1>
@@ -18,7 +18,7 @@ function custom404() {
             {" "}
             here
           </Link>{" "}
-          to return to the homepage
+          to return to the homepage.
         </p>
       </div>
     </>

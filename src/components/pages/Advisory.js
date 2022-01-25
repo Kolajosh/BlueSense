@@ -16,7 +16,7 @@ export default function Advisory() {
         />
         <meta
           name="keywords"
-          content="Business, Consultng,  Strategy, Consult, Contact, advisory, advise"
+          content="Business, BlueSense, bluesense, Consultng, startups, Strategy, Consult, Contact, advisory, advise"
         />
       </Helmet>
       <AdvisorySection />

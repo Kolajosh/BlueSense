@@ -1,24 +1,10 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 
 import "./AboutSection.css";
 
 function AboutSection() {
   return (
     <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>About | BlueSense</title>
-        <link rel="canonical" href="https://www.bluesense.co/about/" />
-        <meta
-          name="description"
-          content="BlueSense is a business intelligence consulting firm that is committed to improving clarity, trust, and learning in the workplace. BlueSense has three core competencies:..."
-        />
-        <meta
-          name="keywords"
-          content="Business, Consultng, Startups, Intelligence, Strategy, About, Information, Bluesense about"
-        />
-      </Helmet>
       <div className="about-section-1">
         <h1 className="about-heading">About</h1>
         <p className="about-section-paragraph">
@@ -35,7 +21,7 @@ function AboutSection() {
           client consideration and decision making.
           <span className="about-blue">ii&nbsp; BlueSense Strategy</span> helps
           you garner the most insightful information you need to make critical
-          decisions that can give your company a competitive edge.
+          decisions that can give your startup a competitive edge.
           <span className="about-blue">iii &nbsp;BlueSense Learning</span> is at
           our core and helps you effectively build a competitive team that sets
           your company apart.
@@ -61,7 +47,7 @@ function AboutSection() {
           thinking. We have a robust history of simplifying challenges for our
           clientele.
           <span className="about-blue">ii&nbsp; Innovation: </span>we help
-          companies find the most innovative ways to improve their teams +
+          startups find the most innovative ways to improve their teams +
           company.
           <span className="about-blue">iii&nbsp; Challenging Excellence:</span>
           we work with exceptional clients whom we support to raise their game
@@ -69,8 +55,8 @@ function AboutSection() {
         </p>
         <h2 className="about-heading-5">Vision</h2>
         <p className="about-section-paragraph-3">
-          Africa is becoming the next hub for companies + innovation; we want to
-          be the go to consulting firm for companies in the continent - for
+          Africa is becoming the next hub for startups + innovation; we want to
+          be the go to consulting firm for startups in the continent - for
           advisory, learning + strategy.
         </p>
       </div>

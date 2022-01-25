@@ -1,5 +1,4 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import Navbar from "./components/Navbar";
 import "./App.css";
 import Home from "./components/pages/Home";
@@ -24,20 +23,6 @@ import Nsb from "./components/blogPages/Nsb";
 function App() {
   return (
     <Router>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>BlueSense | Business Consulting</title>
-        <link rel="canonical" href="https://www.bluesense.co/" />
-        <meta
-          name="description"
-          content="BlueSense is a business intelligence management consulting firm. We are the trusted advisors to some of the country’s leading startups, technology companies and a handful of international institutions. We work with leading organisations like yours across private, public and nonprofit sectors to produce bankable results."
-        />
-        <meta
-          name="keywords"
-          content="Business, Consultng, Startups, Intelligence, Strategy, "
-        />
-      </Helmet>
-
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
@@ -51,7 +36,6 @@ function App() {
         <Route exact path="/privacypolicy" component={PrivacyPolicy} />
         <Route exact path="/cookiepolicy" component={CookiePolicy} />
         <Route exact path="/terms" component={Terms} />
-        <Route exact path="/6guides" component={SixGuides} />
         <Route
           exact
           path="/traitsofgoodfounders"
@@ -59,6 +43,8 @@ function App() {
         />
         <Route exact path="/whycompetition" component={WhyCompetion} />
         <Route exact path="/nsb" component={Nsb} />
+        <Route exact path="/6guides" component={SixGuides} />
+
         <Route component={custom404} />
       </Switch>
       <FooterComponent />

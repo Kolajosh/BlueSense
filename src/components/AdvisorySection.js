@@ -1,5 +1,4 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import "./AdvisorySection.css";
 import advisory from "../images/advisory.png";
 import { Link } from "react-router-dom";
@@ -7,19 +6,6 @@ import { Link } from "react-router-dom";
 function AdvisorySection() {
   return (
     <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Advisory | Core | BlueSense</title>
-        <link rel="canonical" href="https://www.bluesense.co/advisory/" />
-        <meta
-          name="description"
-          content="BlueSense Advisory helps teams and managers build the skills needed for long-term success."
-        />
-        <meta
-          name="keywords"
-          content="Business, Consultng,  Strategy, Consult, Contact, advisory, advise"
-        />
-      </Helmet>
       <div className="advisory-img">
         <img src={advisory} alt=""></img>
         <div className="button-advisory">

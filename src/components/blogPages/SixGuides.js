@@ -42,7 +42,7 @@ function SixGuides() {
           <div className="flex2">
             <FacebookShareButton
               url="https://www.bluesense.co/6guides"
-              quote={"Traits of great founders"}
+              quote={"6 Guides to Fundraising for your Startup"}
               hashtag={"#Article"}
             >
               <FacebookIcon size={25} round={true} />
@@ -50,7 +50,7 @@ function SixGuides() {
 
             <WhatsappShareButton
               url="https://www.bluesense.co/6guides"
-              quote={"Traits of great founders"}
+              quote={"6 Guides to Fundraising for your Startup"}
               hashtag={"#Article"}
             >
               <WhatsappIcon size={25} round={true} />
@@ -58,7 +58,7 @@ function SixGuides() {
 
             <TwitterShareButton
               url="https://www.bluesense.co/6guides"
-              quote={"Traits of great founders"}
+              quote={"6 Guides to Fundraising for your Startup"}
               hashtag={"#Article"}
             >
               <TwitterIcon size={25} round={true} />
@@ -66,7 +66,7 @@ function SixGuides() {
 
             <LinkedinShareButton
               url="https://www.bluesense.co/6guides"
-              quote={"Traits of great founders"}
+              quote={"6 Guides to Fundraising for your Startup"}
               hashtag={"#Article"}
             >
               <LinkedinIcon size={25} round={true} />
@@ -74,7 +74,7 @@ function SixGuides() {
 
             <TelegramShareButton
               url="https://www.bluesense.co/6guides"
-              quote={"Traits of great founders"}
+              quote={"6 Guides to Fundraising for your Startup"}
               hashtag={"#Article"}
             >
               <TelegramIcon size={25} round={true} />
@@ -82,7 +82,7 @@ function SixGuides() {
 
             <EmailShareButton
               url="https://www.bluesense.co/6guides"
-              quote={"Traits of great founders"}
+              quote={"6 Guides to Fundraising for your Startup"}
               hashtag={"#Article"}
             >
               <EmailIcon size={25} round={true} />

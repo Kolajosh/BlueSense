@@ -17,7 +17,7 @@ export default function Analytics() {
         />
         <meta
           name="keywords"
-          content="Business, Consultng, data, Startups, Intelligence, Strategy, analysis, analytics, Contact"
+          content="Business, bluesense, BlueSense Consultng, data, Startups, Intelligence, Strategy, analysis, analytics, Contact"
         />
       </Helmet>
       <AnalyticsSection1 />

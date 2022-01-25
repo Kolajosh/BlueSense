@@ -1,5 +1,4 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import "./BlogComponent.css";
 import bigblog from "../images/blog-head.png";
@@ -11,19 +10,6 @@ import blog4 from "../images/nsb.png";
 function BlogComponent() {
   return (
     <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Blog | BlueSense</title>
-        <link rel="canonical" href="https://www.bluesense.co/blog/" />
-        <meta
-          name="description"
-          content="View BlueSense Blog for Related Articles"
-        />
-        <meta
-          name="keywords"
-          content="bluesense blog, Business, Consultng, Startups, Intelligence, Blog, Articles"
-        />
-      </Helmet>
       <div className="blog-header">
         <img src={bigblog} alt=""></img>
         <h1>BlueSense Blog</h1>

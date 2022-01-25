@@ -16,7 +16,7 @@ export default function Blog() {
         />
         <meta
           name="keywords"
-          content="bluesense blog, Business, Consultng, Startups, Intelligence, Blog, Articles"
+          content="BlueSense blog, bluesense, Business, Consultng, Startups, Intelligence, Blog, Articles"
         />
       </Helmet>
       <BlogComponent />

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Helmet } from "react-helmet";
 import "./ContactSection.css";
 import emailjs from "emailjs-com";
 
@@ -102,16 +101,6 @@ function ContactSection(props) {
   }, 5000);
   return (
     <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Contact | BlueSense</title>
-        <link rel="canonical" href="https://www.bluesense.co/contact/" />
-        <meta name="description" content="Contact BlueSense" />
-        <meta
-          name="keywords"
-          content="Business, Consulting, Startups, Intelligence, Strategy, Consult, Contact"
-        />
-      </Helmet>
       <div className="container">
         <div className="contact-head">
           <h1>Contact</h1>

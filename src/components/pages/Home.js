@@ -19,7 +19,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="Business, Consultng, Startups, Intelligence, Strategy, "
+          content="Business, bluesense, Consultng, Startups, Tech Startups, Strategy, BlueSense, Business Consulting"
         />
       </Helmet>
       <HeroSection />

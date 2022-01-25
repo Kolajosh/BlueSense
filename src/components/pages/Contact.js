@@ -13,7 +13,7 @@ export default function Contact() {
         <meta name="description" content="Contact BlueSense" />
         <meta
           name="keywords"
-          content="Business, Consulting, Startups, Intelligence, Strategy, Consult, Contact"
+          content="Business, bluesense, BlueSense, Consulting, Startups, Intelligence, Strategy, Consult, Contact"
         />
       </Helmet>
       <ContactSection />
