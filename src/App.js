@@ -19,6 +19,7 @@ import custom404 from "./components/pages/404";
 import TraitsOfGreatFounders from "./components/blogPages/TraitsOfGreatFounders";
 import WhyCompetion from "./components/blogPages/WhyCompetition";
 import SixGuides from "./components/blogPages/SixGuides";
+import Nsb from "./components/blogPages/Nsb";
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
           component={TraitsOfGreatFounders}
         />
         <Route exact path="/whycompetition" component={WhyCompetion} />
+        <Route exact path="/nsb" component={Nsb} />
         <Route component={custom404} />
       </Switch>
       <FooterComponent />

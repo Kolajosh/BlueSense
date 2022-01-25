@@ -6,6 +6,7 @@ import bigblog from "../images/blog-head.png";
 import blog1 from "../images/blog1.png";
 import blog2 from "../images/blog2.png";
 import blog3 from "../images/blog3.png";
+import blog4 from "../images/nsb.png";
 
 function BlogComponent() {
   return (
@@ -26,6 +27,26 @@ function BlogComponent() {
       <div className="blog-header">
         <img src={bigblog} alt=""></img>
         <h1>BlueSense Blog</h1>
+      </div>
+
+      <div className="blog-4">
+        <div className="blog-post-4-img">
+          <img src={blog4} alt=""></img>
+        </div>
+        <div className="blog-post-4">
+          <div className="blog-text-4">
+            <h2>The Nigerian Start-up Bill</h2>
+            <p>
+              April 2018 saw Tunisia becoming the first African country to pass
+              a Startup act, this act took effect in October 2018 and
+              essentially sought to provide a clear legal framework as well as
+              support for Startups within the country...
+            </p>
+            <button className="read-more-btn">
+              <Link to="/nsb"> Read More</Link>
+            </button>
+          </div>
+        </div>
       </div>
 
       <div className="blog-1">

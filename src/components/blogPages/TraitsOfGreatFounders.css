@@ -1,20 +1,38 @@
 .head-img {
   width: 100%;
   height: auto;
+  text-align: center;
 }
 .head-img img {
-  width: 100%;
+  width: 67%;
   height: 400px;
-  object-fit: contain;
+  object-fit: cover;
 }
-
-.head-img h1 {
-  font-family: Popins, sans-serif;
+.subflex-title {
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  width: 67%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.flex1 p {
   color: #666666;
-  font-size: 54px;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  vertical-align: middle;
+}
+.flex2 {
+  margin-bottom: 10px;
+}
+.head-img h1 {
+  width: 67%;
+  font-family: Popins, sans-serif;
+  text-align: left;
+  margin-left: 250px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #666666;
+  font-size: 34px;
   font-weight: 600;
 }
 .blog1-text {
@@ -22,15 +40,20 @@
   height: auto;
 }
 .blog1-text p {
+  margin-top: 50px;
+  margin-bottom: 50px;
   margin-left: 250px;
   margin-right: 250px;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-size: 25px;
   color: #666666;
 }
-.share-buttons {
-  text-align: center;
-  margin-bottom: 50px;
+.blog1-text li {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+}
+
+.LinkedinIcon {
+  filter: grayscale(100%);
 }
 .share-buttons h3 {
   font-size: 20px;
@@ -41,8 +64,12 @@
 
 @media screen and (max-width: 1100px) {
   .head-img h1 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
+    margin-left: 170px;
+  }
+  .subflex-title {
+    margin-left: 170px;
   }
   .blog1-text p {
     margin-left: 150px;
@@ -53,8 +80,12 @@
 
 @media screen and (max-width: 800px) {
   .head-img h1 {
-    font-size: 34px;
+    font-size: 25px;
     font-weight: 600;
+    margin-left: 130px;
+  }
+  .subflex-title {
+    margin-left: 130px;
   }
   .blog1-text p {
     margin-left: 100px;
@@ -64,12 +95,21 @@
 }
 
 @media screen and (max-width: 624px) {
+  .head-img img {
+    width: 80%;
+  }
   .head-img h1 {
     margin-left: 50px;
     margin-right: 50px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
   }
+  .subflex-title {
+    margin-left: 50px;
+    margin-right: 0px;
+    font-size: 12px;
+  }
+
   .blog1-text p {
     margin-left: 50px;
     margin-right: 50px;

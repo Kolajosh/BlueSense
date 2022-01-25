@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import "./TraitsOfGreatFounders.css";
-import blog3 from "../../images/blog3.png";
+import blog3 from "../../images/6rules.jpg";
 import {
   EmailShareButton,
   FacebookShareButton,
@@ -34,8 +34,62 @@ function SixGuides() {
         />
       </Helmet>
       <div className="head-img">
-        <img src={blog3} alt="Traits"></img>
         <h1>6 Guides to Fundraising for your Startup</h1>
+        <div className="subflex-title">
+          <div className="flex1">
+            <p>Published on July 6, 2021</p>
+          </div>
+          <div className="flex2">
+            <FacebookShareButton
+              url="https://www.bluesense.co/6guides"
+              quote={"Traits of great founders"}
+              hashtag={"#Article"}
+            >
+              <FacebookIcon size={25} round={true} />
+            </FacebookShareButton>
+
+            <WhatsappShareButton
+              url="https://www.bluesense.co/6guides"
+              quote={"Traits of great founders"}
+              hashtag={"#Article"}
+            >
+              <WhatsappIcon size={25} round={true} />
+            </WhatsappShareButton>
+
+            <TwitterShareButton
+              url="https://www.bluesense.co/6guides"
+              quote={"Traits of great founders"}
+              hashtag={"#Article"}
+            >
+              <TwitterIcon size={25} round={true} />
+            </TwitterShareButton>
+
+            <LinkedinShareButton
+              url="https://www.bluesense.co/6guides"
+              quote={"Traits of great founders"}
+              hashtag={"#Article"}
+            >
+              <LinkedinIcon size={25} round={true} />
+            </LinkedinShareButton>
+
+            <TelegramShareButton
+              url="https://www.bluesense.co/6guides"
+              quote={"Traits of great founders"}
+              hashtag={"#Article"}
+            >
+              <TelegramIcon size={25} round={true} />
+            </TelegramShareButton>
+
+            <EmailShareButton
+              url="https://www.bluesense.co/6guides"
+              quote={"Traits of great founders"}
+              hashtag={"#Article"}
+            >
+              <EmailIcon size={25} round={true} />
+            </EmailShareButton>
+          </div>
+        </div>
+        <img src={blog3} alt="Traits"></img>
       </div>
       <div className="blog1-text">
         <p>
@@ -116,56 +170,7 @@ function SixGuides() {
           sharing on social media: what are they tweeting and retweeting?
         </p>
       </div>
-      <div className="share-buttons">
-        <h3>Share</h3>
-        <FacebookShareButton
-          url="https://www.bluesense.co/6guides"
-          quote={"Traits of great founders"}
-          hashtag={"#Article"}
-        >
-          <FacebookIcon size={35} round={true} />
-        </FacebookShareButton>
-
-        <WhatsappShareButton
-          url="https://www.bluesense.co/6guides"
-          quote={"Traits of great founders"}
-          hashtag={"#Article"}
-        >
-          <WhatsappIcon size={35} round={true} />
-        </WhatsappShareButton>
-
-        <TwitterShareButton
-          url="https://www.bluesense.co/6guides"
-          quote={"Traits of great founders"}
-          hashtag={"#Article"}
-        >
-          <TwitterIcon size={35} round={true} />
-        </TwitterShareButton>
-
-        <LinkedinShareButton
-          url="https://www.bluesense.co/6guides"
-          quote={"Traits of great founders"}
-          hashtag={"#Article"}
-        >
-          <LinkedinIcon size={35} round={true} />
-        </LinkedinShareButton>
-
-        <TelegramShareButton
-          url="https://www.bluesense.co/6guides"
-          quote={"Traits of great founders"}
-          hashtag={"#Article"}
-        >
-          <TelegramIcon size={35} round={true} />
-        </TelegramShareButton>
-
-        <EmailShareButton
-          url="https://www.bluesense.co/6guides"
-          quote={"Traits of great founders"}
-          hashtag={"#Article"}
-        >
-          <EmailIcon size={35} round={true} />
-        </EmailShareButton>
-      </div>
+      <div className="share-buttons"></div>
     </>
   );
 }

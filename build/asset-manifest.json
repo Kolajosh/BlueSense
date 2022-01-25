@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.359da2c0.css",
-    "main.js": "/static/js/main.dddb997c.js",
+    "main.css": "/static/css/main.d54cc9e8.css",
+    "main.js": "/static/js/main.100b26e5.js",
+    "static/media/traits.png": "/static/media/traits.0c41768dbbc33416365d.png",
     "static/media/homepic.png": "/static/media/homepic.779db69b3af8e3fe3b47.png",
     "static/media/strategy.png": "/static/media/strategy.e6b6836fb101587f9e3a.png",
     "static/media/learning.png": "/static/media/learning.bcc78c1a876350cde1e8.png",
+    "static/media/whycomp.jpg": "/static/media/whycomp.3bb14398ab688388fa1a.jpg",
     "static/media/blog-head.png": "/static/media/blog-head.1b29c77e26f7b8443579.png",
+    "static/media/6rules.jpg": "/static/media/6rules.0ed87530bac89533cac6.jpg",
     "static/media/analytics.png": "/static/media/analytics.0a7b49a2a5463a8eb27d.png",
     "static/media/advisory.png": "/static/media/advisory.2f35c8365bfea4e06746.png",
     "static/media/medecins-sans-frontieres-logo.png": "/static/media/medecins-sans-frontieres-logo.60a86c0691d54f4a559f.png",
+    "static/media/nsb.png": "/static/media/nsb.37a54b1b25e356867eb0.png",
     "static/media/ICRC-logo.png": "/static/media/ICRC-logo.68b1d3cee64dabd13e2b.png",
     "static/media/blog1.png": "/static/media/blog1.ca5417d3f0d11017d4a2.png",
     "static/media/bluesenselogo.png": "/static/media/bluesenselogo.74634e394181b8480169.png",
     "static/media/Lifestores_Healthcare_Logo.png": "/static/media/Lifestores_Healthcare_Logo.a9bad538cdebdd595b1c.png",
     "static/media/blog2.png": "/static/media/blog2.cb6f3e4a7e5bf354d446.png",
     "static/media/Hugo_.png": "/static/media/Hugo_.ecdcfdbae51a6651a997.png",
+    "static/media/nsb1.jpeg": "/static/media/nsb1.87ff8665afd02ce61510.jpeg",
     "static/media/payhippo-logo.png": "/static/media/payhippo-logo.ef6945a5e498aff0aba0.png",
     "static/media/Mask Group-1.png": "/static/media/Mask Group-1.60f02e3af7c9c7041926.png",
     "static/media/Mask-Group-5.png": "/static/media/Mask-Group-5.c39c1e4b0fc91f81852c.png",
@@ -33,11 +38,11 @@
     "static/media/icomoon.woff": "/static/media/icomoon.a2ad6da1dccaedc26f99.woff",
     "static/media/icomoon.ttf": "/static/media/icomoon.261b9f1e19bb5133bde9.ttf",
     "static/media/icomoon.svg": "/static/media/icomoon.a97048c6778997615a2c.svg",
-    "main.359da2c0.css.map": "/static/css/main.359da2c0.css.map",
-    "main.dddb997c.js.map": "/static/js/main.dddb997c.js.map"
+    "main.d54cc9e8.css.map": "/static/css/main.d54cc9e8.css.map",
+    "main.100b26e5.js.map": "/static/js/main.100b26e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.359da2c0.css",
-    "static/js/main.dddb997c.js"
+    "static/css/main.d54cc9e8.css",
+    "static/js/main.100b26e5.js"
   ]
 }
