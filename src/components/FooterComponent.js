@@ -71,7 +71,7 @@ function FooterComponent() {
                 <div className="col-1">
                   <ul>
                     <li>
-                      <Link to="/core" className="footer-link">
+                      <Link to="/analytics" className="footer-link">
                         Core
                       </Link>
                     </li>
