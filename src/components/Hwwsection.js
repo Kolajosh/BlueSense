@@ -29,7 +29,7 @@ function Hwwsection() {
             </li>
             <li>
               <h1 className="hww-big-list2">
-                $100+ <li></li>
+                $100M+ <li></li>
               </h1>
             </li>
           </ul>

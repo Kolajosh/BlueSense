@@ -23,7 +23,7 @@ function Nsb() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Nigerian Startup Bill</title>
-        <link rel="canonical" href="//www.bluesense.co/nsb/" />
+        <link rel="canonical" href="https://www.bluesense.co/nsb/" />
         <meta
           name="description"
           content="April 2018 saw Tunisia becoming the first African country to pass a Startup act, this act took effect in October 2018 and essentially sough..."

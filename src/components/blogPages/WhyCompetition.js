@@ -23,7 +23,7 @@ function WhyCompetition() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Why Competition is futile for Startups | Blog | BlueSense</title>
-        <link rel="canonical" href="//www.bluesense.co/whycompetition/" />
+        <link rel="canonical" href="https://www.bluesense.co/whycompetition/" />
         <meta
           name="description"
           content="You should never start a startup in a massive or over-saturated market. You want to create a unique product and start with a small niche before scaling. Large and existing markets usually mean that you have tons of competition..."
