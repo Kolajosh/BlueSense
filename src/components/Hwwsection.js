@@ -17,13 +17,13 @@ function Hwwsection() {
           <ul className="hww-big-ul">
             <li className="hww-big-list">
               <h1>
-                45 <span class="icon-right-arrow-123"></span>
+                49 <span class="icon-right-arrow-123"></span>
                 <li> </li>
               </h1>
             </li>
             <li className="hww-big-list1">
               <h1>
-                3.5 MONTHS <span class="icon-right-arrow-123"></span>
+                30 DAYS <span class="icon-right-arrow-123"></span>
                 <li> </li>
               </h1>
             </li>

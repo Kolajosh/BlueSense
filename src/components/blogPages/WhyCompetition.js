@@ -3,16 +3,12 @@ import { Helmet } from "react-helmet";
 import "./TraitsOfGreatFounders.css";
 import blog2 from "../../images/whycomp.jpg";
 import {
-  EmailShareButton,
   FacebookShareButton,
   LinkedinShareButton,
-  TelegramShareButton,
   WhatsappShareButton,
   TwitterShareButton,
-  EmailIcon,
   FacebookIcon,
   LinkedinIcon,
-  TelegramIcon,
   TwitterIcon,
   WhatsappIcon,
 } from "react-share";
@@ -34,61 +30,11 @@ function WhyCompetition() {
         />
       </Helmet>
       <div className="head-img">
-        <h1>Why Competition is futile for your Startup</h1>
-        <div className="subflex-title">
-          <div className="flex1">
-            <p>Published on July 6, 2021</p>
-          </div>
-          <div className="flex2">
-            <FacebookShareButton
-              url="https://www.bluesense.co/whycompetition"
-              quote={"Traits of great founders"}
-              hashtag={"#Article"}
-            >
-              <FacebookIcon size={25} round={true} />
-            </FacebookShareButton>
-
-            <WhatsappShareButton
-              url="https://www.bluesense.co/whycompetition"
-              quote={"Traits of great founders"}
-              hashtag={"#Article"}
-            >
-              <WhatsappIcon size={25} round={true} />
-            </WhatsappShareButton>
-
-            <TwitterShareButton
-              url="https://www.bluesense.co/whycompetition"
-              quote={"Traits of great founders"}
-              hashtag={"#Article"}
-            >
-              <TwitterIcon size={25} round={true} />
-            </TwitterShareButton>
-
-            <LinkedinShareButton
-              url="https://www.bluesense.co/whycompetition"
-              quote={"Traits of great founders"}
-              hashtag={"#Article"}
-            >
-              <LinkedinIcon size={25} round={true} />
-            </LinkedinShareButton>
-
-            <TelegramShareButton
-              url="https://www.bluesense.co/whycompetition"
-              quote={"Traits of great founders"}
-              hashtag={"#Article"}
-            >
-              <TelegramIcon size={25} round={true} />
-            </TelegramShareButton>
-
-            <EmailShareButton
-              url="https://www.bluesense.co/whycompetition"
-              quote={"Traits of great founders"}
-              hashtag={"#Article"}
-            >
-              <EmailIcon size={25} round={true} />
-            </EmailShareButton>
-          </div>
+        <div className="flex1">
+          <p>Published on July 6, 2021</p>
         </div>
+        <h1>Why Competition is futile for your Startup</h1>
+
         <img src={blog2} alt="Traits"></img>
       </div>
       <div className="blog1-text">
@@ -124,6 +70,38 @@ function WhyCompetition() {
           industry giants monopolize the business. Starting first has its
           advantages but you must always have the future in mind.
         </p>
+      </div>
+
+      <div className="flex2">
+        <TwitterShareButton
+          url="https://www.bluesense.co/whycompetition"
+          quote={"Traits of great founders"}
+          hashtag={"#Article"}
+        >
+          <TwitterIcon size={35} round={true} />
+        </TwitterShareButton>
+        <FacebookShareButton
+          url="https://www.bluesense.co/whycompetition"
+          quote={"Traits of great founders"}
+          hashtag={"#Article"}
+        >
+          <FacebookIcon size={35} round={true} />
+        </FacebookShareButton>
+
+        <LinkedinShareButton
+          url="https://www.bluesense.co/whycompetition"
+          quote={"Traits of great founders"}
+          hashtag={"#Article"}
+        >
+          <LinkedinIcon size={35} round={true} />
+        </LinkedinShareButton>
+        <WhatsappShareButton
+          url="https://www.bluesense.co/whycompetition"
+          quote={"Traits of great founders"}
+          hashtag={"#Article"}
+        >
+          <WhatsappIcon size={35} round={true} />
+        </WhatsappShareButton>
       </div>
     </>
   );

@@ -3,16 +3,12 @@ import { Helmet } from "react-helmet";
 import "./TraitsOfGreatFounders.css";
 import blog1 from "../../images/nsb1.jpeg";
 import {
-  EmailShareButton,
   FacebookShareButton,
   LinkedinShareButton,
-  TelegramShareButton,
   WhatsappShareButton,
   TwitterShareButton,
-  EmailIcon,
   FacebookIcon,
   LinkedinIcon,
-  TelegramIcon,
   TwitterIcon,
   WhatsappIcon,
 } from "react-share";
@@ -34,61 +30,10 @@ function Nsb() {
         />
       </Helmet>
       <div className="head-img">
-        <h1>The Nigerian Start-up Bill</h1>
-        <div className="subflex-title">
-          <div className="flex1">
-            <p>Published on January 21, 2022</p>
-          </div>
-          <div className="flex2">
-            <FacebookShareButton
-              url="https://www.bluesense.co/nsb"
-              quote={"The Nigerian Start-up Bill"}
-              hashtag={"#Article"}
-            >
-              <FacebookIcon size={25} round={true} />
-            </FacebookShareButton>
-
-            <WhatsappShareButton
-              url="https://www.bluesense.co/nsb"
-              quote={"The Nigerian Start-up Bill"}
-              hashtag={"#Article"}
-            >
-              <WhatsappIcon size={25} round={true} />
-            </WhatsappShareButton>
-
-            <TwitterShareButton
-              url="https://www.bluesense.co/nsb"
-              quote={"The Nigerian Start-up Bill"}
-              hashtag={"#Article"}
-            >
-              <TwitterIcon size={25} round={true} />
-            </TwitterShareButton>
-
-            <LinkedinShareButton
-              url="https://www.bluesense.co/nsb"
-              quote={"The Nigerian Start-up Bill"}
-              hashtag={"#Article"}
-            >
-              <LinkedinIcon size={25} round={true} />
-            </LinkedinShareButton>
-
-            <TelegramShareButton
-              url="https://www.bluesense.co/nsb"
-              quote={"The Nigerian Start-up Bill"}
-              hashtag={"#Article"}
-            >
-              <TelegramIcon size={25} round={true} />
-            </TelegramShareButton>
-
-            <EmailShareButton
-              url="https://www.bluesense.co/nsb"
-              quote={"The Nigerian Start-up Bill"}
-              hashtag={"#Article"}
-            >
-              <EmailIcon size={25} round={true} />
-            </EmailShareButton>
-          </div>
+        <div className="flex1">
+          <p>Published on January 21, 2022</p>
         </div>
+        <h1>The Nigerian Start-up Bill</h1>
         <img src={blog1} alt="Traits"></img>
       </div>
       <div className="blog1-text">
@@ -155,6 +100,39 @@ function Nsb() {
           brings about cordiality between regulators and Startups and will be
           friendly to the tech ecosystem.
         </p>
+      </div>
+
+      <div className="flex2">
+        <TwitterShareButton
+          url="https://www.bluesense.co/nsb"
+          quote={"The Nigerian Start-up Bill"}
+          hashtag={"#Article"}
+        >
+          <FacebookShareButton
+            url="https://www.bluesense.co/nsb"
+            quote={"The Nigerian Start-up Bill"}
+            hashtag={"#Article"}
+          >
+            <FacebookIcon size={35} round={true} />
+          </FacebookShareButton>
+
+          <TwitterIcon size={35} round={true} />
+        </TwitterShareButton>
+
+        <LinkedinShareButton
+          url="https://www.bluesense.co/nsb"
+          quote={"The Nigerian Start-up Bill"}
+          hashtag={"#Article"}
+        >
+          <LinkedinIcon size={35} round={true} />
+        </LinkedinShareButton>
+        <WhatsappShareButton
+          url="https://www.bluesense.co/nsb"
+          quote={"The Nigerian Start-up Bill"}
+          hashtag={"#Article"}
+        >
+          <WhatsappIcon size={35} round={true} />
+        </WhatsappShareButton>
       </div>
     </>
   );

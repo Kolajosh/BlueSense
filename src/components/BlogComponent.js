@@ -29,7 +29,7 @@ function BlogComponent() {
               support for Startups within the country...
             </p>
             <button className="read-more-btn">
-              <Link to="/nsb"> Read More</Link>
+              <Link to="/blog/nsb"> Read More</Link>
             </button>
           </div>
         </div>
@@ -49,7 +49,7 @@ function BlogComponent() {
               they run. This is easily the most important of all ...
             </p>
             <button className="read-more-btn">
-              <Link to="/traitsofgoodfounders"> Read More</Link>
+              <Link to="/blog/traitsofgoodfounders"> Read More</Link>
             </button>
           </div>
         </div>
@@ -68,7 +68,7 @@ function BlogComponent() {
               niche before scaling. Large and ...
             </p>
             <button className="read-more-btn">
-              <Link to="/whycompetition"> Read More</Link>
+              <Link to="/blog/whycompetition"> Read More</Link>
             </button>
           </div>
         </div>
@@ -87,7 +87,7 @@ function BlogComponent() {
               startups. These six ...
             </p>
             <button className="read-more-btn">
-              <Link to="/6guides"> Read More</Link>
+              <Link to="/blog/6guides"> Read More</Link>
             </button>
           </div>
         </div>

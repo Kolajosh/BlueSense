@@ -38,12 +38,12 @@ function App() {
         <Route exact path="/terms" component={Terms} />
         <Route
           exact
-          path="/traitsofgoodfounders"
+          path="/blog/traitsofgoodfounders"
           component={TraitsOfGreatFounders}
         />
-        <Route exact path="/whycompetition" component={WhyCompetion} />
-        <Route exact path="/nsb" component={Nsb} />
-        <Route exact path="/6guides" component={SixGuides} />
+        <Route exact path="/blog/whycompetition" component={WhyCompetion} />
+        <Route exact path="/blog/nsb" component={Nsb} />
+        <Route exact path="/blog/6guides" component={SixGuides} />
 
         <Route component={custom404} />
       </Switch>
