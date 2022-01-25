@@ -10,7 +10,7 @@ function HeroSection() {
     <div className="hero-container">
       <img src={home} alt="homepic"></img>
       <h1>
-        Thinking about transforming<br></br>your start-up? We know how
+        Thinking about transforming<br></br>your startup? We know how
       </h1>
       <div className="hero-text-container">
         <p>

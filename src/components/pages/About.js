@@ -19,7 +19,7 @@ function About() {
         />
         <meta
           name="keywords"
-          content="Business, Consultng, Startups, Intelligence, Strategy, About, Information, Bluesense about"
+          content="Business, Consultng, Startups, Intelligence, Strategy, About, startup consultants, Bluesense info"
         />
       </Helmet>
       <AboutSection />
