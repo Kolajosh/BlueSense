@@ -19,7 +19,7 @@ function Nsb() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Nigerian Startup Bill</title>
-        <link rel="canonical" href="https://www.bluesense.co/nsb/" />
+        <link rel="canonical" href="https://www.bluesense.co/blog/nsb/" />
         <meta
           name="description"
           content="April 2018 saw Tunisia becoming the first African country to pass a Startup act, this act took effect in October 2018 and essentially sough..."
@@ -104,34 +104,33 @@ function Nsb() {
 
       <div className="flex2">
         <TwitterShareButton
-          url="https://www.bluesense.co/nsb"
+          url="https://www.bluesense.co/blog/nsb"
           quote={"The Nigerian Start-up Bill"}
           hashtag={"#Article"}
         >
-          <FacebookShareButton
-            url="https://www.bluesense.co/nsb"
-            quote={"The Nigerian Start-up Bill"}
-            hashtag={"#Article"}
-          >
-            <FacebookIcon size={35} round={true} />
-          </FacebookShareButton>
-
-          <TwitterIcon size={35} round={true} />
+          <TwitterIcon size={25} round={true} />
         </TwitterShareButton>
+        <FacebookShareButton
+          url="https://www.bluesense.co/blog/nsb"
+          quote={"The Nigerian Start-up Bill"}
+          hashtag={"#Article"}
+        >
+          <FacebookIcon size={25} round={true} />
+        </FacebookShareButton>
 
         <LinkedinShareButton
-          url="https://www.bluesense.co/nsb"
+          url="https://www.bluesense.co/blog/nsb"
           quote={"The Nigerian Start-up Bill"}
           hashtag={"#Article"}
         >
-          <LinkedinIcon size={35} round={true} />
+          <LinkedinIcon size={25} round={true} />
         </LinkedinShareButton>
         <WhatsappShareButton
-          url="https://www.bluesense.co/nsb"
+          url="https://www.bluesense.co/blog/nsb"
           quote={"The Nigerian Start-up Bill"}
           hashtag={"#Article"}
         >
-          <WhatsappIcon size={35} round={true} />
+          <WhatsappIcon size={25} round={true} />
         </WhatsappShareButton>
       </div>
     </>

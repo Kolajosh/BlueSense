@@ -19,7 +19,10 @@ function WhyCompetition() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Why Competition is futile for Startups | Blog | BlueSense</title>
-        <link rel="canonical" href="https://www.bluesense.co/whycompetition/" />
+        <link
+          rel="canonical"
+          href="https://www.bluesense.co/blog/whycompetition/"
+        />
         <meta
           name="description"
           content="You should never start a startup in a massive or over-saturated market. You want to create a unique product and start with a small niche before scaling. Large and existing markets usually mean that you have tons of competition..."
@@ -74,33 +77,33 @@ function WhyCompetition() {
 
       <div className="flex2">
         <TwitterShareButton
-          url="https://www.bluesense.co/whycompetition"
+          url="https://www.bluesense.co/blog/whycompetition"
           quote={"Traits of great founders"}
           hashtag={"#Article"}
         >
-          <TwitterIcon size={35} round={true} />
+          <TwitterIcon size={25} round={true} />
         </TwitterShareButton>
         <FacebookShareButton
-          url="https://www.bluesense.co/whycompetition"
+          url="https://www.bluesense.co/blog/whycompetition"
           quote={"Traits of great founders"}
           hashtag={"#Article"}
         >
-          <FacebookIcon size={35} round={true} />
+          <FacebookIcon size={25} round={true} />
         </FacebookShareButton>
 
         <LinkedinShareButton
-          url="https://www.bluesense.co/whycompetition"
+          url="https://www.bluesense.co/blog/whycompetition"
           quote={"Traits of great founders"}
           hashtag={"#Article"}
         >
-          <LinkedinIcon size={35} round={true} />
+          <LinkedinIcon size={25} round={true} />
         </LinkedinShareButton>
         <WhatsappShareButton
-          url="https://www.bluesense.co/whycompetition"
+          url="https://www.bluesense.co/blog/whycompetition"
           quote={"Traits of great founders"}
           hashtag={"#Article"}
         >
-          <WhatsappIcon size={35} round={true} />
+          <WhatsappIcon size={25} round={true} />
         </WhatsappShareButton>
       </div>
     </>

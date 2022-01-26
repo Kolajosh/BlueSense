@@ -19,7 +19,7 @@ function SixGuides() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>6 Guides | Blog | BlueSense</title>
-        <link rel="canonical" href="https://www.bluesense.co/6guides/" />
+        <link rel="canonical" href="https://www.bluesense.co/blog/6guides/" />
         <meta
           name="description"
           content="Raising funds for your startup is not as difficult as you think; because there are more investors out there than there are startups. These six elements will help you convince investors to put their money in your startup?..."
@@ -120,32 +120,32 @@ function SixGuides() {
 
         <div className="flex2">
           <TwitterShareButton
-            url="https://www.bluesense.co/6guides"
+            url="https://www.bluesense.co/blog/6guides"
             quote={"6 Guides to Fundraising for your Startup"}
             hashtag={"#Article"}
           >
-            <TwitterIcon size={35} round={true} />
+            <TwitterIcon size={25} round={true} />
           </TwitterShareButton>
           <FacebookShareButton
-            url="https://www.bluesense.co/6guides"
+            url="https://www.bluesense.co/blog/6guides"
             quote={"6 Guides to Fundraising for your Startup"}
             hashtag={"#Article"}
           >
-            <FacebookIcon size={35} round={true} />
+            <FacebookIcon size={25} round={true} />
           </FacebookShareButton>
           <LinkedinShareButton
-            url="https://www.bluesense.co/6guides"
+            url="https://www.bluesense.co/blog/6guides"
             quote={"6 Guides to Fundraising for your Startup"}
             hashtag={"#Article"}
           >
-            <LinkedinIcon size={35} round={true} />
+            <LinkedinIcon size={25} round={true} />
           </LinkedinShareButton>
           <WhatsappShareButton
-            url="https://www.bluesense.co/6guides"
+            url="https://www.bluesense.co/blog/6guides"
             quote={"6 Guides to Fundraising for your Startup"}
             hashtag={"#Article"}
           >
-            <WhatsappIcon size={35} round={true} />
+            <WhatsappIcon size={25} round={true} />
           </WhatsappShareButton>
         </div>
       </div>

@@ -19,7 +19,10 @@ function TraitsOfGreatFounders() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Traits Of Great Founders | Blog | BlueSense</title>
-        <link rel="canonical" href="//www.bluesense.co/traitsofgoodfounders/" />
+        <link
+          rel="canonical"
+          href="//www.bluesense.co/blog/traitsofgoodfounders/"
+        />
         <meta
           name="description"
           content="The best companies today, started out with the best founders. The best founders have unique qualities which they have honed overtime. The best founders have a clear vision for the company they run. This is easily the most important of all qualities of a great..."
@@ -89,33 +92,33 @@ function TraitsOfGreatFounders() {
       </div>
       <div className="flex2">
         <TwitterShareButton
-          url="https://www.bluesense.co/traitsofgoodfounders"
+          url="https://www.bluesense.co/blog/traitsofgoodfounders"
           quote={"Traits of great founders"}
           hashtag={"#Article"}
         >
-          <TwitterIcon size={35} round={true} />
+          <TwitterIcon size={25} round={true} />
         </TwitterShareButton>
         <FacebookShareButton
-          url="https://www.bluesense.co/traitsofgoodfounders"
+          url="https://www.bluesense.co/blog/traitsofgoodfounders"
           quote={"Traits of great founders"}
           hashtag={"#Article"}
         >
-          <FacebookIcon size={35} round={true} />
+          <FacebookIcon size={25} round={true} />
         </FacebookShareButton>
 
         <LinkedinShareButton
-          url="https://www.bluesense.co/traitsofgoodfounders"
+          url="https://www.bluesense.co/blog/traitsofgoodfounders"
           quote={"Traits of great founders"}
           hashtag={"#Article"}
         >
-          <LinkedinIcon size={35} round={true} />
+          <LinkedinIcon size={25} round={true} />
         </LinkedinShareButton>
         <WhatsappShareButton
-          url="https://www.bluesense.co/traitsofgoodfounders"
+          url="https://www.bluesense.co/blog/traitsofgoodfounders"
           quote={"Traits of great founders"}
           hashtag={"#Article"}
         >
-          <WhatsappIcon size={35} round={true} />
+          <WhatsappIcon size={25} round={true} />
         </WhatsappShareButton>
       </div>
     </>
