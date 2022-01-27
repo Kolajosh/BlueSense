@@ -108,14 +108,14 @@ function Nsb() {
           title="The Nigerian Start-up Bill - BlueSense Blog"
           hashtags={["Article", "Startups", "BlueSense", "NigerianStartupBill"]}
         >
-          <TwitterIcon size={25} round={true} />
+          <TwitterIcon size={25} round={true} fill="#666666" />
         </TwitterShareButton>
         <FacebookShareButton
           url="https://www.bluesense.co/blog/nsb"
           quote={"The Nigerian Start-up Bill"}
           hashtag={"Article"}
         >
-          <FacebookIcon size={25} round={true} />
+          <FacebookIcon size={25} round={true} fill="#666666" />
         </FacebookShareButton>
 
         <LinkedinShareButton
@@ -123,14 +123,14 @@ function Nsb() {
           title={"The Nigerian Start-up Bill"}
           hashtag={"#Article"}
         >
-          <LinkedinIcon size={25} round={true} />
+          <LinkedinIcon size={25} round={true} fill="#666666" />
         </LinkedinShareButton>
         <WhatsappShareButton
           url="https://www.bluesense.co/blog/nsb"
           quote={"The Nigerian Start-up Bill"}
           hashtag={"#Article"}
         >
-          <WhatsappIcon size={25} round={true} />
+          <WhatsappIcon size={25} round={true} fill="#666666" />
         </WhatsappShareButton>
       </div>
     </>

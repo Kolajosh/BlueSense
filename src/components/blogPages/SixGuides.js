@@ -124,28 +124,28 @@ function SixGuides() {
             title="6 Guides to Fundraising for your Startup"
             hashtags={["Article", "Startups", "BlueSense"]}
           >
-            <TwitterIcon size={25} round={true} />
+            <TwitterIcon size={25} round={true} fill="#666666" />
           </TwitterShareButton>
           <FacebookShareButton
             url="https://www.bluesense.co/blog/6guides"
             quote={"6 Guides to Fundraising for your Startup"}
             hashtag={"#Article"}
           >
-            <FacebookIcon size={25} round={true} />
+            <FacebookIcon size={25} round={true} fill="#666666" />
           </FacebookShareButton>
           <LinkedinShareButton
             url="https://www.bluesense.co/blog/6guides"
             quote={"6 Guides to Fundraising for your Startup"}
             hashtag={"#Article"}
           >
-            <LinkedinIcon size={25} round={true} />
+            <LinkedinIcon size={25} round={true} fill="#666666" />
           </LinkedinShareButton>
           <WhatsappShareButton
             url="https://www.bluesense.co/blog/6guides"
             quote={"6 Guides to Fundraising for your Startup"}
             hashtag={"#Article"}
           >
-            <WhatsappIcon size={25} round={true} />
+            <WhatsappIcon size={25} round={true} fill="#666666" />
           </WhatsappShareButton>
         </div>
       </div>
