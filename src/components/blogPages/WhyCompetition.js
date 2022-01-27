@@ -78,8 +78,8 @@ function WhyCompetition() {
       <div className="flex2">
         <TwitterShareButton
           url="https://www.bluesense.co/blog/whycompetition"
-          quote={"Traits of great founders"}
-          hashtag={"#Article"}
+          title="Why Competition is futile for Startups "
+          hashtags={["Article", "Startups", "BlueSense"]}
         >
           <TwitterIcon size={25} round={true} />
         </TwitterShareButton>

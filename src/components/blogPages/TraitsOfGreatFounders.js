@@ -93,8 +93,8 @@ function TraitsOfGreatFounders() {
       <div className="flex2">
         <TwitterShareButton
           url="https://www.bluesense.co/blog/traitsofgoodfounders"
-          quote={"Traits of great founders"}
-          hashtag={"#Article"}
+          title="Traits of Great Founders"
+          hashtags={["Article", "Startups", "BlueSense"]}
         >
           <TwitterIcon size={25} round={true} />
         </TwitterShareButton>

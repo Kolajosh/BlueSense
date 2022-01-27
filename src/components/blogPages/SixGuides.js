@@ -121,8 +121,8 @@ function SixGuides() {
         <div className="flex2">
           <TwitterShareButton
             url="https://www.bluesense.co/blog/6guides"
-            quote={"6 Guides to Fundraising for your Startup"}
-            hashtag={"#Article"}
+            title="6 Guides to Fundraising for your Startup"
+            hashtags={["Article", "Startups", "BlueSense"]}
           >
             <TwitterIcon size={25} round={true} />
           </TwitterShareButton>
