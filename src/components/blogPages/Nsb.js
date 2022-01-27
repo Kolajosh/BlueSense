@@ -31,7 +31,7 @@ function Nsb() {
       </Helmet>
       <div className="head-img">
         <div className="flex1">
-          <p>Published on January 21, 2022</p>
+          <p>Published on January 21, 2022 | 4 min read</p>
         </div>
         <h1>The Nigerian Start-up Bill</h1>
         <img src={blog1} alt="Traits"></img>
@@ -105,22 +105,22 @@ function Nsb() {
       <div className="flex2">
         <TwitterShareButton
           url="https://www.bluesense.co/blog/nsb"
-          quote={"The Nigerian Start-up Bill"}
-          hashtag={"#Article"}
+          title="The Nigerian Start-up Bill - BlueSense Blog"
+          hashtags={["Article", "Startups", "BlueSense", "NigerianStartupBill"]}
         >
           <TwitterIcon size={25} round={true} />
         </TwitterShareButton>
         <FacebookShareButton
           url="https://www.bluesense.co/blog/nsb"
           quote={"The Nigerian Start-up Bill"}
-          hashtag={"#Article"}
+          hashtag={"Article"}
         >
           <FacebookIcon size={25} round={true} />
         </FacebookShareButton>
 
         <LinkedinShareButton
           url="https://www.bluesense.co/blog/nsb"
-          quote={"The Nigerian Start-up Bill"}
+          title={"The Nigerian Start-up Bill"}
           hashtag={"#Article"}
         >
           <LinkedinIcon size={25} round={true} />

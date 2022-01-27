@@ -34,7 +34,7 @@ function TraitsOfGreatFounders() {
       </Helmet>
       <div className="head-img">
         <div className="flex1">
-          <p>Published on July 6, 2021</p>
+          <p>Published on July 6, 2021 | 3 min read</p>
         </div>
         <h1>Traits of great founders</h1>
 

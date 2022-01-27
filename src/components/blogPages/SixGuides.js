@@ -32,7 +32,7 @@ function SixGuides() {
       <div className="whole">
         <div className="head-img">
           <div className="flex1">
-            <p>Published on July 6, 2021</p>
+            <p>Published on July 6, 2021 | 5 min read</p>
           </div>
           <h1>6 Guides to Fundraising for your Startup</h1>
           <img src={blog3} alt="Traits"></img>

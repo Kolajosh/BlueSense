@@ -34,7 +34,7 @@ function WhyCompetition() {
       </Helmet>
       <div className="head-img">
         <div className="flex1">
-          <p>Published on July 6, 2021</p>
+          <p>Published on July 6, 2021 | 2 min read</p>
         </div>
         <h1>Why Competition is futile for your Startup</h1>
 
