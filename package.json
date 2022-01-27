@@ -15,7 +15,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.0",
     "react-share": "^4.4.0",
-    "react-snap": "^1.23.0"
+    "react-snap": "^1.23.0",
+    "react-social-icons": "^5.9.0"
   },
   "scripts": {
     "start": "react-scripts start",

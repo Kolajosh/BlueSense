@@ -88,7 +88,7 @@ function WhyCompetition() {
           quote={"Traits of great founders"}
           hashtag={"#Article"}
         >
-          <FacebookIcon size={25} round={true} />
+          <FacebookIcon size={25} round={true} bgColor="#666666" />
         </FacebookShareButton>
 
         <LinkedinShareButton
