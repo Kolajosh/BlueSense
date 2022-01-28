@@ -21,6 +21,7 @@
   width: 25%;
 }
 .icons1 ul {
+  width: auto;
   margin-left: 50px;
   margin-right: 50px;
   list-style: none;
@@ -89,6 +90,6 @@
 
 @media screen and (max-width: 634px) {
   .picon1 {
-    width: 25.3%;
+    width: 26.4%;
   }
 }

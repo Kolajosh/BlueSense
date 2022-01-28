@@ -7,7 +7,6 @@
 }
 
 .paticons-list {
-  margin-top: 20px;
   display: flex;
   margin-left: 50px;
   color: #666666;
@@ -151,6 +150,6 @@
 }
 @media screen and (max-width: 634px) {
   .paticon1 {
-    width: 22%;
+    width: 23%;
   }
 }
