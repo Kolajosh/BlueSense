@@ -131,7 +131,7 @@ function BlogComponent() {
               <br />
               <a href="/blog/whycompetition" className="linkblog">
                 {" "}
-                Read More...
+                Read more...
               </a>
             </p>
           </div>
@@ -161,7 +161,7 @@ function BlogComponent() {
               <br />
               <a href="/blog/whycompetition" className="linkblog">
                 {" "}
-                Read More...
+                Read more...
               </a>
             </p>
           </div>
@@ -185,7 +185,7 @@ function BlogComponent() {
               <br />
               <a href="/blog/6guides" className="linkblog">
                 {" "}
-                Read More...
+                Read more...
               </a>
             </p>
           </div>
@@ -215,7 +215,7 @@ function BlogComponent() {
               <br />
               <a href="/blog/6guides" className="linkblog">
                 {" "}
-                Read More...
+                Read more...
               </a>
             </p>
           </div>
@@ -224,7 +224,7 @@ function BlogComponent() {
 
       <div className="read-more-div">
         <p>
-          Visit our social media blogs for more articles &nbsp;
+          Read more... &nbsp;
           <a
             href="https://www.linkedin.com/company/bluesensegroup/posts/?feedView=articles"
             target="_blank"
