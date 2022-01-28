@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./FooterComponent.css";
 
 function FooterComponent() {
@@ -21,59 +20,64 @@ function FooterComponent() {
                 <div className="col-2">
                   <ul>
                     <li>
-                      <Link to="/" className="footer-link">
+                      <a href="/" className="footer-link">
                         Home
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                   <ul>
                     <li>
-                      <Link to="/about" className="footer-link">
+                      <a href="/about" className="footer-link">
                         About
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                   <ul>
                     <li>
-                      <Link to="/terms" className="footer-link" target="_blank">
+                      <a
+                        href
+                        to="/terms"
+                        className="footer-link"
+                        target="_blank"
+                      >
                         <span className="blue-link">Terms of use</span>
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </div>
                 <div className="col-2">
                   <ul>
                     <li>
-                      <Link to="/blog" className="footer-link">
+                      <a href="/blog" className="footer-link">
                         Blog
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                   <ul>
                     <li>
-                      <Link to="/contact" className="footer-link">
+                      <a href="/contact" className="footer-link">
                         Contact
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                   <ul>
                     <li>
-                      <Link
-                        to="/privacypolicy"
+                      <a
+                        href="/privacypolicy"
                         className="footer-link"
                         target="_blank"
                       >
                         <span className="blue-link">Privacy Policy</span>
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </div>
                 <div className="col-1">
                   <ul>
                     <li>
-                      <Link to="/analytics" className="footer-link">
+                      <a href="/analytics" className="footer-link">
                         Core
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                   <ul>
@@ -109,13 +113,13 @@ function FooterComponent() {
                   </ul>
                   <ul>
                     <li>
-                      <Link
-                        to="/cookiepolicy"
+                      <a
+                        href="/cookiepolicy"
                         className="footer-link"
                         target="_blank"
                       >
                         <span className="blue-link">Cookie Policy</span>
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </div>

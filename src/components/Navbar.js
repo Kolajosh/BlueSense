@@ -30,17 +30,17 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+        <a href="/" className="navbar-logo" onClick={closeMobileMenu}>
           <img src={logo} alt="logo"></img>
-        </Link>
+        </a>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+            <a href="/about" className="nav-links" onClick={closeMobileMenu}>
               About
-            </Link>
+            </a>
           </li>
           <li
             className="nav-item"
@@ -53,14 +53,14 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/blog" className="nav-links" onClick={closeMobileMenu}>
+            <a href="/blog" className="nav-links" onClick={closeMobileMenu}>
               Blog
-            </Link>
+            </a>
           </li>
           <li className="nav-item">
-            <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
+            <a href="/contact" className="nav-links" onClick={closeMobileMenu}>
               Contact
-            </Link>
+            </a>
           </li>
         </ul>
       </nav>

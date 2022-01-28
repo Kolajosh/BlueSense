@@ -1,12 +1,6 @@
-.profile-container {
-  width: 100%;
-  height: auto;
-}
-
 .profile-head h1 {
   margin-left: 50px;
   margin-top: 50px;
-
   font-family: Poppins, sans-serif;
   font-weight: 600;
   color: #666666;
@@ -15,55 +9,74 @@
 .blue {
   color: #0f74b9;
 }
-
-.icons1 {
-  display: grid;
-  grid-template-columns: repeat(5, auto);
-}
-
-.icons1 ul {
-  margin-top: 0px;
+.profile-picons {
   display: flex;
+}
+.profile-picon1 {
+  width: 24%;
+}
+.profile-icons1 ul {
+  width: 100%;
   margin-left: 50px;
+  margin-right: 50px;
   list-style: none;
   color: #666666;
 }
 
-.icons1 p {
+.profile-icons1 p {
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
 }
 
-.icons1 img {
+.profile-icons1 img {
   width: 270px;
 }
 
-.picon2 {
-  margin-left: 70px;
+@media screen and (max-width: 1200px) {
+  .profile-icons1 img {
+    width: 170px;
+  }
+  .profile-picon1 {
+    width: 19%;
+  }
 }
 
-@media screen and (max-width: 1200px) {
-  .icons1 img {
+@media screen and (max-width: 935px) {
+  .profile-icons1 img {
     width: 150px;
   }
-  .picon2 {
-    margin-left: 30px;
+  .profile-picon1 {
+    width: 19%;
+  }
+  .profile-icons1 p {
+    font-size: 13px;
   }
 }
 
-@media screen and (max-width: 668px) {
-  .icons1 img {
-    width: 80px;
+@media screen and (max-width: 828px) {
+  .profile-icons1 img {
+    width: 100px;
   }
-  .icons1 p {
+  .profile-picon1 {
+    width: 19%;
+  }
+
+  .profile-icons1 p {
     font-size: 11px;
   }
+}
+
+@media screen and (max-width: 634px) {
+  .profile-icons1 img {
+    width: 80px;
+  }
+  .profile-icons1 p {
+    font-size: 10px;
+  }
+
   .profile-head h1 {
     font-size: 25px;
   }
-}
-
-@media screen and (max-width: 628px) {
-  .icons1 p {
-    font-size: 10px;
+  .profile-picon1 {
+    width: 18%;
   }
 }

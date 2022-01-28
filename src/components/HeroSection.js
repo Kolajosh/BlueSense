@@ -3,7 +3,6 @@ import home from "../images/homepic.png";
 import { Button } from "./Button";
 import "./HeroSection.css";
 import "../App.css";
-import { Link } from "react-router-dom";
 
 function HeroSection() {
   return (
@@ -24,7 +23,7 @@ function HeroSection() {
         </p>
       </div>
       <div className="hero-btns">
-        <Link to="/contact" className="btn-link">
+        <a href="/contact" className="btn-link">
           <Button
             className="btns"
             buttonStyle="btn--primary"
@@ -32,7 +31,7 @@ function HeroSection() {
           >
             Schedule Consultation <i class="fas fa-angle-right"></i>
           </Button>
-        </Link>
+        </a>
       </div>
     </div>
   );

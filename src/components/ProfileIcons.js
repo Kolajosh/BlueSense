@@ -8,9 +8,9 @@ function ProfileIcons() {
         <div className="profile-head">
           <h1>Team</h1>
         </div>
-        <div className="icons1">
-          <div className="picon1">
-            <ul className="picons">
+        <div className="profile-icons1">
+          <div className="profile-picon1">
+            <ul className="profile-picons">
               <li>
                 <img src={kola} alt=""></img>
               </li>
@@ -18,14 +18,11 @@ function ProfileIcons() {
             <ul>
               <li>
                 <p>Kolawole Ayoola</p>
-                <p className="blue">
-                  Web Development
-                  <br /> Intern
-                </p>
+                <p className="blue">Web Development Intern</p>
               </li>
             </ul>
           </div>
-          <div className="picon2">
+          <div className="profile-picon2">
             <ul>
               <li></li>
               <li></li>

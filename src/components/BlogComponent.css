@@ -11,7 +11,16 @@
   width: 100%;
   height: auto;
 }
-
+.blog-text-0 a {
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  color: #666666;
+}
+.blog-text-01 a {
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  color: #666666;
+}
 .blog-header h1 {
   position: absolute;
   font-family: Poppins, sans-serif;
@@ -58,7 +67,7 @@
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   text-decoration: none;
   color: green;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /*------------------------ read more blog section ------------------------------*/

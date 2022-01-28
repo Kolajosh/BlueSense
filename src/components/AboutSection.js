@@ -16,19 +16,28 @@ function AboutSection() {
           <span className="about-blue"> BlueSense</span> has three core
           competencies:
           <br /> Advisory, Strategy and Learning.{" "}
-          <span className="about-blue">i&nbsp; BlueSense Advisory</span>
+          <span className="about-blue">
+            <br />
+            i. &nbsp; BlueSense Advisory{" "}
+          </span>
           provides research-based recommendations and improvement study for
           client consideration and decision making.
-          <span className="about-blue">ii&nbsp; BlueSense Strategy</span> helps
-          you garner the most insightful information you need to make critical
-          decisions that can give your startup a competitive edge.
-          <span className="about-blue">iii &nbsp;BlueSense Learning</span> is at
-          our core and helps you effectively build a competitive team that sets
-          your company apart.
+          <span className="about-blue">
+            <br />
+            ii. &nbsp; BlueSense Strategy
+          </span>{" "}
+          helps you garner the most insightful information you need to make
+          critical decisions that can give your startup a competitive edge.
+          <span className="about-blue">
+            <br />
+            iii. &nbsp;BlueSense Learning
+          </span>{" "}
+          is at our core and helps you effectively build a competitive team that
+          sets your company apart.
         </p>
         <h2 className="about-heading-2">Our History</h2>
         <p className="about-section-paragraph-2">
-          We started our consulting services 7+ years ago; since then we have
+          We started our consulting services 10+ years ago; since then we have
           been a quiet reasoning partner alongside a number of companies +
           international organisations in a variety of sectors. Working
           hand-in-hand with top tier executives like you to guide them through
@@ -42,14 +51,23 @@ function AboutSection() {
         <h2 className="about-heading-4">Values</h2>
         <p className="about-section-paragraph-2">
           Our values are: Simplicity. Innovation + Challenging Excellence <br />
-          <span className="about-blue">i&nbsp; Simplicity: </span>we believe the
-          most complex problems in the world can be solved by clarity in
-          thinking. We have a robust history of simplifying challenges for our
-          clientele.
-          <span className="about-blue">ii&nbsp; Innovation: </span>we help
-          startups find the most innovative ways to improve their teams +
-          company.
-          <span className="about-blue">iii&nbsp; Challenging Excellence:</span>
+          <span className="about-blue">
+            <br />
+            i. &nbsp; Simplicity:{" "}
+          </span>
+          we believe the most complex problems in the world can be solved by
+          clarity in thinking. We have a robust history of simplifying
+          challenges for our clientele.
+          <span className="about-blue">
+            <br />
+            ii. &nbsp; Innovation:{" "}
+          </span>
+          we help startups find the most innovative ways to improve their teams
+          + company.
+          <span className="about-blue">
+            <br />
+            iii. &nbsp; Challenging Excellence:
+          </span>
           we work with exceptional clients whom we support to raise their game
           to #1 in what they do; not just in the continent but in the world.
         </p>
