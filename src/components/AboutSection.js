@@ -66,7 +66,7 @@ function AboutSection() {
           + company.
           <span className="about-blue">
             <br />
-            iii. &nbsp; Challenging Excellence:
+            iii. &nbsp; Challenging Excellence:{" "}
           </span>
           we work with exceptional clients whom we support to raise their game
           to #1 in what they do; not just in the continent but in the world.
