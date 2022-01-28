@@ -31,6 +31,14 @@
   transition: 0.3s ease-in-out;
 }
 
+.logo-img1 {
+  width: 70%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  filter: grayscale(100%);
+  transition: 0.3s ease-in-out;
+}
+
 .logo-box {
   width: 120px;
   height: auto;
@@ -49,6 +57,14 @@
 
 .logo-img:hover {
   filter: grayscale(0%);
+}
+.logo-img1:hover {
+  filter: grayscale(0%);
+}
+@media (max-width: 754px) {
+  .section-heading {
+    font-size: 25px;
+  }
 }
 
 @media (max-width: 668px) {
@@ -72,14 +88,6 @@
     object-fit: contain;
   }
 
-  .logo-img {
-    width: 100%;
-    height: auto;
-    transform: translate(-50%, -50%);
-    filter: grayscale(100%);
-    transition: 0.3s ease-in-out;
-  }
-
   .logo-box {
     width: 100%;
     height: auto;
@@ -94,9 +102,5 @@
     margin-left: 50px;
     margin-top: 20px;
     box-sizing: border-box;
-  }
-
-  .section-heading {
-    font-size: 25px;
   }
 }

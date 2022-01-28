@@ -57,7 +57,19 @@ function Nsb() {
           to the bill are companies registered as Innovation Driven
           Entrepreneurship (IDEs). Innovative in this case would include such
           things as the production and improvement of innovative products as
-          well as commercialization of such products.
+          well as commercialization of such products. The bill also stipulates
+          that Start-ups should involve new tech or be enabled by technology.
+          <br />
+          <br />
+          The bill specifies that the company should be incorporated in Nigeria
+          and have existed for not more than ten years. Its headquarters must be
+          located in Nigeria as well. Such a company should have at least 51% of
+          its shares held by Nigerians. Companies with foreign participation
+          exceeding 49% are still eligible as long as the ultimate beneficial
+          owners are Nigerians. The Start-up should have a total of less than
+          100 direct employees, of course excluding casual workers, consultants,
+          and outsourced staff having at least 15% of their expenses going into
+          research and development activities.
           <br />
           <br />
           There are certain incentives available to Startups registered under

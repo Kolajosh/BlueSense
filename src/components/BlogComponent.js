@@ -223,25 +223,25 @@ function BlogComponent() {
       </div>
 
       <div className="read-more-div">
-        <h4>Visit our social media blogs below for more articles</h4>
-
-        <a
-          href="https://www.linkedin.com/company/bluesensegroup/posts/?feedView=articles"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="bluesense post"
-        >
-          <i class="fab fa-linkedin" />{" "}
-        </a>
-
-        <a
-          href="https://bluesense.medium.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="bluesense post"
-        >
-          <i class="fab fa-medium" />
-        </a>
+        <p>
+          Visit our social media blogs for more articles &nbsp;
+          <a
+            href="https://www.linkedin.com/company/bluesensegroup/posts/?feedView=articles"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="bluesense post"
+          >
+            <i class="fab fa-linkedin" />{" "}
+          </a>
+          <a
+            href="https://bluesense.medium.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="bluesense post"
+          >
+            <i class="fab fa-medium" />
+          </a>
+        </p>
       </div>
     </>
   );

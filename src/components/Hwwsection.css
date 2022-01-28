@@ -182,13 +182,10 @@
 
   .hww-heading {
     margin-top: 50px;
-    margin-left: 25px;
-    font-size: 25px;
   }
 
   .hww-body {
-    margin-top: -20px;
-    margin-left: 25px;
+    margin-top: 0px;
     margin-right: 50px;
     font-size: 18px;
   }
@@ -212,7 +209,6 @@
   .hww-heading {
     margin-top: 50px;
     margin-left: 50px;
-    font-size: 25px;
   }
 
   .hww-big-ul h1 {
@@ -245,7 +241,6 @@
   .hww-heading {
     margin-top: 50px;
     margin-left: 50px;
-    font-size: 25px;
   }
 
   .hww-big-ul h1 {
@@ -274,7 +269,7 @@
   }
 }
 
-@media (max-width: 758px) {
+@media (max-width: 754px) {
   .hww-heading {
     margin-top: 50px;
     margin-left: 50px;
