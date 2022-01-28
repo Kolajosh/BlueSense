@@ -86,3 +86,9 @@
     width: 21.2%;
   }
 }
+
+@media screen and (max-width: 634px) {
+  .picon1 {
+    width: 25%;
+  }
+}

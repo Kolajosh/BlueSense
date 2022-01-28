@@ -80,3 +80,8 @@
     width: 18%;
   }
 }
+@media screen and (max-width: 634px) {
+  .profile-picon1 {
+    width: 25%;
+  }
+}
