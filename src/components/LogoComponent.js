@@ -17,7 +17,7 @@ function LogoComponent() {
 
       <div className="logo-container">
         <div className="logo-box">
-          <img src={mvx} alt="mvx-logo" className="logo-img1"></img>
+          <img src={mvx} alt="mvx-logo" className="logo-img11"></img>
         </div>
         <div className="logo-box">
           <img src={leeds} alt="leeds-logo" className="logo-img"></img>
@@ -32,13 +32,13 @@ function LogoComponent() {
         </div>
         <br></br>
         <div className="logo-box-2">
-          <img src={icrc} alt="ICRC-logo" className="logo-img"></img>
+          <img src={icrc} alt="ICRC-logo" className="logo-img1"></img>
         </div>
         <div className="logo-box-2">
-          <img src={medecins} alt="medecins-logo" className="logo-img"></img>
+          <img src={medecins} alt="medecins-logo" className="logo-img1"></img>
         </div>
         <div className="logo-box-2">
-          <img src={life} alt="lifestore-logo" className="logo-img"></img>
+          <img src={life} alt="lifestore-logo" className="logo-img1"></img>
         </div>
       </div>
     </>

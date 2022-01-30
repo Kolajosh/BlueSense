@@ -61,11 +61,10 @@ function PartnerIcons1() {
             <p>
               Seye is an award winning still-life photographer and
               environmentalist. Inspired by nature, culture and happenings
-              around her, she enjoys telling stories with her images. <br />
-              She tells these stories throught photography that is as
-              thought-provoking as it is beautiful. <br />
-              She is a skilled creative artist who works with vision and
-              compassion. <br></br>
+              around her, she enjoys telling stories with her images. She tells
+              these stories throught photography that is as thought-provoking as
+              it is beautiful. She is a skilled creative artist who works with
+              vision and compassion. <br></br>
               <br></br>
               <i class="fab fa-linkedin"></i>
             </p>
@@ -81,10 +80,8 @@ function PartnerIcons1() {
           <div className="overlay1">
             <p>
               Natasha has a PhD in Risk Assesment Management and vast experience
-              working in different sectors. <br />
-              She has a strong passion for addressing risk management issues and
-              improving business outcomes.
-              <br />
+              working in different sectors. She has a strong passion for
+              addressing risk management issues and improving business outcomes.
               She has a concrete background in research with a focus on Risk
               Management that she deploys on client projects. <br></br>
               <br></br>

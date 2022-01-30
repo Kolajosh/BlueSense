@@ -13,28 +13,26 @@ function AboutSection() {
           trust, and learning in the workplace.
         </p>
         <p className="about-section-subparagraph">
-          <span className="about-blue"> BlueSense</span> has three core
-          competencies:
-          <br /> Advisory, Strategy and Learning.{" "}
-          <span className="about-blue">
-            <br />
-            i. &nbsp; BlueSense Advisory{" "}
-          </span>
-          provides research-based recommendations and improvement study for
-          client consideration and decision making.
-          <span className="about-blue">
-            <br />
-            ii. &nbsp; BlueSense Strategy
-          </span>{" "}
-          helps you garner the most insightful information you need to make
-          critical decisions that can give your startup a competitive edge.
-          <span className="about-blue">
-            <br />
-            iii. &nbsp;BlueSense Learning
-          </span>{" "}
-          is at our core and helps you effectively build a competitive team that
-          sets your company apart.
+          BlueSense has three core competencies: Advisory, Strategy and
+          Learning.{" "}
         </p>
+        <ul className="about-list">
+          <li>
+            <span className="about-blue"> BlueSense Advisory </span>provides
+            research-based recommendations and improvement study for client
+            consideration and decision making.
+          </li>
+          <li>
+            <span className="about-blue">BlueSense Strategy </span>helps you
+            garner the most insightful information you need to make critical
+            decisions that can give your startup a competitive edge.
+          </li>
+          <li>
+            <span className="about-blue">BlueSense Learning </span>is at our
+            core and helps you effectively build a competitive team that sets
+            your company apart.
+          </li>
+        </ul>
         <h2 className="about-heading-2">Our History</h2>
         <p className="about-section-paragraph-2">
           We started our consulting services 10+ years ago; since then we have
@@ -50,27 +48,25 @@ function AboutSection() {
         </p>
         <h2 className="about-heading-4">Values</h2>
         <p className="about-section-paragraph-2">
-          Our values are: Simplicity. Innovation + Challenging Excellence <br />
-          <span className="about-blue">
-            <br />
-            i. &nbsp; Simplicity:{" "}
-          </span>
-          we believe the most complex problems in the world can be solved by
-          clarity in thinking. We have a robust history of simplifying
-          challenges for our clientele.
-          <span className="about-blue">
-            <br />
-            ii. &nbsp; Innovation:{" "}
-          </span>
-          we help startups find the most innovative ways to improve their teams
-          + company.
-          <span className="about-blue">
-            <br />
-            iii. &nbsp; Challenging Excellence:{" "}
-          </span>
-          we work with exceptional clients whom we support to raise their game
-          to #1 in what they do; not just in the continent but in the world.
+          Our values are: Simplicity. Innovation + Challenging Excellence{" "}
         </p>
+        <ul className="about-list">
+          <li>
+            <span className="about-blue">Simplicity: </span>we believe the most
+            complex problems in the world can be solved by clarity in thinking.
+            We have a robust history of simplifying challenges for our
+            clientele.
+          </li>
+          <li>
+            <span className="about-blue">Innovation: </span>we help startups
+            find the most innovative ways to improve their teams + company.
+          </li>
+          <li>
+            <span className="about-blue">Challenging Excellence: </span>we work
+            with exceptional clients whom we support to raise their game to #1
+            in what they do; not just in the continent but in the world.
+          </li>
+        </ul>
         <h2 className="about-heading-5">Vision</h2>
         <p className="about-section-paragraph-3">
           Africa is becoming the next hub for startups + innovation; we want to

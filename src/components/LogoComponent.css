@@ -1,7 +1,7 @@
 .section-heading {
   font-family: Poppins, sans-serif;
   font-weight: 600;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 50px;
   color: rgba(102, 102, 102, 0.726);
 }
@@ -32,7 +32,15 @@
 }
 
 .logo-img1 {
-  width: 70%;
+  width: 55%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  filter: grayscale(100%);
+  transition: 0.3s ease-in-out;
+}
+
+.logo-img11 {
+  width: 55%;
   height: auto;
   transform: translate(-50%, -50%);
   filter: grayscale(100%);
@@ -59,6 +67,9 @@
   filter: grayscale(0%);
 }
 .logo-img1:hover {
+  filter: grayscale(0%);
+}
+.logo-img11:hover {
   filter: grayscale(0%);
 }
 @media (max-width: 754px) {

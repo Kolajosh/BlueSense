@@ -27,7 +27,13 @@ function StrategySection2() {
             functions in the last year
           </p>
         </div>
-
+        <div className="stra-button-div">
+          <button className="stra-button">
+            <a href="/contact" className="stra-btn-link">
+              Schedule Consultation <i class="fas fa-caret-right"></i>
+            </a>
+          </button>
+        </div>
         <div className="button-strategy-2">
           <button className="big-Strategybutton-2">
             <Link to="/contact" className="big-Strategybtn-link-2">

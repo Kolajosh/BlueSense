@@ -26,7 +26,7 @@
 }
 
 .strategy2-body-div p {
-  padding-bottom: 120px;
+  padding-bottom: 20px;
   margin-left: 50px;
   font-size: 18px;
   color: #0f74b9;
@@ -40,6 +40,30 @@
 .button-strategy-2 {
   display: none;
   position: relative;
+}
+
+.stra-button-div {
+  position: relative;
+  text-align: end;
+  margin-top: 5%;
+}
+
+.stra-button {
+  padding: 12px 26px;
+  font-size: 20px;
+  border-radius: 40px;
+  background-color: #0f74b9;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+
+.stra-btn-link {
+  text-decoration: none;
+  color: white;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
 }
 
 .big-Strategybutton-2 {
@@ -63,6 +87,10 @@
   transform: translateY(-10px);
   transition: 0.5s;
 }
+.stra-button:hover {
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
 
 @media screen and (max-width: 1300px) {
   .strategy2-body-1 p {
@@ -70,9 +98,12 @@
   }
 }
 
-@media screen and (max-width: 998px) {
+@media screen and (max-width: 1100px) {
   .strategy2-body-1 p {
     font-size: 18px;
+  }
+  .stra-button-div {
+    display: none;
   }
   .button-strategy-2 {
     display: initial;

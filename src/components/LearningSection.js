@@ -8,13 +8,6 @@ function LearningSection() {
     <>
       <div className="learning-img">
         <img src={learning} alt=""></img>
-        <div className="button-learning">
-          <button className="big-button">
-            <Link to="/contact" className="big-btn-link">
-              Schedule Consultation <i class="fas fa-caret-right"></i>
-            </Link>
-          </button>
-        </div>
       </div>
 
       <div className="learning-container">
@@ -65,7 +58,14 @@ function LearningSection() {
 
         <h1>50+</h1>
         <div className="learning2-body-div">
-          <p className="blue-learning">Training curriculums curated.</p>
+          <p className="blue-learning">Training curriculums curated</p>
+        </div>
+        <div className="button-learning">
+          <button className="learn-button">
+            <Link to="/contact" className="learn-btn-link">
+              Schedule Consultation <i class="fas fa-caret-right"></i>
+            </Link>
+          </button>
         </div>
         <div className="button-learning-2">
           <button className="big-learning-button-2">

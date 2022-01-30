@@ -1,20 +1,13 @@
 import React from "react";
 import "./StrategySection.css";
 import strategy from "../images/strategy.png";
-import { Link } from "react-router-dom";
 
 function StrategySection() {
   return (
     <>
       <div className="strategy-img">
         <img src={strategy} alt=""></img>
-        <div className="button-strategy">
-          <button className="big-button">
-            <Link to="/contact" className="big-btn-link">
-              Schedule Consultation <i class="fas fa-caret-right"></i>
-            </Link>
-          </button>
-        </div>
+        <div className="button-strategy"></div>
       </div>
 
       <div className="strategy-container">

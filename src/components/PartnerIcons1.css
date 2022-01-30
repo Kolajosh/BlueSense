@@ -56,10 +56,10 @@
 .overlay1 p {
   color: white;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   position: absolute;
-  width: 70%;
-  top: 50%;
+  width: 80%;
+  top: 55%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -141,11 +141,11 @@
   .paticon1-head h1 {
     font-size: 25px;
   }
-  .emmanuel1 {
-    display: initial;
-  }
   .emmanuel {
     display: none;
+  }
+  .emmanuel1 {
+    display: initial;
   }
 }
 @media screen and (max-width: 634px) {

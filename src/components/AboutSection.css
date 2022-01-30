@@ -10,6 +10,17 @@
   margin-top: 30px;
 }
 
+.about-list {
+  margin-left: 50px;
+  margin-right: 50px;
+  list-style-type: lower-roman;
+}
+.about-list li {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-size: 25px;
+  color: #666666;
+}
+
 .about-heading {
   padding-top: 70px;
   margin-left: 50px;
