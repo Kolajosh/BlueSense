@@ -37,6 +37,12 @@ function PartnerIcons1() {
           <img src={garza} alt=""></img>
           <div className="advisers-overlay">
             <p>
+              Andrew is Co-Founder and COO of Lifestores Pharmacy, a chain of
+              mass-market pharmacies in Nigeria. Previously, he was the Senior
+              Manager of Supply Chain & Business Development at CHI
+              Pharmaceuticals in Lagos, Nigeria. He received an MBA from
+              Stanford University and a BA in Sociology/Economics from Haverford
+              College.
               <br></br>
               <br></br>
               <i class="fab fa-linkedin"></i>
