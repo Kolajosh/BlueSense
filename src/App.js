@@ -19,6 +19,7 @@ import TraitsOfGreatFounders from "./components/blogPages/TraitsOfGreatFounders"
 import WhyCompetion from "./components/blogPages/WhyCompetition";
 import SixGuides from "./components/blogPages/SixGuides";
 import Nsb from "./components/blogPages/Nsb";
+import StartupTrends from "./components/blogPages/StartupTrends";
 
 function App() {
   return (
@@ -44,7 +45,7 @@ function App() {
         <Route exact path="/blog/whycompetition" component={WhyCompetion} />
         <Route exact path="/blog/nsb" component={Nsb} />
         <Route exact path="/blog/6guides" component={SixGuides} />
-
+        <Route exact path="/blog/startuptrends" component={StartupTrends} />
         <Route component={custom404} />
       </Switch>
       <FooterComponent />
