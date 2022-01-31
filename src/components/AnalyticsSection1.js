@@ -1,7 +1,6 @@
 import React from "react";
 import "./AnalyticsSection1.css";
 import analytics from "../images/analytics.png";
-import { Link } from "react-router-dom";
 
 function AnalyticsSection1() {
   return (
