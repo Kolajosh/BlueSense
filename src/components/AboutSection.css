@@ -7,17 +7,16 @@
 .about-section-paragraph {
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: 30px;
 }
 
 .about-list {
-  margin-left: 50px;
+  margin-left: 74px;
   margin-right: 50px;
   list-style-type: lower-roman;
 }
 .about-list li {
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   color: #666666;
 }
 
@@ -25,7 +24,7 @@
   padding-top: 70px;
   margin-left: 50px;
   font-family: Poppins, sans-serif;
-  font-size: 54px;
+  font-size: 44px;
   font-weight: 600;
   color: #666666;
 }
@@ -33,14 +32,12 @@
 .about-section-paragraph {
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
   color: #666666;
 }
 
 .about-blue {
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
-  font-weight: 400;
-  font-size: 25px;
   color: #0f74b9;
 }
 
@@ -50,14 +47,14 @@
   margin-top: 30px;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
   color: #666666;
 }
 
 .about-section-paragraph-list {
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 50px;
   margin-right: 50px;
   list-style: none;
@@ -66,7 +63,7 @@
 .about-section-paragraph-list li {
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
   color: #666666;
 }
 
@@ -78,7 +75,7 @@
   margin-top: 30px;
   margin-left: 50px;
   font-family: Poppins, sans-serif;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 600;
   color: #666666;
 }
@@ -88,7 +85,7 @@
   margin-right: 50px;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
   color: #666666;
 }
 
@@ -96,7 +93,7 @@
   margin-top: 30px;
   margin-left: 50px;
   font-family: Poppins, sans-serif;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 600;
   color: #666666;
 }
@@ -105,7 +102,7 @@
   margin-top: 30px;
   margin-left: 50px;
   font-family: Poppins, sans-serif;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 600;
   color: #666666;
 }
@@ -113,7 +110,7 @@
 .about-section-paragraph-2 {
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 50px;
   margin-right: 50px;
   list-style: none;
@@ -122,7 +119,7 @@
 .about-blue-subparagraph {
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 50px;
   color: #0f74b9;
 }
@@ -134,7 +131,7 @@
 .about-section-paragraph-2 li {
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
   color: #666666;
 }
 
@@ -142,7 +139,7 @@
   margin-top: 30px;
   margin-left: 50px;
   font-family: Poppins, sans-serif;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 600;
   color: #666666;
 }
@@ -150,7 +147,7 @@
 .about-section-paragraph-3 {
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 50px;
   margin-right: 50px;
   padding-bottom: 50px;
@@ -170,7 +167,7 @@
   margin-top: 50px;
   margin-left: 50px;
   font-family: Poppins, sans-serif;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 600;
   color: #666666;
 }
@@ -178,10 +175,10 @@
 .about-section-2 p {
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: 30px;
+  margin-top: 20px;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
   color: #666666;
 }
 

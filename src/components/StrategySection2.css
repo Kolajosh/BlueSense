@@ -13,7 +13,7 @@
   margin-left: 50px;
   margin-right: 100px;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   color: #666666;
 }
 
@@ -45,7 +45,7 @@
 .stra-button-div {
   position: relative;
   text-align: end;
-  margin-top: 5%;
+  margin-top: 14%;
 }
 
 .stra-button {

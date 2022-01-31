@@ -87,7 +87,7 @@ function AboutSection() {
           and emerging technology, allows us to address problems in unique ways
           that no one else can.
         </p>
-        <br></br>
+
         <p>
           We provide advisory, strategy and learning services of the highest
           quality to help build stronger teams, equip executives with the
@@ -95,7 +95,6 @@ function AboutSection() {
           their set goals. Our clients are fully involved in the processes since
           we provide personalised solutions to the problems.
         </p>
-        <br></br>
         <p>
           We have an enhanced capacity to implement change, build capacity, and
           help organisations transform themselves. Combining the full scope of

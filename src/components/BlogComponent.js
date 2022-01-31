@@ -25,9 +25,7 @@ function BlogComponent() {
               In 2020 there was a paradigm shift in businesses and
               entrepreneurship globally with a lot of business closures. 2020
               and 2021 also saw the launch of a multitude of new small
-              businesses, globally. Since then, there has been a multitude of
-              trends that have developed and are changing the way businesses
-              operate and...
+              businesses, globally....
               <br />
               <br />
               <a href="/blog/startuptrends" className="linkblog">
@@ -55,9 +53,7 @@ function BlogComponent() {
               In 2020 there was a paradigm shift in businesses and
               entrepreneurship globally with a lot of business closures. 2020
               and 2021 also saw the launch of a multitude of new small
-              businesses, globally. Since then, there has been a multitude of
-              trends that have developed and are changing the way businesses
-              operate and...
+              businesses, globally....
               <br />
               <br />
               <a href="/blog/startuptrends" className="linkblog">

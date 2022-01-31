@@ -29,9 +29,12 @@ function PartnerIcons1() {
           <img src={ayomide} alt=""></img>
           <div className="profile-overlay">
             <p>
-              Ayomide is a fresh graduate of Economics from Covenant University
-              (CU). Currently undergoing NYSC program. Area of professional
-              interest is Management Consulting.<br></br>
+              Ayomide is an Economics graduate of Covenant University. She
+              volunteered as a human resource officer at the Akinbayo Michael
+              Foundation for nearly a year.  Currently enrolled in the NYSC
+              program. Professional interests include Consulting on management
+              issues.
+              <br></br>
               <br></br>
               <i class="fab fa-linkedin"></i>
             </p>

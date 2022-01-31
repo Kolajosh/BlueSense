@@ -49,7 +49,16 @@ function AnalyticsSection2() {
               </li>
             </div>
           </ul>
+          <br />
+          <div className="button-analytics">
+            <button className="big-button">
+              <Link to="/contact" className="big-btn-link">
+                Schedule Consultation <i class="fas fa-caret-right"></i>
+              </Link>
+            </button>
+          </div>
         </div>
+
         <div className="button-a">
           <button className="big-button-a">
             <Link to="/contact" className="big-btn-link">

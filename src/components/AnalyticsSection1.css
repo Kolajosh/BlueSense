@@ -27,7 +27,7 @@
   margin-left: 100px;
   margin-right: 100px;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   color: #666666;
 }
 
@@ -36,7 +36,7 @@
   margin-left: 50px;
   margin-right: 100px;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: lighter;
   color: #666666;
@@ -58,8 +58,17 @@
 
 .button-analytics {
   position: relative;
-  margin-top: 10px;
-  padding-left: 350px;
+  text-align: end;
+  margin-right: 50px;
+}
+.big-button {
+  padding: 12px 26px;
+  font-size: 18px;
+  border-radius: 40px;
+  background-color: #0f74b9;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1300px) {
@@ -72,12 +81,9 @@
   .analytics-img img {
     width: 500px;
   }
-  .button-analytics {
-    padding-left: 250px;
-  }
 }
 
-@media screen and (max-width: 998px) {
+@media screen and (max-width: 1100px) {
   .analytics1-body-1 p {
     font-size: 18px;
     margin-left: 75px;

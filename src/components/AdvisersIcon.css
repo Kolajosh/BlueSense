@@ -14,12 +14,12 @@
 
 .adviser1 {
   position: relative;
-  width: 25%;
+  width: 20%;
 }
 
 .adviser1 img {
-  width: 270px;
-  height: 270px;
+  width: 200px;
+  height: 200px;
 }
 
 .adviser1 li {
@@ -39,8 +39,8 @@
   right: 0;
   bottom: 67px;
   overflow: hidden;
-  width: 270px;
-  height: 270px;
+  width: 200px;
+  height: 200px;
   opacity: 0;
   transition: 0.3s ease-in-out;
 }
@@ -55,9 +55,9 @@
 .advisers-overlay p {
   color: white;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
-  font-size: 12px;
+  font-size: 10px;
   position: absolute;
-  width: 70%;
+  width: 90%;
   top: 55%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);

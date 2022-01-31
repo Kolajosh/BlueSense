@@ -6,7 +6,7 @@
 
 .advisory-container-2 {
   width: 100%;
-  height: 250px;
+  height: 400px;
 }
 
 .advisory-container-2 h1 {
@@ -33,7 +33,7 @@
   margin-left: 100px;
   margin-right: 100px;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   color: #666666;
 }
 
@@ -44,7 +44,7 @@
   margin-right: 100px;
   padding-bottom: 20px;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: lighter;
   color: #666666;
@@ -66,8 +66,9 @@
 
 .button-advisory {
   position: relative;
-  margin-top: 10px;
-  padding-left: 350px;
+  margin-top: 190px;
+  margin-right: 50px;
+  text-align: end;
 }
 
 .button-advisory-2 {

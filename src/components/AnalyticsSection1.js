@@ -8,13 +8,6 @@ function AnalyticsSection1() {
     <>
       <div className="analytics-img">
         <img src={analytics} alt=""></img>
-        <div className="button-analytics">
-          <button className="big-button">
-            <Link to="/contact" className="big-btn-link">
-              Schedule Consultation <i class="fas fa-caret-right"></i>
-            </Link>
-          </button>
-        </div>
       </div>
 
       <div className="analytics-container">

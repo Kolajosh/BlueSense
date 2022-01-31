@@ -25,8 +25,8 @@ function StrategySection() {
         <div className="strategy1-body-2">
           <p>
             <span className="blue">BlueSense</span> Strategy applies the latest
-            analytics tools and state-of-the-art techniques—like machine
-            learning, data mining, and sequential pattern analysis—to change the
+            analytics tools and state-of-the-art techniques like machine
+            learning, data mining, and sequential pattern analysis to change the
             way companies interact with customers and to help them optimise
             internal processes. We continue to expand the scope of skills and
             experience it brings to our clients.

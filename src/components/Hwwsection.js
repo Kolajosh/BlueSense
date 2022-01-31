@@ -13,6 +13,7 @@ function Hwwsection() {
           proactive solutionsthat utilise our expertise + experience to solve
           your most pressing problems and attain set goals & objectives.
         </p>
+        <br />
         <div className="hww-foot-div">
           <ul className="hww-big-ul">
             <li className="hww-big-list">

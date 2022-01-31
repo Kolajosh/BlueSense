@@ -1,5 +1,5 @@
 .analytics-container-2 {
-  width: 737px;
+  width: 100%;
   height: auto;
 }
 
@@ -8,7 +8,7 @@
   margin-left: 50px;
   margin-right: 100px;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   color: #666666;
 }
 
@@ -16,30 +16,21 @@
   margin-top: 20px;
   margin-left: 70px;
   margin-right: 100px;
+  width: 40%;
 }
 
 .analytics2-body-2 li {
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   margin-top: 20px;
   color: #666666;
-}
-
-.big-text {
-  display: grid;
-  grid-template-columns: repeat(5, auto);
 }
 
 .big-text ul {
   margin-top: 20px;
-  display: flex;
   margin-left: 50px;
   list-style: none;
   color: #666666;
-}
-
-.big-text-2 {
-  margin-left: 250px;
 }
 
 .big-text h1 {
@@ -107,6 +98,9 @@
     font-size: 15px;
     margin-left: 75px;
   }
+  .analytics2-body-2 {
+    width: 55%;
+  }
   .analytics2-body-2 li {
     font-size: 15px;
   }
@@ -114,9 +108,7 @@
   .big-text h1 {
     font-size: 28px;
   }
-  .big-text-2 {
-    margin-left: 50px;
-  }
+
   .big-button-a {
     font-size: 18px;
   }
@@ -134,9 +126,7 @@
   .big-text h1 {
     font-size: 24px;
   }
-  .big-text-2 {
-    margin-left: 50px;
-  }
+
   .big-button-a {
     font-size: 13px;
   }
