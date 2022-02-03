@@ -38,8 +38,8 @@ function PartnerIcons1() {
             <p>
               Emmanuel is a multiple CISCO certified IT Speacialist with 8+
               years experience in planning, implementing and supporting network
-              and security infrastructure in Canada, UK, and Nigeria. <br />
-              He has experience with Saipem, Siemens UK, to mention but a few.{" "}
+              and security infrastructure in Canada, UK, and Nigeria. He has
+              experience with Saipem, Siemens UK, to mention but a few.{" "}
               <br></br>
               <br></br>
               <i class="fab fa-linkedin"></i>

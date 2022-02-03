@@ -15,10 +15,10 @@ function PartnerIcons1() {
           <div className="advisers-overlay">
             <p>
               15+ years of experience within Customer Experience, Strategy,
-              Operations and Finance. <br />
-              Andrew has worked across North America, Europe, and Sub-Saharan
-              Africa. Recent work focus has been centered around driving
-              operational improvements through technology and digitization.
+              Operations and Finance. Andrew has worked across North America,
+              Europe, and Sub-Saharan Africa. Recent work focus has been
+              centered around driving operational improvements through
+              technology and digitization.
               <br></br>
               <i class="fab fa-linkedin"></i>
             </p>

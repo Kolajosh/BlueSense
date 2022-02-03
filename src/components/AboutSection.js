@@ -18,17 +18,17 @@ function AboutSection() {
         </p>
         <ul className="about-list">
           <li>
-            <span className="about-blue"> BlueSense Advisory </span>provides
+            BlueSense<span className="about-blue"> Advisory </span>provides
             research-based recommendations and improvement study for client
             consideration and decision making.
           </li>
           <li>
-            <span className="about-blue">BlueSense Strategy </span>helps you
+            BlueSense <span className="about-blue">Strategy </span>helps you
             garner the most insightful information you need to make critical
             decisions that can give your startup a competitive edge.
           </li>
           <li>
-            <span className="about-blue">BlueSense Learning </span>is at our
+            BlueSense <span className="about-blue">Learning </span>is at our
             core and helps you effectively build a competitive team that sets
             your company apart.
           </li>
