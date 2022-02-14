@@ -15,6 +15,12 @@ function PartnerIcons1() {
           <img src={kola} alt=""></img>
           <div className="profile-overlay">
             <p>
+              Experienced Program Assistant with a demonstrated history of
+              working in the information technology and services industry.
+              Skilled in AutoCAD, Graphic Design, Web Design, Network Appliance,
+              and HTML. Strong administrative professional with a Bsc computer
+              science focused in Computer Science from Crawford university.
+              <br></br>
               <br></br>
               <i class="fab fa-linkedin"></i>
             </p>
