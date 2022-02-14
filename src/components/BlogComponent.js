@@ -6,6 +6,7 @@ import blog2 from "../images/blog2.png";
 import blog3 from "../images/blog3.png";
 import blog4 from "../images/nsb.png";
 import blog5 from "../images/blog00.png";
+import blog6 from "../images/autogas.png";
 
 function BlogComponent() {
   return (
@@ -13,6 +14,60 @@ function BlogComponent() {
       <div className="blog-header">
         <img src={bigblog} alt=""></img>
         <h1>BlueSense Blog</h1>
+      </div>
+
+      <div className="blog-0">
+        <div className="blog-post-0">
+          <div className="blog-text-0">
+            <h2>
+              <a href="/blog/autogas">
+                {" "}
+                Will autogas surpass petrol to become the new fuel in Nigeria?
+              </a>
+            </h2>
+            <p>
+              Nigeria began producing oil and gas in 1958 when the country's
+              first oil discovery well was dug at Oloibiri (present-day Bayelsa
+              State, Niger Delta Region). Gas output...
+              <br />
+              <br />
+              <a href="/blog/autogas" className="linkblog">
+                {" "}
+                Read more...
+              </a>
+            </p>
+          </div>
+          <div className="blog-post-0-img">
+            <img src={blog6} alt=""></img>
+          </div>
+        </div>
+      </div>
+
+      <div className="blog-01">
+        <div className="blog-post-01">
+          <div className="blog-post-01-img">
+            <img src={blog6} alt=""></img>
+          </div>
+          <div className="blog-text-01">
+            <h2>
+              <a href="/blog/autogas">
+                {" "}
+                Will autogas surpass petrol to become the new fuel in Nigeria?
+              </a>
+            </h2>{" "}
+            <p>
+              Nigeria began producing oil and gas in 1958 when the country's
+              first oil discovery well was dug at Oloibiri (present-day Bayelsa
+              State, Niger Delta Region). Gas output...
+              <br />
+              <br />
+              <a href="/blog/autogas" className="linkblog">
+                {" "}
+                Read more...
+              </a>
+            </p>
+          </div>
+        </div>
       </div>
 
       <div className="blog-0">

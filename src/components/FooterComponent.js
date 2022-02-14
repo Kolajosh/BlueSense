@@ -34,12 +34,7 @@ function FooterComponent() {
                   </ul>
                   <ul>
                     <li>
-                      <a
-                        href
-                        to="/terms"
-                        className="footer-link"
-                        target="_blank"
-                      >
+                      <a href="/terms" className="footer-link" target="_blank">
                         <span className="blue-link">Terms of use</span>
                       </a>
                     </li>
