@@ -49,8 +49,7 @@ function ContactSection(props) {
         );
     }
     setFormErrors(validate(formValues));
-
-    e.target.reset();
+    setFormValues(initialValues);
   };
 
   useEffect(() => {
@@ -89,16 +88,20 @@ function ContactSection(props) {
     ) {
       errors.submit = "Message not sent";
     } else {
-      errors.submit = "Message Sent";
+      errors.yesSubmit = "Message Sent";
     }
 
     return errors;
   };
 
   // hide result
+  /*
+  
   setTimeout(() => {
     setFormErrors(false);
-  }, 5000);
+  }, 10000);
+
+  */
   return (
     <>
       <div className="container">
@@ -111,7 +114,7 @@ function ContactSection(props) {
           </p>
         </div>
 
-        <form action="" className="form" onSubmit={sendEmail}>
+        <form action="" id="myform" className="form" onSubmit={sendEmail}>
           <div className="flex-contact-1">
             <div className="field">
               <p className="t-red">{formErrors.name}</p>
@@ -176,6 +179,7 @@ function ContactSection(props) {
               Submit <i class="fas fa-caret-right"></i>
             </button>
             <p className="t-red">{formErrors.submit}</p>
+            <p className="t-green">{formErrors.yesSubmit}</p>
           </div>
         </form>
 
@@ -240,6 +244,7 @@ function ContactSection(props) {
               Submit <i class="fas fa-caret-right"></i>
             </button>
             <p className="t-red">{formErrors.submit}</p>
+            <p className="t-green">{formErrors.yesSubmit}</p>
           </div>
         </form>
       </div>

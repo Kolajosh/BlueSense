@@ -19,6 +19,11 @@
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-size: 15px;
 }
+.t-green {
+  color: green;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-size: 15px;
+}
 .flex-contact-1 {
   display: flex;
   grid-gap: 50px;

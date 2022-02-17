@@ -2,16 +2,19 @@
   box-sizing: border-box;
 }
 
+/*--------------------------------------------------------*/
+
 .flex-container {
   display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  max-width: 100%;
-  margin-top: 20px;
-  margin: 0px;
+  justify-content: center;
   transition: 0.3s;
 }
-
+.icon img {
+  width: 40%;
+}
+.icon2 img {
+  width: 30%;
+}
 .card-heading {
   font-family: Poppins;
   font-weight: 600;
@@ -27,18 +30,15 @@
 .item-1,
 .item-2,
 .item-3 {
-  width: 400px;
-  height: 400px;
-  padding: 40px 30px;
+  width: 300px;
+  height: 300px;
+  padding: 40px 20px;
   border: 1px solid;
   border-color: rgba(102, 102, 102, 0.726);
   border-radius: 40px;
   margin-top: 100px;
   margin-left: 50px;
   margin-right: 50px;
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 33%;
   text-align: center;
 }
 
@@ -69,18 +69,18 @@
 }
 
 .item-2 p {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .item-3 p {
-  margin-top: 10px;
+  margin-top: 13px;
 }
 
 .subtitle-flex {
   color: rgba(102, 102, 102, 0.726);
   font-family: Poppins;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 20px;
   transition: 0.3s;
 }
 
@@ -88,7 +88,7 @@
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: lighter;
   margin-top: 5px;
-  font-size: 11px;
+  font-size: 10px;
   color: rgba(102, 102, 102, 0.726);
   transition: 0.3s;
 }
@@ -97,7 +97,7 @@
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: lighter;
   margin-top: -25px;
-  font-size: 11px;
+  font-size: 10px;
   color: rgba(102, 102, 102, 0.726);
   transition: 0.3s;
 }
@@ -106,7 +106,7 @@
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: lighter;
   margin-top: 5px;
-  font-size: 11px;
+  font-size: 10px;
   color: rgba(102, 102, 102, 0.726);
   transition: 0.3s;
 }
@@ -175,26 +175,15 @@
     display: flex;
     width: 100%;
   }
-  .item-1,
-  .item-2,
-  .item-3 {
-    width: 300px;
-    height: 300px;
-  }
 
   .subtitle-flex {
     font-size: 15px;
     font-weight: 600;
   }
 
-  .card-img {
-    margin-top: -20px;
-    width: 70px;
-  }
-
   .middle-text {
     font-size: 9px;
-    margin-top: -10px;
+    margin-top: -25px;
   }
   .middle-text-2 {
     margin-top: -40px;
@@ -203,6 +192,9 @@
   .middle-text-1 {
     margin-top: -25px;
     font-size: 9px;
+  }
+  .item-3 p {
+    margin-top: 25px;
   }
   .item-2 p {
     margin-top: 40px;

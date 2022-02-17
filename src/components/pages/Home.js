@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import "../../App.css";
 import Cards from "../Cards";
+import CaseCarousel from "../CaseCarousel";
 import HeroSection from "../HeroSection";
 import Hwwsection from "../Hwwsection";
 import LogoComponent from "../LogoComponent";
@@ -25,6 +26,7 @@ export default function Home() {
       <HeroSection />
       <Cards />
       <LogoComponent />
+      <CaseCarousel />
       <Hwwsection />
     </>
   );

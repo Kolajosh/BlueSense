@@ -1,0 +1,70 @@
+.slider-div {
+  height: auto;
+}
+.case-head {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+.case-head h1 {
+  font-family: Poppins, sans-serif;
+  color: rgba(102, 102, 102, 0.726);
+  font-weight: 600;
+}
+.case-slide {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.head-case1 {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #666666;
+}
+.case-body {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  color: #666666;
+  font-size: 20px;
+}
+.navigation {
+  margin-top: 20px;
+  text-align: center;
+}
+.bback {
+  border: none;
+  border-radius: 20%;
+  margin-right: 50px;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  padding: 10px;
+}
+.bfront {
+  border: none;
+  border-radius: 20%;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  padding: 10px;
+}
+
+@media (max-width: 1300px) {
+  .case-body {
+    font-size: 18px;
+  }
+  .head-case1 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1068px) {
+  .case-body {
+    font-size: 15px;
+  }
+  .head-case1 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 754px) {
+  .case-body {
+    font-size: 13px;
+  }
+  .head-case1 {
+    font-size: 13px;
+  }
+}

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import icon from "../images/icon.png";
 import icon1 from "../images/icon1.png";
 import icon2 from "../images/icon2.png";
@@ -11,13 +10,13 @@ function Cards() {
       <h1 className="card-heading">Core Competencies</h1>
       <div className="flex-container">
         <div className="item-1">
-          <Link to="/strategy" className="card-links">
+          <a href="/strategy" className="card-links">
             {" "}
             <div className="icon">
               <img src={icon} alt="icon" className="card-img"></img>
             </div>
             <p className="subtitle-flex">Strategy</p>
-          </Link>
+          </a>
           <div className="middle-text-1">
             <p>
               As a consulting firm, we take pride in carrying out thorough
@@ -30,12 +29,12 @@ function Cards() {
           </div>
         </div>
         <div className="item-2">
-          <Link to="/learning" className="card-links">
+          <a href="/learning" className="card-links">
             <div className="icon">
               <img src={icon1} alt="icon1" className="card-img"></img>
             </div>
             <p className="subtitle-flex">Learning</p>
-          </Link>
+          </a>
           <div className="middle-text-2">
             <p>
               At BlueSense, we offer learning services ranging from seminars to
@@ -47,12 +46,12 @@ function Cards() {
           </div>
         </div>
         <div className="item-3">
-          <Link to="/advisory" className="card-links">
-            <div className="icon">
+          <a href="/advisory" className="card-links">
+            <div className="icon2">
               <img src={icon2} alt="icon2" className="card-img"></img>
             </div>
             <p className="subtitle-flex">Advisory</p>
-          </Link>
+          </a>
           <div className="middle-text">
             <p>
               As a team, we are constantly looking to help businesses thrive in
@@ -65,13 +64,13 @@ function Cards() {
 
       <div className="card-container">
         <div className="card-item-1">
-          <Link to="/strategy" className="card-links-1">
+          <a href="/strategy" className="card-links-1">
             {" "}
             <div className="card-icon-1">
               <img src={icon} alt="icon" className="card-img-1"></img>
             </div>
             <h2 className="card-subtitle-flex">Strategy</h2>
-          </Link>
+          </a>
           <div className="card-middle-text-1">
             <p>
               As a consulting firm, we take pride in carrying out thorough
@@ -85,13 +84,13 @@ function Cards() {
         </div>
 
         <div className="card-item-1">
-          <Link to="/learning" className="card-links-1">
+          <a href="/learning" className="card-links-1">
             {" "}
             <div className="card-icon-1">
               <img src={icon1} alt="icon" className="card-img-1"></img>
             </div>
             <h2 className="card-subtitle-flex">Learning</h2>
-          </Link>
+          </a>
           <div className="card-middle-text-1">
             <p>
               At BlueSense, we offer learning services ranging from seminars to
@@ -104,13 +103,13 @@ function Cards() {
         </div>
 
         <div className="card-item-1">
-          <Link to="/advisory" className="card-links-1">
+          <a href="/advisory" className="card-links-1">
             {" "}
             <div className="card-icon-1">
               <img src={icon2} alt="icon" className="card-img-1"></img>
             </div>
             <h2 className="card-subtitle-flex">Advisory</h2>
-          </Link>
+          </a>
           <div className="card-middle-text-1">
             <p>
               As a team, we are constantly looking to help businesses thrive in
