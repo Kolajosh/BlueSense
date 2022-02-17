@@ -32,13 +32,15 @@
 }
 .bback {
   border: none;
+  background: none;
   border-radius: 20%;
-  margin-right: 50px;
+  margin-right: 50%;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   padding: 10px;
 }
 .bfront {
   border: none;
+  background: none;
   border-radius: 20%;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   padding: 10px;

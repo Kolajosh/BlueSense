@@ -7,7 +7,7 @@ function Hwwsection() {
       <div className="hww-container">
         <h1 className="hww-heading">How We Work</h1>
         <p className="hww-body">
-          How we work we support organisations through a detailed
+          How we work: we support organisations through a detailed
           diagnostic-approach; researching organisational problems to find out
           what challenges your company+teams on a day-to-day; then build out
           proactive solutionsthat utilise our expertise + experience to solve
