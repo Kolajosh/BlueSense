@@ -14,7 +14,7 @@ function FooterComponent() {
               </h4>
               <p>WorkStation, Victoria Island</p>
               <p>Lagos, Nigeria.</p>
-              <p>
+              <p className="downloadp">
                 <a href={pdf}>View Company Profile</a>
               </p>
             </div>
