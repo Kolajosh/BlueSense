@@ -1,4 +1,5 @@
 import React from "react";
+import pdf from "../download/Profile.pdf";
 import "./FooterComponent.css";
 
 function FooterComponent() {
@@ -12,7 +13,10 @@ function FooterComponent() {
                 <span className="company-name">BlueSense</span>
               </h4>
               <p>WorkStation, Victoria Island</p>
-              <p>Lagos, Nigeria</p>
+              <p>Lagos, Nigeria.</p>
+              <p>
+                <a href={pdf}>View Company Profile</a>
+              </p>
             </div>
 
             <div className="right-text">

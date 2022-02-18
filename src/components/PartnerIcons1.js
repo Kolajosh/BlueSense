@@ -16,12 +16,13 @@ function PartnerIcons1() {
           <img src={christian} alt=""></img>
           <div className="overlay1">
             <p>
-              Christian is a consultant + coach. He helps organisations in the
-              continent build people.
-              <br /> As Lead Partner for Reuben & Company Project, he helps
-              build teams to work seamlessly, analyse (through concrete
-              research), the best strategies for growth and advise startups on
-              how to effectively improve human energy. <br></br>
+              Christian has 15+ years of experience within CX, Advisory,
+              Strategy, Learning Development, Operations, Finance, Training.
+              Recent work focus has been centred around Strategy Development,
+              Leadership Development, Systems Engineering, Executive Advisory,
+              and driving Operational Improvements through Technology,
+              Digitisation, + People Development.
+              <br></br>
               <br></br>
               <i class="fab fa-linkedin"></i>
             </p>
@@ -36,10 +37,11 @@ function PartnerIcons1() {
           <img src={emmanuel} alt=""></img>
           <div className="overlay1">
             <p>
-              Emmanuel is a multiple CISCO certified IT Speacialist with 8+
+              Emmanuel is a multiple CISCO certified IT Specialist with 12+
               years experience in planning, implementing and supporting network
-              and security infrastructure in Canada, UK, and Nigeria. He has
-              experience with Saipem, Siemens UK, to mention but a few.{" "}
+              and security infrastructure in Canada, UK and Nigeria. He is
+              currently supports BlueSense with infrastructure consulting
+              projects when they arise.
               <br></br>
               <br></br>
               <i class="fab fa-linkedin"></i>
@@ -61,10 +63,11 @@ function PartnerIcons1() {
             <p>
               Seye is an award winning still-life photographer and
               environmentalist. Inspired by nature, culture and happenings
-              around her, she enjoys telling stories with her images. She tells
-              these stories throught photography that is as thought-provoking as
-              it is beautiful. She is a skilled creative artist who works with
-              vision and compassion. <br></br>
+              around her, she enjoys bringing this creativity to life on our
+              projects. She looks at client issues from a unique perspective
+              that allows her challenge the status quo + develop solid solves
+              for pressing problems.
+              <br></br>
               <br></br>
               <i class="fab fa-linkedin"></i>
             </p>
@@ -79,11 +82,12 @@ function PartnerIcons1() {
           <img src={natasha} alt=""></img>
           <div className="overlay1">
             <p>
-              Natasha has a PhD in Risk Assesment Management and vast experience
-              working in different sectors. She has a strong passion for
-              addressing risk management issues and improving business outcomes.
-              She has a concrete background in research with a focus on Risk
-              Management that she deploys on client projects. <br></br>
+              Natasha has a PhD in Risk Assessment Management and vast
+              experience working in multiple Governmental sectors. She has a
+              strong passion for addressing supporting organisations and driving
+              company growth. With her concrete background in research, she
+              builds strategy that helps our clients minimise business risks.
+              <br></br>
               <br></br>
               <i class="fab fa-linkedin"></i>
             </p>

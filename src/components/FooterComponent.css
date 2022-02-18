@@ -1,7 +1,6 @@
 .footer-container {
   width: 100%;
   height: auto;
-  bottom: 0px;
 }
 
 .left-text {
@@ -16,7 +15,13 @@
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: lighter;
 }
-
+.left-text a {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+  color: #0f74b9;
+  font-size: 15px;
+}
 .company-name {
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 600;
@@ -24,7 +29,7 @@
 
 .right-text {
   font-family: Poppins, sans-serif;
-  margin-top: -20px;
+  margin-top: -30px;
   font-size: 16px;
   display: grid;
   grid-template-columns: repeat(5, auto);
@@ -137,7 +142,9 @@
     font-size: 13px;
     margin-bottom: 10px;
   }
-
+  .left-text a {
+    font-size: 13px;
+  }
   .right-text {
     font-size: 11px;
     margin-left: 50px;
