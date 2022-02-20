@@ -15,7 +15,7 @@ function CaseCarousel() {
   return (
     <>
       <div className="case-head">
-        <h1>Case Study</h1>
+        <h1>Case Studies</h1>
       </div>
       <div className="slider-div">
         <CarouselProvider

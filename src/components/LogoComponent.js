@@ -22,18 +22,21 @@ function LogoComponent() {
           <img src={mvx} alt="mvx-logo" className="logo-img11"></img>
         </div>
         <div className="logo-box">
-          <img src={leeds} alt="leeds-logo" className="logo-img"></img>
+          <img src={hugo} alt="leeds-logo" className="logo-img1"></img>
         </div>
         <div className="logo-box">
           <img src={hippo} alt="payhippo-logo" className="logo-img"></img>
         </div>
         <div className="logo-box">
-          <img src={easme} alt="easme-logo" className="logo-img"></img>
+          <img src={life} alt="easme-logo" className="logo-img"></img>
+        </div>
+        <div className="logo-box">
+          <img src={hashvest} alt="hashvest-logo" className="logo-img1"></img>
         </div>
       </div>
       <div className="logo-container-2">
         <div className="logo-box-2">
-          <img src={hugo} alt="hugo-logo" className="logo-img1"></img>
+          <img src={leeds} alt="hugo-logo" className="logo-img"></img>
         </div>
         <br></br>
         <div className="logo-box-2">
@@ -43,10 +46,7 @@ function LogoComponent() {
           <img src={medecins} alt="medecins-logo" className="logo-img1"></img>
         </div>
         <div className="logo-box-2">
-          <img src={life} alt="lifestore-logo" className="logo-img1"></img>
-        </div>
-        <div className="logo-box-2">
-          <img src={hashvest} alt="hashvest-logo" className="logo-img1"></img>
+          <img src={easme} alt="lifestore-logo" className="logo-img1"></img>
         </div>
       </div>
     </>
