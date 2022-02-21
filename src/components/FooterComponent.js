@@ -1,5 +1,4 @@
 import React from "react";
-import pdf from "../download/Profile.pdf";
 import "./FooterComponent.css";
 
 function FooterComponent() {
