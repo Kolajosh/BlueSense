@@ -36,7 +36,7 @@
   background-color: #fafafb;
   box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.15);
   border-radius: 40px;
-  margin-top: 100px;
+  margin-top: 25px;
   margin-left: 50px;
   margin-right: 50px;
   text-align: center;
@@ -207,7 +207,10 @@
 
 @media (max-width: 754px) {
   .card-heading {
-    margin-bottom: 100px;
+    margin-bottom: 25px;
+  }
+  .card-icon-1 {
+    margin-top: 25px;
   }
   .flex-container {
     display: none;
@@ -233,9 +236,20 @@
     border-radius: 40px;
     width: 50%;
     margin-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-bottom: 40px;
     margin-left: 22.5%;
+  }
+}
+
+@media (max-width: 754px) {
+  .card-icon-1 img {
+    width: 25%;
+    padding-top: 40px;
+  }
+  .card-item-1 h2 {
+    font-size: 14px;
+    padding-top: 10px;
   }
 }

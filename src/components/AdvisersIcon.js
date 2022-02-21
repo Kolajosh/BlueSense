@@ -7,7 +7,7 @@ function PartnerIcons1() {
   return (
     <>
       <div className="adviser1-head">
-        <h1>Advisers</h1>
+        <h1>Advisory</h1>
       </div>
       <ul className="paticons-list">
         <div className="adviser1">

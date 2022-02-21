@@ -96,6 +96,9 @@
   .strategy2-body-1 p {
     font-size: 20px;
   }
+  .stra-button-div {
+    margin-top: 1%;
+  }
 }
 
 @media screen and (max-width: 1100px) {

@@ -21,7 +21,7 @@ function LogoComponent() {
         <div className="logo-box">
           <img src={mvx} alt="mvx-logo" className="logo-img11"></img>
         </div>
-        <div className="logo-box">
+        <div className="logo-box-hugo">
           <img src={hugo} alt="leeds-logo" className="logo-img1"></img>
         </div>
         <div className="logo-box">
@@ -30,7 +30,7 @@ function LogoComponent() {
         <div className="logo-box">
           <img src={life} alt="easme-logo" className="logo-img"></img>
         </div>
-        <div className="logo-box">
+        <div className="logo-box-hash">
           <img src={hashvest} alt="hashvest-logo" className="logo-img1"></img>
         </div>
       </div>

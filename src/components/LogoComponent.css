@@ -7,7 +7,7 @@
 }
 
 .logo-container {
-  padding-left: 50px;
+  padding-left: 7.5%;
   width: 100%;
   height: auto;
   display: flex;
@@ -16,7 +16,7 @@
 }
 
 .logo-container-2 {
-  padding-left: 50px;
+  padding-left: 9%;
   width: 100%;
   height: auto;
   display: flex;
@@ -32,7 +32,7 @@
 }
 
 .logo-img1 {
-  width: 55%;
+  width: 50%;
   height: auto;
   transform: translate(-50%, -50%);
   filter: grayscale(100%);
@@ -49,16 +49,36 @@
 
 .logo-box {
   width: 120px;
+  vertical-align: top;
   height: auto;
-  margin-top: 100px;
+  margin-top: 25px;
   box-sizing: border-box;
   text-align: center;
 }
-
+.logo-box-hugo {
+  width: 120px;
+  vertical-align: top;
+  height: auto;
+  margin-top: 25px;
+  margin-left: -30px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.logo-box-hash {
+  width: 120px;
+  vertical-align: top;
+  height: auto;
+  margin-top: 25px;
+  margin-left: -30px;
+  box-sizing: border-box;
+  text-align: center;
+}
 .logo-box-2 {
   width: 120px;
+  vertical-align: top;
   height: auto;
   margin-top: 20px;
+  margin-left: -30px;
   box-sizing: border-box;
   text-align: center;
 }
@@ -80,21 +100,44 @@
 
 @media (max-width: 668px) {
   .logo-container {
-    width: 100%;
     margin-top: 15px;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    object-fit: contain;
   }
-
   .logo-container-2 {
     width: 100%;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    object-fit: contain;
+  }
+  .logo-img {
+    width: 60%;
+  }
+
+  .logo-img1 {
+    width: 40%;
+  }
+
+  .logo-img11 {
+    width: 45%;
+  }
+  .logo-box {
+    width: 100px;
+    height: auto;
+    margin-top: 25px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .logo-box-hugo {
+    width: 100px;
+    margin-top: 25px;
+    margin-left: -30px;
+  }
+  .logo-box-hash {
+    width: 100px;
+    margin-top: 25px;
+    margin-left: -30px;
+  }
+  .logo-box-2 {
+    width: 100px;
+    margin-top: 20px;
+    margin-left: -30px;
   }
 }
