@@ -15,7 +15,7 @@ function FooterComponent() {
               <p>Lagos, Nigeria.</p>
               <p className="downloadp">
                 <a
-                  href="../download/Profile.pdf"
+                  href={require("../download/Profile.pdf")}
                   target="_blank"
                   rel="noreferrer"
                 >
