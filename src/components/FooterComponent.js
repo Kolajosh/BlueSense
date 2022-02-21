@@ -15,7 +15,11 @@ function FooterComponent() {
               <p>WorkStation, Victoria Island</p>
               <p>Lagos, Nigeria.</p>
               <p className="downloadp">
-                <a href={pdf} target="_blank" rel="noreferrer">
+                <a
+                  href="../download/Profile.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   View Company Profile
                 </a>
               </p>
