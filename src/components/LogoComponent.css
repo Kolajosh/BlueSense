@@ -1,7 +1,7 @@
 .section-heading {
   font-family: Poppins, sans-serif;
   font-weight: 600;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-left: 50px;
   color: rgba(102, 102, 102, 0.726);
 }
@@ -24,29 +24,19 @@
 }
 
 .logo-img {
-  width: 80%;
+  width: 60%;
   height: auto;
   transform: translate(-50%, -50%);
   filter: grayscale(100%);
   transition: 0.3s ease-in-out;
 }
-
 .logo-img1 {
-  width: 50%;
+  width: 100%;
   height: auto;
   transform: translate(-50%, -50%);
   filter: grayscale(100%);
   transition: 0.3s ease-in-out;
 }
-
-.logo-img11 {
-  width: 55%;
-  height: auto;
-  transform: translate(-50%, -50%);
-  filter: grayscale(100%);
-  transition: 0.3s ease-in-out;
-}
-
 .logo-box {
   width: 120px;
   vertical-align: top;
@@ -55,30 +45,12 @@
   box-sizing: border-box;
   text-align: center;
 }
-.logo-box-hugo {
+.logo-box1 {
   width: 120px;
   vertical-align: top;
   height: auto;
-  margin-top: 25px;
-  margin-left: -30px;
-  box-sizing: border-box;
-  text-align: center;
-}
-.logo-box-hash {
-  width: 120px;
-  vertical-align: top;
-  height: auto;
-  margin-top: 25px;
-  margin-left: -30px;
-  box-sizing: border-box;
-  text-align: center;
-}
-.logo-box-2 {
-  width: 120px;
-  vertical-align: top;
-  height: auto;
-  margin-top: 20px;
-  margin-left: -30px;
+  margin-top: 15px;
+  margin-left: 40px;
   box-sizing: border-box;
   text-align: center;
 }
@@ -111,33 +83,11 @@
     width: 60%;
   }
 
-  .logo-img1 {
-    width: 40%;
-  }
-
-  .logo-img11 {
-    width: 45%;
-  }
   .logo-box {
     width: 100px;
     height: auto;
     margin-top: 25px;
     box-sizing: border-box;
     text-align: center;
-  }
-  .logo-box-hugo {
-    width: 100px;
-    margin-top: 25px;
-    margin-left: -30px;
-  }
-  .logo-box-hash {
-    width: 100px;
-    margin-top: 25px;
-    margin-left: -30px;
-  }
-  .logo-box-2 {
-    width: 100px;
-    margin-top: 20px;
-    margin-left: -30px;
   }
 }

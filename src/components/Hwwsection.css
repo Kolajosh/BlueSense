@@ -112,8 +112,6 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  text-align: center;
-  vertical-align: middle;
 }
 .hww-box-1,
 .hww-box-2,
@@ -124,6 +122,8 @@
   width: 85px;
   height: 60px;
   margin: 10px;
+  padding-left: 12px;
+  padding-top: 5px;
 }
 .hww-box-1 h2 {
   font-family: Poppins, sans-serif;
