@@ -126,6 +126,9 @@
 }
 
 @media screen and (max-width: 1300px) {
+  .advisory-container-2 {
+    height: 300px;
+  }
   .advisory1-body-1 p {
     font-size: 20px;
   }
@@ -137,6 +140,9 @@
   }
   .button-advisory {
     padding-left: 250px;
+  }
+  .button-advisory {
+    margin-top: 20px;
   }
 }
 

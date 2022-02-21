@@ -24,7 +24,7 @@ function Hwwsection() {
             </li>
             <li className="hww-big-list1">
               <h1>
-                30 DAYS <span class="icon-right-arrow-123"></span>
+                90 DAYS <span class="icon-right-arrow-123"></span>
                 <li> </li>
               </h1>
             </li>
@@ -57,7 +57,7 @@ function Hwwsection() {
 
           <div className="hww-box-2">
             <div className="hww-box-title">
-              <h2>3.5 MONTHS</h2>
+              <h2>90 DAYS</h2>
             </div>
             <div className="hww-box-content">
               <p>Average Project Length</p>
@@ -66,7 +66,7 @@ function Hwwsection() {
 
           <div className="hww-box-3">
             <div className="hww-box-title">
-              <h2>$100+</h2>
+              <h2>$100M+</h2>
             </div>
             <div className="hww-box-content">
               <p>Added to Client Bottomline</p>

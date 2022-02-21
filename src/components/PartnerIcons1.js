@@ -1,8 +1,8 @@
 import React from "react";
 import christian from "../images/Mask Group.png";
-import emmanuel from "../images/Mask Group-6.png";
+import emmanuel from "../images/emma.png";
 import seye from "../images/Mask Group-7.png";
-import natasha from "../images/Mask Group-3.png";
+import natasha from "../images/nat.png";
 import "./PartnerIcons1.css";
 
 function PartnerIcons1() {

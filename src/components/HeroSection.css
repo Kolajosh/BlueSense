@@ -87,7 +87,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    line-height: 24px;
+    line-height: 20px;
   }
 
   .hero-container img {
@@ -106,7 +106,6 @@
 @media screen and (max-width: 720px) {
   .hero-container Button {
     margin-top: 20px;
-    margin-left: 50px;
     color: #666666;
   }
 }

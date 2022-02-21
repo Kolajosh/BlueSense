@@ -66,6 +66,10 @@
   transition: 0.5s ease-in-out;
   text-align: center;
 }
+.advisers-overlay h4 {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-size: 12px;
+}
 
 @media screen and (max-width: 1200px) {
   .adviser1 {

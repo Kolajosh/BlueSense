@@ -16,9 +16,9 @@ function PartnerIcons1() {
             <p>
               15+ years of experience within Customer Experience, Strategy,
               Operations and Finance. Andrew has worked across North America,
-              Europe, and Sub-Saharan Africa. Recent work focus has been
-              centered around driving operational improvements through
-              technology and digitization.
+              Europe, and Sub-Saharan Africa. Recent work focus has been centred
+              around driving operational improvements through technology and
+              digitisation.
               <br></br>
               <i class="fab fa-linkedin"></i>
             </p>
@@ -37,6 +37,8 @@ function PartnerIcons1() {
           <img src={garza} alt=""></img>
           <div className="advisers-overlay">
             <p>
+              <h4>Co-founder</h4>
+              <br />
               Andrew is Co-Founder and COO of Lifestores Pharmacy, a chain of
               mass-market pharmacies in Nigeria. Previously, he was the Senior
               Manager of Supply Chain & Business Development at CHI
