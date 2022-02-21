@@ -108,4 +108,10 @@
     margin-top: 20px;
     color: #666666;
   }
+  .hero-container img {
+    height: 500px;
+  }
+  .hero-container {
+    height: 500px;
+  }
 }
