@@ -47,17 +47,16 @@
   .dropdown-menu {
     width: auto;
     height: auto;
-    position: relative;
+    position: absolute;
+    left: 55%;
     top: -25px;
     transition: all 0.5s ease;
   }
 
   .dropdown-link {
     position: relative;
-    font-weight: bold;
-    font-size: 15px;
-    height: 15px;
-    z-index: 1;
+    font-size: 11px;
+    height: 2px;
     transition: all 0.5s ease;
   }
 

@@ -128,4 +128,7 @@ textarea {
   .message {
     margin-top: 10px;
   }
+  .contact-head p {
+    font-size: 17px;
+  }
 }

@@ -138,8 +138,9 @@ function FooterComponent() {
                 </p>
                 <p className="bottom">
                   <i class="far fa-copyright"></i>2013-2022 BlueSense. Reuben &
-                  Company. Lagos. Nigeria. All Rights Reserved.{" "}
-                  info@bluesense.co &nbsp; +234 806 578 4615
+                  Company. Lagos. Nigeria. <br />
+                  All Rights Reserved. info@bluesense.co &nbsp; +234 806 578
+                  4615
                 </p>
               </div>
               <div className="contact-right">

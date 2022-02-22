@@ -7,7 +7,7 @@
   justify-self: start;
   color: #666666;
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 25px;
   font-size: 18px;
 }
 
@@ -26,19 +26,23 @@
   font-size: 15px;
 }
 .company-name {
+  margin-top: 30px;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: 600;
 }
 
 .right-text {
-  font-family: Poppins, sans-serif;
-  margin-top: -30px;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-size: 16px;
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(3, auto);
   justify-content: end;
+  margin-right: 25px;
   text-align: left;
   list-style: none;
+}
+.col-2 {
+  margin-right: 20px;
 }
 
 .right-text li {
@@ -51,17 +55,9 @@
 }
 
 .footer-items {
-  margin-top: -50px;
+  margin-top: -95px;
   display: flex;
   align-items: center;
-}
-
-.col-1 {
-  margin-right: 50px;
-}
-
-.col-2 {
-  margin-right: 100px;
 }
 
 .footer-link {
@@ -80,9 +76,8 @@
   font-family: Poppins, sans-serif;
 }
 .footer hr {
-  margin-top: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
   border: 0;
   border-top: 1px solid #0f74b9;
 }
@@ -97,7 +92,7 @@
 .sub-foot p {
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: lighter;
-  margin-left: 50px;
+  margin-left: 25px;
   color: #666666;
 }
 
@@ -123,15 +118,6 @@
 
   .right-text {
     font-size: 15px;
-    margin-left: 50px;
-    display: inline-block;
-    justify-content: end;
-    text-align: left;
-    list-style: none;
-  }
-
-  .col-2 {
-    margin-right: 200px;
   }
 
   .sub-foot {
@@ -153,11 +139,6 @@
   }
   .right-text {
     font-size: 11px;
-    margin-left: 50px;
-    display: inline-block;
-    justify-content: end;
-    text-align: left;
-    list-style: none;
   }
 
   .sub-foot {
@@ -166,15 +147,17 @@
   .contact-right {
     font-size: 11px;
   }
-
-  .col-2 {
-    margin-right: 100px;
+  .footer-link i {
+    font-size: 11px;
+  }
+  .footer-items {
+    margin-top: -70px;
   }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 660px) {
   .subfoot {
-    margin-right: 50px;
+    margin-right: 25px;
     display: block;
     justify-content: space-between;
   }
@@ -182,7 +165,7 @@
     display: none;
   }
   .footer-link i {
-    font-size: 12px;
+    font-size: 10px;
   }
   .sub-foot {
     font-size: 10px;
@@ -196,7 +179,21 @@
   .bottom1 {
     display: none;
   }
+  .left-text {
+    font-size: 11px;
+  }
+
+  .right-text {
+    font-size: 10px;
+  }
+  .left-text a {
+    font-size: 10px;
+  }
+  .footer-items {
+    margin-top: -65px;
+  }
+
   .col-2 {
-    margin-right: 80px;
+    margin-right: 10px;
   }
 }
