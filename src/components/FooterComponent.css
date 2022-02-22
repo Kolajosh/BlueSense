@@ -61,7 +61,7 @@
 }
 
 .footer-link {
-  font-family: Poppins, sans-serif;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   text-decoration: none;
   color: #666666;
 }
@@ -180,7 +180,7 @@
     display: none;
   }
   .left-text {
-    font-size: 11px;
+    font-size: 10px;
   }
 
   .right-text {

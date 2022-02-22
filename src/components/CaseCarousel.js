@@ -124,7 +124,6 @@ function CaseCarousel() {
           <div className="navigation">
             <ButtonBack className="bback">Back </ButtonBack>
             <ButtonNext className="bfront">Next</ButtonNext>
-            <DotGroup className="dot" />
           </div>
         </CarouselProvider>
       </div>
