@@ -73,7 +73,7 @@
 
 .blue-link {
   color: #0f74b9;
-  font-family: Poppins, sans-serif;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
 }
 .footer hr {
   margin-left: 25px;
@@ -195,5 +195,8 @@
 
   .col-2 {
     margin-right: 10px;
+  }
+  .blue-link {
+    font-size: 10px;
   }
 }
