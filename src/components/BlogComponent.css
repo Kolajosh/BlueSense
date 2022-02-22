@@ -156,7 +156,7 @@
   .blog-text-01 p {
     font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 3px;
     font-weight: 400;
     font-size: 12px;
     color: #666666;
@@ -164,7 +164,7 @@
   .blog-text-01 {
     width: 100%;
     height: auto;
-    padding-top: 5px;
+    padding-top: 3px;
     margin-left: -100px;
     padding-right: 10px;
     background-color: #f7f7f7;
