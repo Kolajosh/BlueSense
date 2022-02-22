@@ -21,7 +21,7 @@ function LogoComponent() {
         <div className="logo-box">
           <img src={mvx} alt="mvx-logo" className="logo-img"></img>
         </div>
-        <div className="logo-box">
+        <div className="logo-box2">
           <img src={hugo} alt="leeds-logo" className="logo-img"></img>
         </div>
         <div className="logo-box">
