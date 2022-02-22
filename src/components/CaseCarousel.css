@@ -73,3 +73,14 @@
     font-size: 25px;
   }
 }
+@media (max-width: 654px) {
+  .case-body {
+    font-size: 10px;
+  }
+  .head-case1 {
+    font-size: 12px;
+  }
+  .case-head h1 {
+    font-size: 25px;
+  }
+}

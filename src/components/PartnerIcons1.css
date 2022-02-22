@@ -150,6 +150,15 @@
 }
 @media screen and (max-width: 634px) {
   .paticon1 {
-    width: 23%;
+    width: 22%;
+  }
+}
+@media screen and (max-width: 433px) {
+  .paticon1 {
+    width: 24%;
+  }
+  .paticon1 img {
+    width: 70px;
+    height: 70px;
   }
 }

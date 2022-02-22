@@ -234,7 +234,7 @@
     background-color: #fafafb;
     box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.15);
     border-radius: 40px;
-    width: 50%;
+    width: 55%;
     margin-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px;
@@ -251,5 +251,14 @@
   .card-item-1 h2 {
     font-size: 14px;
     padding-top: 10px;
+  }
+}
+@media (max-width: 520px) {
+  .card-item-1 h2 {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .card-item-1 p {
+    font-size: 8px;
   }
 }

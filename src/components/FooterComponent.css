@@ -111,6 +111,9 @@
 .footer-link i {
   font-size: 22px;
 }
+.bottom {
+  display: none;
+}
 
 @media (max-width: 990px) {
   .left-text {
@@ -176,7 +179,7 @@
     justify-content: space-between;
   }
   .contact-right {
-    margin-left: 50px;
+    display: none;
   }
   .footer-link i {
     font-size: 12px;
@@ -186,5 +189,14 @@
   }
   .contact-right {
     font-size: 10px;
+  }
+  .bottom {
+    display: inherit;
+  }
+  .bottom1 {
+    display: none;
+  }
+  .col-2 {
+    margin-right: 80px;
   }
 }

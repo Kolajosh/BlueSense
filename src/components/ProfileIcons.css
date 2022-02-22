@@ -146,3 +146,12 @@
     width: 23%;
   }
 }
+@media screen and (max-width: 433px) {
+  .profile1 {
+    width: 24%;
+  }
+  .profile1 img {
+    width: 70px;
+    height: 70px;
+  }
+}

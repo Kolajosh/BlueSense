@@ -109,7 +109,7 @@ function ContactSection(props) {
           <h1>Contact</h1>
           <p>
             Want to connect with <span className="blue">BlueSense:</span> to
-            discuss possible consulting engagements, <br />
+            discuss possible consulting engagements, <br className="bline" />
             please get in touch with us via the info/form below.
           </p>
         </div>
@@ -233,6 +233,7 @@ function ContactSection(props) {
             <textarea
               className="message"
               type="text"
+              rows={5}
               name="message"
               placeholder="Message"
               value={formValues.message}
