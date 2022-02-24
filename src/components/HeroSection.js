@@ -24,13 +24,9 @@ function HeroSection() {
       </div>
       <div className="hero-btns">
         <a href="/contact" className="btn-link">
-          <Button
-            className="btns"
-            buttonStyle="btn--primary"
-            butttonSize="btn--large"
-          >
+          <button className="hsbutton">
             Schedule Consultation <i class="fas fa-angle-right"></i>
-          </Button>
+          </button>
         </a>
       </div>
     </div>

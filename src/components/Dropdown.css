@@ -45,6 +45,7 @@
   }
 
   .dropdown-menu {
+    opacity: 1;
     width: auto;
     height: auto;
     position: absolute;

@@ -14,7 +14,18 @@
   position: absolute;
   z-index: -1;
 }
-
+.hsbutton {
+  border-radius: 40px;
+  border: none;
+  padding: 8px 20px;
+  font-size: 18px;
+}
+.hsbutton:hover {
+  transition: all 0.3s ease-out;
+  color: #242424;
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
 .hero-container h1 {
   color: #fff;
   margin-top: 70px;
@@ -113,5 +124,24 @@
   }
   .hero-container {
     height: 500px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .hero-text-container p {
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 16px;
+    width: 70%;
+  }
+  .hero-container h1 {
+    margin-right: 25px;
+    margin-top: 70px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .hsbutton {
+    font-size: 13px;
   }
 }

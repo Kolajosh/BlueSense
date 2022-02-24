@@ -211,4 +211,7 @@
   .advisory-container-2 p {
     font-size: 15px;
   }
+  .advisory-container-2 {
+    height: 200px;
+  }
 }
