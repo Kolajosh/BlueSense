@@ -1,6 +1,5 @@
 import React from "react";
 import home from "../images/homepic.png";
-import { Button } from "./Button";
 import "./HeroSection.css";
 import "../App.css";
 
