@@ -77,7 +77,7 @@ function BlogComponent() {
         <div className="blog-post-0">
           <div className="blog-text-0">
             <h2>
-              <a href="/blog/startuptrends"> Startup Trends in 2022</a>
+              <a href="/blog/startuptrends"> Start-up Trends in 2022</a>
             </h2>
             <p>
               In 2020 there was a paradigm shift in businesses and
@@ -105,7 +105,7 @@ function BlogComponent() {
           </div>
           <div className="blog-text-01">
             <h2>
-              <a href="/blog/startuptrends"> Startup Trends in 2022</a>
+              <a href="/blog/startuptrends"> Start-up Trends in 2022</a>
             </h2>{" "}
             <p>
               In 2020 there was a paradigm shift in businesses and
@@ -131,9 +131,9 @@ function BlogComponent() {
             </h2>
             <p>
               April 2018 saw Tunisia becoming the first African country to pass
-              a Startup act, this act took effect in October 2018 and
+              a Start-up act, this act took effect in October 2018 and
               essentially sought to provide a clear legal framework as well as
-              support for Startups within the country...
+              support for Start-ups within the country...
               <br />
               <br />
               <a href="/blog/nsb" className="linkblog">
@@ -159,9 +159,9 @@ function BlogComponent() {
             </h2>{" "}
             <p>
               April 2018 saw Tunisia becoming the first African country to pass
-              a Startup act, this act took effect in October 2018 and
+              a Start-up act, this act took effect in October 2018 and
               essentially sought to provide a clear legal framework as well as
-              support for Startups within the country...
+              support for Start-ups within the country...
               <br />
               <br />
               <a href="/blog/nsb" className="linkblog">
@@ -229,11 +229,11 @@ function BlogComponent() {
             <h2>
               <a href="/blog/whycompetition">
                 {" "}
-                Why Competition is futile for your Startup
+                Why Competition is futile for your Start-up
               </a>
             </h2>
             <p>
-              You should never start a startup in a massive or over saturated
+              You should never start a start-up in a massive or over saturated
               market. You want to create a unique product and start with a small
               niche before scaling. Large and ...
               <br />
@@ -260,11 +260,11 @@ function BlogComponent() {
               <a href="/blog/whycompetition">
                 {" "}
                 Why Competition is futile
-                <br /> for your Startup
+                <br /> for your Start-up
               </a>
             </h2>{" "}
             <p>
-              You should never start a startup in a massive or over saturated
+              You should never start a start-up in a massive or over saturated
               market. You want to create a unique product and start with a small
               niche before scaling. Large and ...
               <br />
@@ -284,13 +284,13 @@ function BlogComponent() {
             <h2>
               <a href="/blog/6guides">
                 {" "}
-                6 Guides to Fundraising for your Startup
+                6 Guides to Fundraising for your Start-up
               </a>
             </h2>
             <p>
-              Raising funds for your startup is not as difficult as you think;
+              Raising funds for your start-up is not as difficult as you think;
               because there are more investors out there than there are
-              startups. These six ...
+              start-ups. These six ...
               <br />
               <br />
               <a href="/blog/6guides" className="linkblog">
@@ -315,13 +315,13 @@ function BlogComponent() {
               <a href="/blog/6guides">
                 {" "}
                 6 Guides to Fundraising
-                <br /> for your Startup
+                <br /> for your Start-up
               </a>
             </h2>{" "}
             <p>
-              Raising funds for your startup is not as difficult as you think;
+              Raising funds for your start-up is not as difficult as you think;
               because there are more investors out there than there are
-              startups. These six ...
+              start-ups. These six ...
               <br />
               <br />
               <a href="/blog/6guides" className="linkblog">
