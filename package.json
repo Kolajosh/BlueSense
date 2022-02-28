@@ -48,6 +48,6 @@
     ]
   },
   "devDependencies": {
-    "@netlify/plugin-lighthouse": "^2.1.2"
+    "@netlify/plugin-lighthouse": "^2.1.3"
   }
 }
