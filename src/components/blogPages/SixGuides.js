@@ -22,11 +22,11 @@ function SixGuides() {
         <link rel="canonical" href="https://www.bluesense.co/blog/6guides/" />
         <meta
           name="description"
-          content="Raising funds for your startup is not as difficult as you think; because there are more investors out there than there are startups. These six elements will help you convince investors to put their money in your startup?..."
+          content="Raising funds for your start-up is not as difficult as you think; because there are more investors out there than there are startups. These six elements will help you convince investors to put their money in your startup?..."
         />
         <meta
           name="keywords"
-          content="Business, guides, Consultng, Startups, Intelligence, Strategy, "
+          content="Business, guides, Consultng, Start-ups, Intelligence, Strategy, "
         />
       </Helmet>
       <div className="whole">
