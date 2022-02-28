@@ -135,9 +135,12 @@
   }
   .small-pic {
     display: initial;
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
   }
   .hero-text-container p {
-    font-size: 14px;
+    font-size: 15px;
     margin-top: 20px;
     line-height: 16px;
     width: 70%;
