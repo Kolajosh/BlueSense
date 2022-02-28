@@ -18,14 +18,16 @@ function WhyCompetition() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Why Competition is futile for Startups | Blog | BlueSense</title>
+        <title>
+          Why Competition is futile for Start-ups | Blog | BlueSense
+        </title>
         <link
           rel="canonical"
           href="https://www.bluesense.co/blog/whycompetition/"
         />
         <meta
           name="description"
-          content="You should never start a startup in a massive or over-saturated market. You want to create a unique product and start with a small niche before scaling. Large and existing markets usually mean that you have tons of competition..."
+          content="You should never start a start-up in a massive or over-saturated market. You want to create a unique product and start with a small niche before scaling. Large and existing markets usually mean that you have tons of competition..."
         />
         <meta
           name="keywords"
@@ -36,13 +38,13 @@ function WhyCompetition() {
         <div className="flex1">
           <p>Published on July 6, 2021 | 2 min read</p>
         </div>
-        <h1>Why Competition is futile for your Startup</h1>
+        <h1>Why Competition is futile for your Start-up</h1>
 
         <img src={blog2} alt="Traits"></img>
       </div>
       <div className="blog1-text">
         <p>
-          You should never start a startup in a massive or over-saturated
+          You should never start a start-up in a massive or over-saturated
           market. You want to create a unique product and start with a small
           niche before scaling. Large and existing markets usually mean that you
           have tons of competition. It will be very difficult if not impossible
@@ -60,12 +62,12 @@ function WhyCompetition() {
           and become a force to be reckoned with in the future.
           <br />
           <br />
-          As a startup founder, you shouldn't willingly go out looking for risks
-          to take on; such as getting into a saturated market. Take competition
-          as a form of validation; when we go for things that a lot of other
-          people are going for, is a futile risk in itself. When lots of people
-          are doing one thing, it is often proof of insanity and it would be
-          difficult to stand out.
+          As a start-up founder, you shouldn't willingly go out looking for
+          risks to take on; such as getting into a saturated market. Take
+          competition as a form of validation; when we go for things that a lot
+          of other people are going for, is a futile risk in itself. When lots
+          of people are doing one thing, it is often proof of insanity and it
+          would be difficult to stand out.
           <br />
           <br />
           Going for a competitive market stunt your company's growth. The
@@ -78,8 +80,8 @@ function WhyCompetition() {
       <div className="flex2">
         <TwitterShareButton
           url="https://www.bluesense.co/blog/whycompetition"
-          title="Why Competition is futile for Startups "
-          hashtags={["Article", "Startups", "BlueSense"]}
+          title="Why Competition is futile for Start-ups "
+          hashtags={["Article", "Start-ups", "BlueSense"]}
         >
           <TwitterIcon size={25} round={true} fill="#666666" />
         </TwitterShareButton>

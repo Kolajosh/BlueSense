@@ -18,15 +18,15 @@ function Nsb() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Nigerian Startup Bill</title>
+        <title>Nigerian Start-up Bill</title>
         <link rel="canonical" href="https://www.bluesense.co/blog/nsb/" />
         <meta
           name="description"
-          content="April 2018 saw Tunisia becoming the first African country to pass a Startup act, this act took effect in October 2018 and essentially sough..."
+          content="April 2018 saw Tunisia becoming the first African country to pass a Start-up act, this act took effect in October 2018 and essentially sough..."
         />
         <meta
           name="keywords"
-          content="bluesense blog, Business, Consultng, founders, startup, Blog, Articles"
+          content="bluesense blog, Business, Consultng, founders, start-up, Blog, Articles"
         />
       </Helmet>
       <div className="head-img">
@@ -39,21 +39,21 @@ function Nsb() {
       <div className="blog1-text">
         <p>
           April 2018 saw Tunisia becoming the first African country to pass a
-          Startup act, this act took effect in October 2018 and essentially
+          Start-up act, this act took effect in October 2018 and essentially
           sought to provide a clear legal framework as well as support for
-          Startups within the country. Following the passage of the bill, there
+          Start-ups within the country. Following the passage of the bill, there
           have been a host of other African countries like Senegal, Kenya,
           Algeria, etc that have passed or are in the process of passing their
           unique start-up laws. In 2021, Nigeria joined this league of countries
           with the proposed Nigerian Start-up Bill (NSB) <br />
           <br />
           The Nigerian Start-up Bill is a collaborative effort of the Nigerian
-          Tech Startup Ecosystem and the Presidency primarily aimed at creating
+          Tech Start-up Ecosystem and the Presidency primarily aimed at creating
           a favourable business environment for Start-ups in Nigeria by creating
           a regulatory framework for Start-ups. <br />
           <br />
           The bill stipulates the specific criteria that will qualify companies
-          as Startups, the first of which is ‘Innovation.’ Start-ups according
+          as Start-ups, the first of which is ‘Innovation.’ Start-ups according
           to the bill are companies registered as Innovation Driven
           Entrepreneurship (IDEs). Innovative in this case would include such
           things as the production and improvement of innovative products as
@@ -72,14 +72,14 @@ function Nsb() {
           research and development activities.
           <br />
           <br />
-          There are certain incentives available to Startups registered under
+          There are certain incentives available to Start-ups registered under
           the bill which are believed to be advantageous, they are as follows;{" "}
           <br />
           <br />
           <ul>
             <li>
               Tax Relief: The bill purports to offer a tax exemption on the
-              profit of Startups for 7 years as well as a reduced Value-Added
+              profit of Start-ups for 7 years as well as a reduced Value-Added
               Tax of 3% on goods and services provided by Start-ups.
             </li>
             <li>
@@ -109,7 +109,7 @@ function Nsb() {
           While the bill is yet to be passed, it has received nationwide
           recognition and has been welcomed by the people as a step in the right
           direction for the nation and economy. It is hoped that this bill
-          brings about cordiality between regulators and Startups and will be
+          brings about cordiality between regulators and Start-ups and will be
           friendly to the tech ecosystem.
         </p>
       </div>
@@ -118,7 +118,12 @@ function Nsb() {
         <TwitterShareButton
           url="https://www.bluesense.co/blog/nsb"
           title="The Nigerian Start-up Bill - BlueSense Blog"
-          hashtags={["Article", "Startups", "BlueSense", "NigerianStartupBill"]}
+          hashtags={[
+            "Article",
+            "Start-ups",
+            "BlueSense",
+            "NigerianStartupBill",
+          ]}
         >
           <TwitterIcon size={25} round={true} fill="#666666" />
         </TwitterShareButton>

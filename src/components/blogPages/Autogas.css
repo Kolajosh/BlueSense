@@ -39,6 +39,9 @@
   padding-left: 16.5%;
   padding-right: 16.5%;
 }
+.autogas-text ul {
+  padding-left: 20px;
+}
 .autogas-text-img {
   width: 90%;
   text-align: right;

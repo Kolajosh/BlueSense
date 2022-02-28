@@ -64,7 +64,7 @@ function TraitsOfGreatFounders() {
           <br />
           The best founders are always determined and passionate about what they
           are doing. As a founder, once you can clearly see the vision for your
-          company, it is easy to become aggressively obsessed with your startup
+          company, it is easy to become aggressively obsessed with your start-up
           as you are determined to let the company grow to reach its full
           potential. <br />
           <br />
@@ -81,7 +81,7 @@ function TraitsOfGreatFounders() {
           same field to criticise their ideas then they make their decisions
           from that. <br />
           <br />
-          There is no single way to run the perfect startup; great founders
+          There is no single way to run the perfect start-up; great founders
           don’t build great companies overnight. They build great things by
           building a piece at a time. They show up, never give up and do
           whatever it takes to get to that vision that they have set for
@@ -94,7 +94,7 @@ function TraitsOfGreatFounders() {
         <TwitterShareButton
           url="https://www.bluesense.co/blog/traitsofgoodfounders"
           title="Traits of Great Founders"
-          hashtags={["Article", "Startups", "BlueSense"]}
+          hashtags={["Article", "Start-ups", "BlueSense"]}
         >
           <TwitterIcon size={25} round={true} fill="#666666" />
         </TwitterShareButton>

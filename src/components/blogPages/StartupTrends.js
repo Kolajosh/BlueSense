@@ -32,7 +32,7 @@ function StartupTrends() {
         />
         <meta
           name="keywords"
-          content="Business, startup in lagos, Consultng, Startups, Intelligence, Strategy, "
+          content="Business, start-up in lagos, Consultng, Start-ups, Intelligence, Strategy, "
         />
       </Helmet>
       <div className="whole">
@@ -40,7 +40,7 @@ function StartupTrends() {
           <div className="flex1">
             <p>Published on January 28, 2022 | 5 min read</p>
           </div>
-          <h1>Startup Trends in 2022</h1>
+          <h1>Start-up Trends in 2022</h1>
           <img src={blog3} alt="Traits"></img>
         </div>
         <div className="blog1-text">
@@ -52,7 +52,8 @@ function StartupTrends() {
             developed and are changing the way businesses operate and are
             managed today.
             <br />
-            <br /> Here are a few of the Startup trends to look out for in 2022:
+            <br /> Here are a few of the Start-up trends to look out for in
+            2022:
             <br />
             <br /> <b>Remote Work</b>: Remote work started out as a necessity in
             2020 due to the Covid-19 pandemic and it has since become a trending
@@ -103,8 +104,8 @@ function StartupTrends() {
             analysis, cyber security etc without necessarily having degrees in
             those areas. Essentially the question is no longer ‘Do you have a
             degree in this area?’ But now ‘How skilled are you at it?’ By being
-            inclusive and not rigid in recruitment processes, startups allow for
-            people with actual talent and passion to gain the necessary
+            inclusive and not rigid in recruitment processes, start-ups allow
+            for people with actual talent and passion to gain the necessary
             opportunities.
             <br />
             <br /> <b>Diversity and Inclusion Hiring</b>: “Inclusion” is a term
@@ -125,27 +126,27 @@ function StartupTrends() {
           <TwitterShareButton
             url="https://www.bluesense.co/blog/startuptrends"
             title="Startup Trends in 2022"
-            hashtags={["Article", "Startups", "BlueSense"]}
+            hashtags={["Article", "Start-ups", "BlueSense"]}
           >
             <TwitterIcon size={25} round={true} fill="#666666" />
           </TwitterShareButton>
           <FacebookShareButton
             url="https://www.bluesense.co/blog/startuptrends"
-            quote={"Startup Trends in 2022"}
+            quote={"Start-up Trends in 2022"}
             hashtag={"#Article"}
           >
             <FacebookIcon size={25} round={true} fill="#666666" />
           </FacebookShareButton>
           <LinkedinShareButton
             url="https://www.bluesense.co/blog/startuptrends"
-            quote={"Startup Trends in 2022"}
+            quote={"Start-up Trends in 2022"}
             hashtag={"#Article"}
           >
             <LinkedinIcon size={25} round={true} fill="#666666" />
           </LinkedinShareButton>
           <WhatsappShareButton
             url="https://www.bluesense.co/blog/startuptrends"
-            quote={"Startup Trends in 2022"}
+            quote={"Start-up Trends in 2022"}
             hashtag={"#Article"}
           >
             <WhatsappIcon size={25} round={true} fill="#666666" />

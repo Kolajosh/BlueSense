@@ -30,7 +30,7 @@ function Autogas() {
         />
         <meta
           name="keywords"
-          content="bluesense blog, Business, Consultng, autogas, petroleum, startup, Blog, Articles"
+          content="bluesense blog, Business, Consultng, autogas, petroleum, start-up, Blog, Articles"
         />
       </Helmet>
       <div className="head-img">
@@ -149,7 +149,7 @@ function Autogas() {
           title="Will autogas surpass petrol to become the new fuel in Nigeria?"
           hashtags={[
             "Article",
-            "Startups",
+            "Start-ups",
             "Government",
             "BlueSense",
             "Autogas",
