@@ -44,55 +44,65 @@ function SixGuides() {
             These six elements will help you convince investors to put their
             money in your startup?
             <br />
-            <br /> Target a particular niche: you should devout more time into
-            looking for the right investors as opposed to writing to just any
-            investors. If your startup is agro-inclined, you should be looking
-            for investors willing to put their money in agro-related businesses.
-            Looking for investors who are interested in investing in your
-            particular niche is key in ensuring you are speaking to the right
-            investors + in-turn, get funded.
+            <br /> <span className="bold">Target a particular niche:</span> you
+            should devout more time into looking for the right investors as
+            opposed to writing to just any investors. If your startup is
+            agro-inclined, you should be looking for investors willing to put
+            their money in agro-related businesses. Looking for investors who
+            are interested in investing in your particular niche is key in
+            ensuring you are speaking to the right investors + in-turn, get
+            funded.
             <br />
-            <br /> Build a prototype for demonstration: most investors would
-            want to see a prototype before they put their money into your
-            startup. Whether it’s an app, product packaging, or the product
-            itself, when you’re making a presentation to your potential
-            investors, go along with a prototype. A prototype shows investors
-            that you have invested time + some of your own resources towards
-            building this product - which helps you build credibility.
+            <br />{" "}
+            <span className="bold">
+              Build a prototype for demonstration:
+            </span>{" "}
+            most investors would want to see a prototype before they put their
+            money into your startup. Whether it’s an app, product packaging, or
+            the product itself, when you’re making a presentation to your
+            potential investors, go along with a prototype. A prototype shows
+            investors that you have invested time + some of your own resources
+            towards building this product - which helps you build credibility.
             <br />
             <br />
-            Have product-market-fit: your business idea should have the
-            potential to grow and meet the demands of a wider market range. If
-            there is no prospect edge to the business, investors would not be
-            too eager to put money into your business. Having market appeal /
-            product-market-fit is key to demonstrating that you have a viable
-            product that is competitive in the post-COVID market.
+            <span className="bold">Have product-market-fit:</span> your business
+            idea should have the potential to grow and meet the demands of a
+            wider market range. If there is no prospect edge to the business,
+            investors would not be too eager to put money into your business.
+            Having market appeal / product-market-fit is key to demonstrating
+            that you have a viable product that is competitive in the post-COVID
+            market.
             <br />
-            <br /> Have an expert team: it’s tempting to feel the need to do
-            everything yourself; even if you can, it does not give room for
-            improvement. Getting a co-founder who shares a similar vision +
-            strategy where both of you are experts in your own fields and bring
-            different skills to the table is important. This makes you have
-            better chances of getting a yes from the investors as you can share
-            the workload and do most of the heavy lifting required when starting
-            out.
+            <br /> <span className="bold">Have an expert team:</span> it’s
+            tempting to feel the need to do everything yourself; even if you
+            can, it does not give room for improvement. Getting a co-founder who
+            shares a similar vision + strategy where both of you are experts in
+            your own fields and bring different skills to the table is
+            important. This makes you have better chances of getting a yes from
+            the investors as you can share the workload and do most of the heavy
+            lifting required when starting out.
             <br />
-            <br /> Be transparent: one true way to turn potential investors into
-            actual investors is to be transparent. Chances are that the
-            investors have seen a business plan exactly like yours that did not
-            clearly state all the risks or ways to counter the risks. Being
-            transparent gives you an edge over others. Most investors would
-            rather connect with someone who is true with themselves than someone
-            who just acts or pretends to be professional.
             <br />
-            <br /> Have a business plan and financial projection: investors are
-            not just people who have a lot of money in their accounts; they want
-            to know the answers to questions like: “how do I get my money back”
-            and “when do I get it back;” the answer will be to develop a
-            business plan that includes financial projections and return on
-            investments. A freelance expert can help with the projections so
-            that the investors can be sure when and how they will be getting the
-            return on their investments.
+            <span className="bold"> Be transparent: </span>one true way to turn
+            potential investors into actual investors is to be transparent.
+            Chances are that the investors have seen a business plan exactly
+            like yours that did not clearly state all the risks or ways to
+            counter the risks. Being transparent gives you an edge over others.
+            Most investors would rather connect with someone who is true with
+            themselves than someone who just acts or pretends to be
+            professional.
+            <br />
+            <br />{" "}
+            <span className="bold">
+              Have a business plan and financial projection:{" "}
+            </span>
+            investors are not just people who have a lot of money in their
+            accounts; they want to know the answers to questions like: “how do I
+            get my money back” and “when do I get it back;” the answer will be
+            to develop a business plan that includes financial projections and
+            return on investments. A freelance expert can help with the
+            projections so that the investors can be sure when and how they will
+            be getting the return on their investments.
             <br />
             <br /> Finally - you need to understand what the potential investor
             is interested in, why you may be an attractive opportunity, and what
