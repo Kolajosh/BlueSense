@@ -5,6 +5,9 @@
 .blog-post-01 {
   display: none;
 }
+.small-blog {
+  display: none;
+}
 .blog-header img {
   position: relative;
   width: 100%;
@@ -137,6 +140,14 @@
     font-size: 34px;
     top: 20%;
   }
+  .big-blog {
+    display: none;
+  }
+  .small-blog {
+    display: initial;
+    width: 100%;
+    height: auto;
+  }
   .blog-post-0 {
     display: none;
   }
@@ -158,7 +169,7 @@
   .blog-text-01 p {
     font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
     width: 100%;
-    margin-top: 3px;
+    margin-top: 2px;
     font-weight: 400;
     font-size: 11px;
     color: #666666;
@@ -177,7 +188,7 @@
     line-height: 15px;
   }
   .read-more-div {
-    padding-right: 0%;
+    padding-right: 5%;
   }
   .read-more-div i {
     font-size: 12px;
@@ -188,5 +199,8 @@
   }
   .blog-header img {
     height: 170px;
+  }
+  .blog-header h1 {
+    padding-left: 25px;
   }
 }

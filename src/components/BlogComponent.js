@@ -1,6 +1,7 @@
 import React from "react";
 import "./BlogComponent.css";
 import bigblog from "../images/blog-head.png";
+import smallblog from "../images/smallblog.png";
 import blog1 from "../images/blog1.png";
 import blog2 from "../images/blog2.png";
 import blog3 from "../images/blog3.png";
@@ -12,7 +13,9 @@ function BlogComponent() {
   return (
     <>
       <div className="blog-header">
-        <img src={bigblog} alt=""></img>
+        <img src={bigblog} alt="" className="big-blog"></img>
+        <img src={smallblog} alt="" className="small-blog"></img>
+
         <h1>BlueSense Blog</h1>
       </div>
 
@@ -256,7 +259,8 @@ function BlogComponent() {
             <h2>
               <a href="/blog/whycompetition">
                 {" "}
-                Why Competition is futile for your Startup
+                Why Competition is futile
+                <br /> for your Startup
               </a>
             </h2>{" "}
             <p>
@@ -310,7 +314,8 @@ function BlogComponent() {
             <h2>
               <a href="/blog/6guides">
                 {" "}
-                6 Guides to Fundraising for your Startup
+                6 Guides to Fundraising
+                <br /> for your Startup
               </a>
             </h2>{" "}
             <p>

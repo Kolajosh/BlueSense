@@ -1,12 +1,14 @@
 import React from "react";
 import home from "../images/homepic.png";
+import hero from "../images/hero.png";
 import "./HeroSection.css";
 import "../App.css";
 
 function HeroSection() {
   return (
     <div className="hero-container">
-      <img src={home} alt="homepic"></img>
+      <img src={home} alt="homepic" className="big-pic"></img>
+      <img src={hero} alt="homepic" className="small-pic"></img>
       <h1>
         Thinking about transforming<br></br>your start-up? We know how
       </h1>

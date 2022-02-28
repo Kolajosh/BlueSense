@@ -77,6 +77,9 @@ li {
 }
 
 @media screen and (max-width: 960px) {
+  .navbar {
+    float: right;
+  }
   .nav-item {
     position: relative;
     height: 35px;
@@ -85,8 +88,9 @@ li {
 
   .nav-menu {
     display: flex;
+    float: right;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
     height: auto;
     position: absolute;
     top: 60px;
@@ -98,7 +102,7 @@ li {
   .nav-menu.active {
     background: #ffff;
     height: auto;
-    left: 0;
+    left: 50%;
     opacity: 0.9;
     transition: all 0.5s ease;
     z-index: 1;
