@@ -12,7 +12,7 @@ function FooterComponent() {
               <h4>
                 <span className="company-name">BlueSense</span>
               </h4>
-              <p>WorkStation, Victoria Island</p>
+              <p>WorkStation. Victoria Island</p>
               <p>Lagos, Nigeria.</p>
               <p className="downloadp">
                 <a href={bluesenseprofile} target="_blank" rel="noreferrer">
