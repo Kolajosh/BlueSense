@@ -1,5 +1,6 @@
 import React from "react";
 import "./FooterComponent.css";
+import Bluesense from "../downloads/bluesenseprofile.pdf";
 
 function FooterComponent() {
   return (
@@ -14,7 +15,7 @@ function FooterComponent() {
               <p>WorkStation. Victoria Island</p>
               <p>Lagos, Nigeria.</p>
               <p className="downloadp">
-                <a href="www.facebook.com" target="_blank" rel="noreferrer">
+                <a href={Bluesense} target="_blank" rel="noreferrer">
                   View Company Profile
                 </a>
               </p>
