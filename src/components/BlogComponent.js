@@ -30,9 +30,9 @@ function BlogComponent() {
               </a>
             </h2>
             <p>
-              Chevron intends to sell some of its Nigerian oil fields as part of
-              a global effort to restructure its portfolio and focus on boosting
-              its shale production in the United States. The...
+              Ever since oil was discovered in Nigeria, Nigeria saw
+              international oil companies coming into the country to set up
+              branches for crude oil exploration which served as a source of...
               <br />
               <br />
               <a href="/blog/internationaloilcompanies" className="linkblog">
@@ -60,9 +60,9 @@ function BlogComponent() {
               </a>
             </h2>{" "}
             <p>
-              Nigeria began producing oil and gas in 1958 when the country's
-              first oil discovery well was dug at Oloibiri (present-day Bayelsa
-              State, Niger Delta Region). Gas output...
+              Ever since oil was discovered in Nigeria, Nigeria saw
+              international oil companies coming into the country to set up
+              branches for crude oil exploration which served as a source of...
               <br />
               <br />
               <a href="/blog/internationaloilcompanies" className="linkblog">
