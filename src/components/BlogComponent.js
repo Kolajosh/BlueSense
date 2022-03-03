@@ -8,6 +8,7 @@ import blog3 from "../images/blog3.png";
 import blog4 from "../images/nsb.png";
 import blog5 from "../images/blog00.png";
 import blog6 from "../images/autogas.png";
+import oilblog from "../images/oilblog.png";
 
 function BlogComponent() {
   return (
@@ -17,6 +18,60 @@ function BlogComponent() {
         <img src={smallblog} alt="" className="small-blog"></img>
 
         <h1>BlueSense Blog</h1>
+      </div>
+
+      <div className="blog-0">
+        <div className="blog-post-0">
+          <div className="blog-text-0">
+            <h2>
+              <a href="/blog/internationaloilcompanies">
+                {" "}
+                Why International Oil Companies are Divesting from Nigeria{" "}
+              </a>
+            </h2>
+            <p>
+              Chevron intends to sell some of its Nigerian oil fields as part of
+              a global effort to restructure its portfolio and focus on boosting
+              its shale production in the United States. The...
+              <br />
+              <br />
+              <a href="/blog/internationaloilcompanies" className="linkblog">
+                {" "}
+                Read more...
+              </a>
+            </p>
+          </div>
+          <div className="blog-post-0-img">
+            <img src={oilblog} alt=""></img>
+          </div>
+        </div>
+      </div>
+
+      <div className="blog-01">
+        <div className="blog-post-01">
+          <div className="blog-post-01-img">
+            <img src={oilblog} alt=""></img>
+          </div>
+          <div className="blog-text-01">
+            <h2>
+              <a href="/blog/internationaloilcompanies">
+                {" "}
+                Why International Oil Companies are Divesting from Nigeria{" "}
+              </a>
+            </h2>{" "}
+            <p>
+              Nigeria began producing oil and gas in 1958 when the country's
+              first oil discovery well was dug at Oloibiri (present-day Bayelsa
+              State, Niger Delta Region). Gas output...
+              <br />
+              <br />
+              <a href="/blog/internationaloilcompanies" className="linkblog">
+                {" "}
+                Read more...
+              </a>
+            </p>
+          </div>
+        </div>
       </div>
 
       <div className="blog-0">

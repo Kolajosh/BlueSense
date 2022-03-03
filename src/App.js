@@ -21,6 +21,7 @@ import SixGuides from "./components/blogPages/SixGuides";
 import Nsb from "./components/blogPages/Nsb";
 import StartupTrends from "./components/blogPages/StartupTrends";
 import Autogas from "./components/blogPages/Autogas";
+import InternationalOilCompanies from "./components/blogPages/InternationalOilCompaies";
 
 function App() {
   return (
@@ -48,6 +49,11 @@ function App() {
         <Route exact path="/blog/6guides" component={SixGuides} />
         <Route exact path="/blog/startuptrends" component={StartupTrends} />
         <Route exact path="/blog/autogas" component={Autogas} />
+        <Route
+          exact
+          path="/blog/internationaloilcompanies"
+          component={InternationalOilCompanies}
+        />
         <Route component={custom404} />
       </Switch>
       <FooterComponent />
