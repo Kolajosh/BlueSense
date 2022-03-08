@@ -101,7 +101,7 @@
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   font-weight: lighter;
   color: #666666;
-  margin-right: 50px;
+  margin-right: 63px;
 }
 
 .footer-link i {
@@ -128,6 +128,9 @@
   .contact-right {
     font-size: 12px;
   }
+  .contact-right p {
+    margin-right: 110px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -153,6 +156,9 @@
   }
   .footer-items {
     margin-top: -70px;
+  }
+  .contact-right p {
+    margin-right: 64px;
   }
 }
 
