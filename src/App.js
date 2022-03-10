@@ -22,6 +22,7 @@ import Nsb from "./components/blogPages/Nsb";
 import StartupTrends from "./components/blogPages/StartupTrends";
 import Autogas from "./components/blogPages/Autogas";
 import InternationalOilCompanies from "./components/blogPages/InternationalOilCompaies";
+import Iwd from "./components/blogPages/Iwd";
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
           path="/blog/internationaloilcompanies"
           component={InternationalOilCompanies}
         />
+        <Route exact path="/blog/iwd" component={Iwd} />
         <Route component={custom404} />
       </Switch>
       <FooterComponent />

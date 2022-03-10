@@ -87,7 +87,7 @@ function WhyCompetition() {
         </TwitterShareButton>
         <FacebookShareButton
           url="https://www.bluesense.co/blog/whycompetition"
-          quote={"Traits of great founders"}
+          quote={"Why Competition is futile for your Start-up"}
           hashtag={"#Article"}
         >
           <FacebookIcon size={25} round={true} fill="#666666" />
@@ -95,14 +95,14 @@ function WhyCompetition() {
 
         <LinkedinShareButton
           url="https://www.bluesense.co/blog/whycompetition"
-          quote={"Traits of great founders"}
+          quote={"Why Competition is futile for your Start-up"}
           hashtag={"#Article"}
         >
           <LinkedinIcon size={25} round={true} fill="#666666" />
         </LinkedinShareButton>
         <WhatsappShareButton
           url="https://www.bluesense.co/blog/whycompetition"
-          quote={"Traits of great founders"}
+          quote={"Why Competition is futile for your Start-up"}
           hashtag={"#Article"}
         >
           <WhatsappIcon size={25} round={true} fill="#666666" />
