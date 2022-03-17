@@ -56,7 +56,7 @@ function PartnerIcons1() {
           <img src={mme} alt=""></img>
           <div className="profile-overlay">
             <p>
-              Mmesoma is an organized, resourceful and driven learner with an
+              Mmesoma is an organised, resourceful and driven learner with an
               avid interest in Corporate law, Product management and
               Intellectual property. Armed with extensive knowledge in Business,
               Law and Legal procedures and seeking to obtain advanced
