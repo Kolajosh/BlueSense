@@ -37,6 +37,31 @@ function PartnerIcons1() {
         </div>
 
         <div className="adviser1">
+          <img src={new2} alt=""></img>
+          <div className="advisers-overlay">
+            <p>
+              <h4>Co-founder</h4>
+              <br />
+              Nadayar is co-founder and CEO at Eden Life, a tech-enabled
+              services company that automates home chores. Driven by a passion
+              for technology, Nadayar had previously co-founded Fora + Andela.
+              He has a proven track record of building enterprise software.
+              <br></br>
+              <br></br>
+              <i class="fab fa-linkedin"></i>
+            </p>
+          </div>
+          <li>
+            <p>Nadayar Enegesi</p>
+            <p className="blue">
+              Co-founder Andela
+              <br />
+              Co-founder Eden
+            </p>
+          </li>
+        </div>
+
+        <div className="adviser1">
           <img src={garza} alt=""></img>
           <div className="advisers-overlay">
             <p>
@@ -64,31 +89,6 @@ function PartnerIcons1() {
         </div>
 
         <div className="adviser1">
-          <img src={new2} alt=""></img>
-          <div className="advisers-overlay">
-            <p>
-              <h4>Co-founder</h4>
-              <br />
-              Nadayar is co-founder and CEO at Eden Life, a tech-enabled
-              services company that automates home chores. Driven by a passion
-              for technology, Nadayar had previously co-founded Fora + Andela.
-              He has a proven track record of building enterprise software.
-              <br></br>
-              <br></br>
-              <i class="fab fa-linkedin"></i>
-            </p>
-          </div>
-          <li>
-            <p>Nadayar Enegesi</p>
-            <p className="blue">
-              Technology
-              <br />
-              Advisory
-            </p>
-          </li>
-        </div>
-
-        <div className="adviser1">
           <img src={new1} alt=""></img>
           <div className="advisers-overlay">
             <p>
@@ -105,9 +105,9 @@ function PartnerIcons1() {
           <li>
             <p>Lisa Satolli</p>
             <p className="blue">
-              Economics
+              Project Lead
               <br />
-              Advisory.
+              World Economic Forum
             </p>
           </li>
         </div>
