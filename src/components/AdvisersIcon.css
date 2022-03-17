@@ -48,6 +48,10 @@
 .advisers-overlay i {
   position: relative;
 }
+.advisers-overlay a {
+  text-decoration: none;
+  color: white;
+}
 .adviser1:hover .advisers-overlay {
   opacity: 1;
 }

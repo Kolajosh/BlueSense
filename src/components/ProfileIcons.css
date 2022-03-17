@@ -49,6 +49,10 @@
 .profile-overlay i {
   position: relative;
 }
+.profile-overlay a {
+  text-decoration: none;
+  color: white;
+}
 .profile1:hover .profile-overlay {
   opacity: 1;
 }

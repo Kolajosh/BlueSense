@@ -24,7 +24,13 @@ function PartnerIcons1() {
               Digitisation, + People Development.
               <br></br>
               <br></br>
-              <i class="fab fa-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/christianreuben/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
             </p>
           </div>
           <li>
@@ -69,7 +75,14 @@ function PartnerIcons1() {
               for pressing problems.
               <br></br>
               <br></br>
-              <i class="fab fa-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/seye-jimo-7139781b/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                {" "}
+                <i class="fab fa-linkedin"></i>
+              </a>
             </p>
           </div>
           <li>
@@ -89,7 +102,13 @@ function PartnerIcons1() {
               builds strategy that helps our clients minimise business risks.
               <br></br>
               <br></br>
-              <i class="fab fa-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/natasha-oyibo-phd-04a7b415/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
             </p>
           </div>
           <li>

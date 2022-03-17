@@ -23,7 +23,13 @@ function PartnerIcons1() {
               around driving operational improvements through technology and
               digitisation.
               <br></br>
-              <i class="fab fa-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/andrew-olaleye/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
             </p>
           </div>
           <li>
@@ -48,7 +54,13 @@ function PartnerIcons1() {
               He has a proven track record of building enterprise software.
               <br></br>
               <br></br>
-              <i class="fab fa-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/nadayar/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
             </p>
           </div>
           <li>
@@ -75,7 +87,13 @@ function PartnerIcons1() {
               College.
               <br></br>
               <br></br>
-              <i class="fab fa-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/andrewgarza/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
             </p>
           </div>
           <li>
@@ -99,7 +117,13 @@ function PartnerIcons1() {
               Cabinet of Jean-Claude Juncker at the European Commission.
               <br></br>
               <br></br>
-              <i class="fab fa-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/lisasatolli/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
             </p>
           </div>
           <li>

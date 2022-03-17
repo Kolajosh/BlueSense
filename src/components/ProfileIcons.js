@@ -15,14 +15,20 @@ function PartnerIcons1() {
           <img src={kola} alt=""></img>
           <div className="profile-overlay">
             <p>
-              Experienced Program Assistant with a demonstrated history of
-              working in the information technology and services industry.
-              Skilled in AutoCAD, Graphic Design, Web Design, Network Appliance,
-              and HTML. Strong administrative professional with a Bsc computer
-              science focused in Computer Science from Crawford university.
+              Experienced Web Developer with a demonstrated history of working
+              in the information technology and services industry. Skilled in
+              AutoCAD, Graphic Design, Web Design, Network Appliance, and HTML.
+              Strong administrative professional with a First Class degree in
+              BSc Computer Science from Crawford university.
               <br></br>
               <br></br>
-              <i class="fab fa-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/kolawole-ayoola-264118186/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
             </p>
           </div>
           <li>
@@ -42,12 +48,17 @@ function PartnerIcons1() {
               issues.
               <br></br>
               <br></br>
-              <i class="fab fa-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/ayomidefasan/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
             </p>
           </div>
           <li>
             <p>Ayomide Fasan</p>
-
             <p className="blue">Business Analyst Intern</p>
           </li>
         </div>
@@ -57,13 +68,19 @@ function PartnerIcons1() {
           <div className="profile-overlay">
             <p>
               Mmesoma is an organised, resourceful and driven learner with an
-              avid interest in Corporate law, Product management and
-              Intellectual property. Armed with extensive knowledge in Business,
+              avid interest in Corporate Law, Product Management and
+              Intellectual Property. Armed with extensive knowledge in Business,
               Law and Legal procedures and seeking to obtain advanced
-              professional skills while pursuing Organizational goals..{" "}
+              professional skills while pursuing organisational goals..{" "}
               <br></br>
               <br></br>
-              <i class="fab fa-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/mmesoma-otuokere-067246194/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
             </p>
           </div>
           <li>

@@ -67,6 +67,10 @@
   transition: 0.5s ease-in-out;
   text-align: center;
 }
+.overlay1 a {
+  text-decoration: none;
+  color: white;
+}
 .emmanuel1 {
   display: none;
 }
