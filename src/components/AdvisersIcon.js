@@ -107,7 +107,7 @@ function PartnerIcons1() {
             <p className="blue">
               Economics
               <br />
-              Advisory
+              Advisory.
             </p>
           </li>
         </div>
