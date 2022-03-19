@@ -2,6 +2,7 @@ import React from "react";
 import kola from "../images/Mask-Group-5.png";
 import ayomide from "../images/ayomide.png";
 import mme from "../images/mme.png";
+import orejah from "../images/orejah.png";
 import "./ProfileIcons.css";
 
 function PartnerIcons1() {
@@ -85,6 +86,30 @@ function PartnerIcons1() {
           </div>
           <li>
             <p>Mmesoma Otuokere</p>
+            <p className="blue">Business Analyst Intern</p>
+          </li>
+        </div>
+
+        <div className="profile1">
+          <img src={orejah} alt=""></img>
+          <div className="profile-overlay">
+            <p>
+              Orejah is a computer science graduate of Olabisi Onabanjo
+              University who is passionate about gathering knowledge on how to
+              use new technologies to solve problems in the corporate sector and
+              increase growth. <br></br>
+              <br></br>
+              <a
+                href="https://www.linkedin.com/in/ayeni-orejah/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </p>
+          </div>
+          <li>
+            <p>Ayeni Orejah</p>
             <p className="blue">Business Analyst Intern</p>
           </li>
         </div>

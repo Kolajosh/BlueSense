@@ -7,14 +7,10 @@ function Termsofuse() {
       <div className="terms-container">
         <div className="terms-sect-1">
           <h1>Terms and Conditions</h1>
-          <p>
-            Last Updated: <span className="blue">8th December 2021</span>
-          </p>
-          <br />
+
           <p>
             Please read these Terms and Conditions carefully before using the
-            http://www.bluesense.co website operated by{" "}
-            <span className="blue">BlueSense</span>.
+            http://www.bluesense.co website operated by BlueSense.
           </p>
           <br />
           <p>
@@ -32,19 +28,17 @@ function Termsofuse() {
           <h2>Links To Other Websites</h2>
           <p>
             Our Service may contain links to third-party web sites or services
-            that are not owned or controlled by{" "}
-            <span className="blue">BlueSense</span>.
+            that are not owned or controlled by BlueSense.
           </p>
           <br />
           <p>
-            <span className="blue">BlueSense</span> has no control over, and
-            assumes no responsibility for, the content, privacy policies, or
-            practices of any third party web sites or services. You further
-            acknowledge and agree that BlueSense shall not be responsible or
-            liable, directly or indirectly, for any damage or loss caused or
-            alleged to be caused by or in connection with use of or reliance on
-            any such content, goods or services available on or through any such
-            web sites or services
+            BlueSense has no control over, and assumes no responsibility for,
+            the content, privacy policies, or practices of any third party web
+            sites or services. You further acknowledge and agree that BlueSense
+            shall not be responsible or liable, directly or indirectly, for any
+            damage or loss caused or alleged to be caused by or in connection
+            with use of or reliance on any such content, goods or services
+            available on or through any such web sites or services
           </p>
           <br />
           <h3>Changes</h3>
@@ -57,7 +51,9 @@ function Termsofuse() {
           </p>
           <br />
           <h3>Contact</h3>
-          <p> you have any questions about these Terms, please contact us.</p>
+          <p>If you have any questions about these terms, please contact us.</p>
+          <br />
+          <p>Last Updated: 8th December 2021</p>
         </div>
       </div>
     </>
