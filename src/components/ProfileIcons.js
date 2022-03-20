@@ -110,7 +110,7 @@ function PartnerIcons1() {
           </div>
           <li>
             <p>Ayeni Orejah</p>
-            <p className="blue">Business Analyst Intern</p>
+            <p className="blue">Growth Analyst Intern</p>
           </li>
         </div>
       </ul>
