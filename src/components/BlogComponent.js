@@ -10,6 +10,7 @@ import blog5 from "../images/blog00.png";
 import blog6 from "../images/autogas.png";
 import oilblog from "../images/oilblog.png";
 import smalliwd from "../images/smalliwd.png";
+import debt from "../images/debt.png";
 
 function BlogComponent() {
   return (
@@ -19,6 +20,56 @@ function BlogComponent() {
         <img src={smallblog} alt="" className="small-blog"></img>
 
         <h1>BlueSense Blog</h1>
+      </div>
+
+      <div className="blog-0">
+        <div className="blog-post-0">
+          <div className="blog-text-0">
+            <h2>
+              <a href="/blog/debt">
+                Everything you need to know about: Nigeria's Debt Situation
+              </a>
+            </h2>
+            <p>
+              In the last few years, Nigeria’s debt has grown significantly; The
+              Nigerian economy, which has not been doing well...
+              <br />
+              <br />
+              <a href="/blog/debt" className="linkblog">
+                {" "}
+                Read more...
+              </a>
+            </p>
+          </div>
+          <div className="blog-post-0-img">
+            <img src={debt} alt=""></img>
+          </div>
+        </div>
+      </div>
+
+      <div className="blog-01">
+        <div className="blog-post-01">
+          <div className="blog-post-01-img">
+            <img src={debt} alt=""></img>
+          </div>
+          <div className="blog-text-01">
+            <h2>
+              <a href="/blog/iwd">
+                Everything you need to know about: Nigeria's Debt Situation
+              </a>
+            </h2>{" "}
+            <p>
+              In the last few years, Nigeria’s debt has grown significantly; The
+              Nigerian economy, which has not been doing well...
+              <br />
+              <br />
+              <a href="/blog/iwd" className="linkblog">
+                {" "}
+                Read more...
+              </a>
+            </p>
+          </div>
+        </div>
       </div>
 
       <div className="blog-0">

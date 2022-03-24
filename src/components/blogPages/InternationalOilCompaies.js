@@ -70,7 +70,12 @@ function InternationalOilCompanies() {
           the ensuing legal fights with local communities, etcetera. The issues
           became urgent in 2020 when Shell announced its intention to transition
           into a clean energy Behemoth and progressively phase down its oil and
-          gas operations to reach net-zero carbon emissions by 2050. <br />
+          gas operations to reach net-zero carbon emissions by 2050.
+          Additionally, a Hague court ordered Royal Dutch Shell to decrease its
+          worldwide emissions by 45 percent by the end of 2030, compared to 2019
+          levels in a landmark case brought by Friends of the Earth and over
+          17,000 co-plaintiffs.
+          <br />
           <br />
           Notably, ExxonMobil sold its stake in the Joint Venture shallow-water
           project with NNPC to Seplat Energy but reaffirmed its commitment to
@@ -81,6 +86,16 @@ function InternationalOilCompanies() {
           20% ownership in the Niger Delta's Usan field. ConocoPhillips also
           sold its onshore assets and exited Nigeria following the completion of
           the $1.5 billion sales of its oil assets to Oando. <br />
+          <br />
+          Since 1998, 100 companies have accounted for more than 70% of global
+          greenhouse gas emissions, according to research issued by the Carbon
+          Disclosure Project (CDP), which sheds light on the role of businesses
+          and investors in addressing climate change. ExxonMobil, Shell, BP, and
+          Chevron have been classified as the top-emitting investor-owned firms.
+          ExxonMobil is rated fifth with 1.98 percent of global industrial GHG
+          emissions, Royal Dutch Shell is ninth with 1.67 percent, and Chevron
+          is placed twelve with 1.31 percent of global industrial GHG emissions.
+          <br />
           <br />
           There has been considerable pressure on oil companies to transition to
           green energy. In Europe, investors, stakeholders, and activists

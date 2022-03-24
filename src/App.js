@@ -23,6 +23,7 @@ import StartupTrends from "./components/blogPages/StartupTrends";
 import Autogas from "./components/blogPages/Autogas";
 import InternationalOilCompanies from "./components/blogPages/InternationalOilCompaies";
 import Iwd from "./components/blogPages/Iwd";
+import Debt from "./components/blogPages/Debt";
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
           component={InternationalOilCompanies}
         />
         <Route exact path="/blog/iwd" component={Iwd} />
+        <Route exact path="/blog/debt" component={Debt} />
         <Route component={custom404} />
       </Switch>
       <FooterComponent />
