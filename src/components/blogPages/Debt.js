@@ -151,7 +151,12 @@ function Debt() {
           But some of these economies have been able to sustain their debt and
           build on that.
           <br />
+          <br />
+          <b>GDP to National Debt (Billions)</b>
+          <br />
+          <br />
           <img src={debtimg} className="debt-img" alt=""></img>
+          <br />
           <br />
           From our study, the UAE economy has economic similarities with the
           Nigerian economy; the UAE’s national debt is currently at $113
@@ -224,7 +229,12 @@ function Debt() {
           economy and here a comparison is drawn between these global economies
           and Nigeria with regards to inflation and unemployment rates.
           <br />
+          <br />
+          <b>Inflation and Unemployment Rate (%)</b>
+          <br />
+          <br />
           <img src={inflation} className="debt-img" alt=""></img>
+          <br />
           <br />
           A report by The Conversation Africa, suggested that the government
           needs to promote economic growth by investing in infrastructure,
