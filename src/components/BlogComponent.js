@@ -11,6 +11,7 @@ import blog6 from "../images/autogas.png";
 import oilblog from "../images/oilblog.png";
 import smalliwd from "../images/smalliwd.png";
 import debt from "../images/debt.png";
+import wagesmall from "../images/wagesmall.png";
 
 function BlogComponent() {
   return (
@@ -20,6 +21,54 @@ function BlogComponent() {
         <img src={smallblog} alt="" className="small-blog"></img>
 
         <h1>BlueSense Blog</h1>
+      </div>
+
+      <div className="blog-0">
+        <div className="blog-post-0">
+          <div className="blog-text-0">
+            <h2>
+              <a href="/blog/wage">Nigeria’s Minimum Wage</a>
+            </h2>
+            <p>
+              Following the country’s independence in October 1960, the Labour
+              Union pressed the government to regulate the minimum wage.
+              However, it was not until 1978...
+              <br />
+              <br />
+              <a href="/blog/wage" className="linkblog">
+                {" "}
+                Read more...
+              </a>
+            </p>
+          </div>
+          <div className="blog-post-0-img">
+            <img src={wagesmall} alt=""></img>
+          </div>
+        </div>
+      </div>
+
+      <div className="blog-01">
+        <div className="blog-post-01">
+          <div className="blog-post-01-img">
+            <img src={wagesmall} alt=""></img>
+          </div>
+          <div className="blog-text-01">
+            <h2>
+              <a href="/blog/iwd">Nigeria’s Minimum Wage</a>
+            </h2>{" "}
+            <p>
+              Following the country’s independence in October 1960, the Labour
+              Union pressed the government to regulate the minimum wage.
+              However, it was not until 1978...
+              <br />
+              <br />
+              <a href="/blog/iwd" className="linkblog">
+                {" "}
+                Read more...
+              </a>
+            </p>
+          </div>
+        </div>
       </div>
 
       <div className="blog-0">

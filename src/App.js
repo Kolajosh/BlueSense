@@ -24,6 +24,7 @@ import Autogas from "./components/blogPages/Autogas";
 import InternationalOilCompanies from "./components/blogPages/InternationalOilCompaies";
 import Iwd from "./components/blogPages/Iwd";
 import Debt from "./components/blogPages/Debt";
+import Wage from "./components/blogPages/Wage";
 
 function App() {
   return (
@@ -58,6 +59,7 @@ function App() {
         />
         <Route exact path="/blog/iwd" component={Iwd} />
         <Route exact path="/blog/debt" component={Debt} />
+        <Route exact path="/blog/wage" component={Wage} />
         <Route component={custom404} />
       </Switch>
       <FooterComponent />
