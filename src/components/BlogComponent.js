@@ -10,6 +10,7 @@ import blog5 from "../images/blog00.png";
 import blog6 from "../images/autogas.png";
 import oilblog from "../images/oilblog.png";
 import smalliwd from "../images/smalliwd.png";
+import fintechsmall from "../images/fintechsmall.png";
 import debt from "../images/debt.png";
 import wagesmall from "../images/wagesmall.png";
 
@@ -21,6 +22,58 @@ function BlogComponent() {
         <img src={smallblog} alt="" className="small-blog"></img>
 
         <h1>BlueSense Blog</h1>
+      </div>
+
+      <div className="blog-0">
+        <div className="blog-post-0">
+          <div className="blog-text-0">
+            <h2>
+              <a href="/blog/fintech">
+                Nigeria’s fintech + Financial Inclusion
+              </a>
+            </h2>
+            <p>
+              Financial technology or fintech is an innovative endeavour through
+              technology that seeks to deliver financial services through
+              software...
+              <br />
+              <br />
+              <a href="/blog/fintech" className="linkblog">
+                {" "}
+                Read more...
+              </a>
+            </p>
+          </div>
+          <div className="blog-post-0-img">
+            <img src={fintechsmall} alt=""></img>
+          </div>
+        </div>
+      </div>
+
+      <div className="blog-01">
+        <div className="blog-post-01">
+          <div className="blog-post-01-img">
+            <img src={fintechsmall} alt=""></img>
+          </div>
+          <div className="blog-text-01">
+            <h2>
+              <a href="/blog/fintech">
+                Nigeria’s fintech + Financial Inclusion
+              </a>
+            </h2>{" "}
+            <p>
+              Financial technology or fintech is an innovative endeavour through
+              technology that seeks to deliver financial services through
+              software...
+              <br />
+              <br />
+              <a href="/blog/fintech" className="linkblog">
+                {" "}
+                Read more...
+              </a>
+            </p>
+          </div>
+        </div>
       </div>
 
       <div className="blog-0">
@@ -54,7 +107,7 @@ function BlogComponent() {
           </div>
           <div className="blog-text-01">
             <h2>
-              <a href="/blog/iwd">Nigeria’s Minimum Wage</a>
+              <a href="/blog/wage">Nigeria’s Minimum Wage</a>
             </h2>{" "}
             <p>
               Following the country’s independence in October 1960, the Labour
@@ -62,7 +115,7 @@ function BlogComponent() {
               However, it was not until 1978...
               <br />
               <br />
-              <a href="/blog/iwd" className="linkblog">
+              <a href="/blog/wage" className="linkblog">
                 {" "}
                 Read more...
               </a>
@@ -103,7 +156,7 @@ function BlogComponent() {
           </div>
           <div className="blog-text-01">
             <h2>
-              <a href="/blog/iwd">
+              <a href="/blog/debt">
                 Everything you need to know about: Nigeria's Debt Situation
               </a>
             </h2>{" "}
@@ -112,7 +165,7 @@ function BlogComponent() {
               Nigerian economy, which has not been doing well...
               <br />
               <br />
-              <a href="/blog/iwd" className="linkblog">
+              <a href="/blog/debt" className="linkblog">
                 {" "}
                 Read more...
               </a>

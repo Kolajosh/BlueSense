@@ -25,6 +25,7 @@ import InternationalOilCompanies from "./components/blogPages/InternationalOilCo
 import Iwd from "./components/blogPages/Iwd";
 import Debt from "./components/blogPages/Debt";
 import Wage from "./components/blogPages/Wage";
+import Fintech from "./components/blogPages/Fintech";
 
 function App() {
   return (
@@ -60,6 +61,7 @@ function App() {
         <Route exact path="/blog/iwd" component={Iwd} />
         <Route exact path="/blog/debt" component={Debt} />
         <Route exact path="/blog/wage" component={Wage} />
+        <Route exact path="/blog/fintech" component={Fintech} />
         <Route component={custom404} />
       </Switch>
       <FooterComponent />
