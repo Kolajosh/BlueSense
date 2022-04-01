@@ -6,7 +6,6 @@ import CaseCarousel from "../CaseCarousel";
 import HeroSection from "../HeroSection";
 import Hwwsection from "../Hwwsection";
 import LogoComponent from "../LogoComponent";
-import Reviews from "../Reviews";
 
 export default function Home() {
   return (
@@ -27,7 +26,6 @@ export default function Home() {
       <HeroSection />
       <Cards />
       <LogoComponent />
-      <Reviews />
       <CaseCarousel />
       <Hwwsection />
     </>
