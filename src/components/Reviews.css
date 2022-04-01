@@ -2,6 +2,9 @@
     margin-top: 100px;
     margin-left: 50px;
 }
+.reviews-title{
+    margin-bottom: 25px;
+}
 .reviews-title h1{
     font-family: Poppins;
     color: rgba(102, 102, 102, 0.726);
@@ -27,23 +30,28 @@
     width: 35%;
 }
 .reviews-info b {
+    color: rgba(102, 102, 102, 0.726);
     font-size: 12px;
     font-family: Poppins;
-    font-weight: 400;
+    font-weight: 600;
 }
 .reviews-info p {
     font-size: 11px;
     font-family: Poppins;
+    color: rgba(102, 102, 102, 0.726);
+
 }
 .reviews-body p{
+    color: rgba(102, 102, 102, 0.726);
     margin-top: 10px;
     font-size: 10px;
     font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
-
 }
 .reviews-card:hover {
     transform: translateY(-30px);
     box-shadow: 0 40px 70px rgba(0, 0, 0, 0.1);
+    color: rgba(102, 102, 102, 0.726);
+
   }
 
 
@@ -57,6 +65,11 @@
         width: 35%;
     }
 }
+    @media (max-width:754px){
+        .reviews-title h1 {
+            font-size: 25px;
+          }
+    }
 @media (max-width: 660px) {
    .reviews-flex{
        flex-direction: column;
@@ -70,12 +83,15 @@
     margin-left: -50px;
    }
    .reviews-info b {
-    font-size: 11px;
-}
-.reviews-info p {
-    font-size: 10px;
-}
-.reviews-body p{
-    font-size: 8px;
-}
+    font-size: 9px;
+    }
+    .reviews-info p {
+        font-size: 9px;
+    }
+    .reviews-body p{
+        font-size: 8px;
+    }
+    .reviews-card:hover {
+        transform: translateY(0px);
+    }
 }
