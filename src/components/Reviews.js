@@ -9,7 +9,7 @@ function Reviews() {
       <div>
         <div className="reviews-container">
           <div className="reviews-title">
-            <h1>Testimonials</h1>
+            <h1>Client Reviews</h1>
           </div>
           <div className="reviews-flex">
             <div className="reviews-card">
@@ -31,7 +31,6 @@ function Reviews() {
                 </p>
               </div>
             </div>
-
             <div className="reviews-card">
               <div className="reviews-img">
                 <img src={tonye} alt=""></img>

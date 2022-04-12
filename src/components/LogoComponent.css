@@ -7,20 +7,18 @@
 }
 
 .logo-container {
-  padding-left: 50px;
+  padding-left: 65px;
   width: 100%;
   height: auto;
   display: flex;
-  justify-content: center;
   object-fit: contain;
 }
 
 .logo-container-2 {
-  padding-left: 50px;
+  padding-left: 65px;
   width: 100%;
   height: auto;
   display: flex;
-  justify-content: center;
 }
 
 .logo-img {
@@ -69,9 +67,139 @@
 .logo-img11:hover {
   filter: grayscale(0%);
 }
+.logo-reviews-flex {
+  display: flex;
+  width: 100%;
+}
+.lr-section-1 {
+  flex: 1;
+  width: 100%;
+}
+.lr-section-2 {
+  flex: 1;
+  width: 100%;
+}
+/*---------------------------------------reviews-----------------------*/
+.reviews-title{
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+.reviews-title h1{
+  font-family: Poppins;
+  color: rgba(102, 102, 102, 0.726);
+  font-weight: 600;
+  font-size: 18px;
+}
+.reviews-flex {
+  display: flex;
+  gap: 20px;
+  transition: 0.3s;
+  padding-right: 50px;
+}
+.reviews-card {
+  width: 30%;
+  border-radius: 16px;
+  background-color: #fafafb;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  padding: 20px 25px 20px 25px;
+  transition: 0.3s;
+}
+.reviews-img img {
+  padding-top: 20px;
+  width: 15%;
+}
+.reviews-info b {
+  color: rgba(102, 102, 102, 0.726);
+  font-size: 8px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+.reviews-info p {
+  font-size: 8px;
+  font-family: Poppins;
+  color: rgba(102, 102, 102, 0.726);
+}
+.reviews-body p {
+  color: rgba(102, 102, 102, 0.726);
+  margin-top: 10px;
+  font-size: 8px;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+}
+.reviews-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 40px 70px rgba(0, 0, 0, 0.1);
+  color: rgba(102, 102, 102, 0.726);
+}
+
+@media (max-width: 1350px) {
+  .reviews-card {
+    width: 40%;
+  }
+}
+@media (max-width: 1194px) {
+  .reviews-card {
+    width: 48%;
+  }
+}
+@media (max-width: 1094px) {
+  .reviews-card {
+    width: 58%;
+  }
+}
+@media (max-width: 1055px) {
+  .logo-reviews-flex {
+   flex-direction: column;
+  }
+  .reviews-card {
+    width: 27%;
+  }
+  .reviews-flex{
+    padding-left: 50px;
+  }
+  .reviews-title{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.reviews-title h1{
+    font-family: Poppins;
+    color: rgba(102, 102, 102, 0.726);
+    font-weight: 600;
+}
+}
+@media (max-width: 800px) {
+  .reviews-card {
+    width: 35%;
+  }
+}
+@media (max-width: 754px) {
+  .reviews-title h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 660px) {
+  .logo-reviews-flex {
+    flex-direction: column;
+  }
+  .reviews-card {
+    width: 50%;
+  }
+}
+@media (max-width: 420px) {
+  .reviews-flex {
+    flex-direction: column;
+  }
+  .reviews-card {
+    width: 80%;
+  }
+}
+
 @media (max-width: 754px) {
   .section-heading {
     font-size: 25px;
+  }
+  .reviews-title h1{
+    font-size: 18px;
   }
 }
 
