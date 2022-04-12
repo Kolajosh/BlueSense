@@ -4,7 +4,6 @@ import "../../App.css";
 import AboutSection from "../AboutSection";
 import AdvisersIcon from "../AdvisersIcon";
 import PartnerIcons1 from "../PartnerIcons1";
-import ProfileIcons from "../ProfileIcons";
 
 function About() {
   return (

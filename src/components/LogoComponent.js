@@ -11,9 +11,6 @@ import easme from "../images/ease.png";
 import garza from "../images/Mask Group-2.png";
 import tonye from "../images/tonye.png";
 import "./LogoComponent.css";
-import { CarouselProvider, Slider, Slide } from "pure-react-carousel";
-
-import "pure-react-carousel/dist/react-carousel.es.css";
 
 function LogoComponent() {
   return (
