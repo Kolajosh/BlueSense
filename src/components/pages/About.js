@@ -23,7 +23,6 @@ function About() {
         />
       </Helmet>
       <AboutSection />
-      <ProfileIcons />
       <PartnerIcons1 />
       <AdvisersIcon />
     </>
