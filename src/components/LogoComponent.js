@@ -63,7 +63,7 @@ function LogoComponent() {
         </div>
         <div className="lr-section-2">
           <div className="reviews-title">
-            <h1>Client Reviews</h1>
+            <h1>Some Client Reviews</h1>
           </div>
           <div className="reviews-flex">
             <div className="reviews-card">

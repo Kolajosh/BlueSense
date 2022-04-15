@@ -22,10 +22,7 @@ function InternationalOilCompanies() {
           Why International Oil Companies are Divesting from Nigeria | Blog |
           BlueSense
         </title>
-        <link
-          rel="canonical"
-          href="//www.bluesense.co/blog/internationaloilcompanies/"
-        />
+        <link rel="canonical" href="//www.bluesense.co/blog/IOC/" />
         <meta
           name="description"
           content="Chevron intends to sell some of its Nigerian oil fields as part of
@@ -133,14 +130,14 @@ function InternationalOilCompanies() {
       </div>
       <div className="flex2">
         <TwitterShareButton
-          url="https://www.bluesense.co/blog/internationaloilcompanies"
+          url="https://www.bluesense.co/blog/IOC"
           title="Why International Oil Companies are Divesting from Nigeria"
           hashtags={["Article", "OilCompanies", "invest", "BlueSense"]}
         >
           <TwitterIcon size={25} round={true} fill="#666666" />
         </TwitterShareButton>
         <FacebookShareButton
-          url="https://www.bluesense.co/blog/internationaloilcompanies"
+          url="https://www.bluesense.co/blog/IOC"
           quote={"Why International Oil Companies are Divesting from Nigeria"}
           hashtag={"#Article"}
         >
@@ -148,14 +145,14 @@ function InternationalOilCompanies() {
         </FacebookShareButton>
 
         <LinkedinShareButton
-          url="https://www.bluesense.co/blog/internationaloilcompanies"
+          url="https://www.bluesense.co/blog/IOC"
           quote={"Why International Oil Companies are Divesting from Nigeria"}
           hashtag={"#Article"}
         >
           <LinkedinIcon size={25} round={true} fill="#666666" />
         </LinkedinShareButton>
         <WhatsappShareButton
-          url="https://www.bluesense.co/blog/internationaloilcompanies"
+          url="https://www.bluesense.co/blog/IOC"
           quote={"Why International Oil Companies are Divesting from Nigeria"}
           hashtag={"#Article"}
         >

@@ -42,6 +42,13 @@
 .autogas-text ul {
   padding-left: 20px;
 }
+.autogas-text li {
+  padding-bottom: 5px;
+}
+.numerical-list {
+  list-style: decimal;
+  padding-bottom: 5px;
+}
 .autogas-text-img {
   width: 90%;
   text-align: right;

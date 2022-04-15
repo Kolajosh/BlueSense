@@ -13,6 +13,7 @@ import smalliwd from "../images/smalliwd.png";
 import fintechsmall from "../images/fintechsmall.png";
 import debt from "../images/debt.png";
 import wagesmall from "../images/wagesmall.png";
+import flightsmall from "../images/flightsmall.png";
 
 function BlogComponent() {
   return (
@@ -28,6 +29,54 @@ function BlogComponent() {
         <div className="blog-post-0">
           <div className="blog-text-0">
             <h2>
+              <a href="/blog/flightdelays">Flight Delays in Nigeria </a>
+            </h2>
+            <p>
+              Air transportation in Nigeria has been plagued by the frequent
+              occurrence of flight delays which has impacted travellers and the
+              economy negatively.
+              <br />
+              <br />
+              <a href="/blog/flightdelays" className="linkblog">
+                {" "}
+                Read more...
+              </a>
+            </p>
+          </div>
+          <div className="blog-post-0-img">
+            <img src={flightsmall} alt=""></img>
+          </div>
+        </div>
+      </div>
+
+      <div className="blog-01">
+        <div className="blog-post-01">
+          <div className="blog-post-01-img">
+            <img src={flightsmall} alt=""></img>
+          </div>
+          <div className="blog-text-01">
+            <h2>
+              <a href="/blog/flightdelays">Flight Delays in Nigeria </a>
+            </h2>{" "}
+            <p>
+              Air transportation in Nigeria has been plagued by the frequent
+              occurrence of flight delays which has impacted travellers and the
+              economy negatively.
+              <br />
+              <br />
+              <a href="/blog/flightdelays" className="linkblog">
+                {" "}
+                Read more...
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="blog-0">
+        <div className="blog-post-0">
+          <div className="blog-text-0">
+            <h2>
               <a href="/blog/fintech">
                 Nigeria’s fintech + Financial Inclusion
               </a>
@@ -128,9 +177,7 @@ function BlogComponent() {
         <div className="blog-post-0">
           <div className="blog-text-0">
             <h2>
-              <a href="/blog/debt">
-                Everything you need to know about: Nigeria's Debt Situation
-              </a>
+              <a href="/blog/debt">Nigeria's Debt Situation</a>
             </h2>
             <p>
               In the last few years, Nigeria’s debt has grown significantly; The
@@ -156,9 +203,7 @@ function BlogComponent() {
           </div>
           <div className="blog-text-01">
             <h2>
-              <a href="/blog/debt">
-                Everything you need to know about: Nigeria's Debt Situation
-              </a>
+              <a href="/blog/debt">Nigeria's Debt Situation</a>
             </h2>{" "}
             <p>
               In the last few years, Nigeria’s debt has grown significantly; The
@@ -230,7 +275,7 @@ function BlogComponent() {
         <div className="blog-post-0">
           <div className="blog-text-0">
             <h2>
-              <a href="/blog/internationaloilcompanies">
+              <a href="/blog/IOC">
                 {" "}
                 Why International Oil Companies are Divesting from Nigeria{" "}
               </a>
@@ -241,7 +286,7 @@ function BlogComponent() {
               branches for crude oil exploration which served as a source of...
               <br />
               <br />
-              <a href="/blog/internationaloilcompanies" className="linkblog">
+              <a href="/blog/IOC" className="linkblog">
                 {" "}
                 Read more...
               </a>

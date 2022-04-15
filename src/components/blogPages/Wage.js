@@ -76,8 +76,7 @@ function wage() {
           dependent.
           <br />
           <br />
-          <b>MINT</b>
-          <br />
+          <span className="bold">MINT</span>
           <br />
           In 2013, economist Jim O’Neill invented the acronym ‘MINT,’ which
           stands for Mexico, Indonesia, Nigeria, and Turkey. Countries on the
@@ -87,8 +86,7 @@ function wage() {
           to economic variables affecting earnings.
           <br />
           <br />
-          <b>Mint Countries</b>
-          <br />
+          <span className="bold">Mint Countries</span>
           <br />
           <ul>
             <li>
@@ -111,8 +109,9 @@ function wage() {
           </ul>
           <br />
           <br />
-          <b>The Minimum Wage in some African + Middle Eastern countries</b>
-          <br />
+          <span className="bold">
+            The Minimum Wage in some African + Middle Eastern countries
+          </span>
           <br />
           <ul>
             <li>Ghana: The monthly minimum wage in Ghana is $43.44.</li>
@@ -138,8 +137,9 @@ function wage() {
           </ul>
           <br />
           <br />
-          <b>The Minimum Wage in some Western countries</b>
-          <br />
+          <span className="bold">
+            The Minimum Wage in some Western countries
+          </span>
           <br />
           <ul>
             <li>
@@ -167,8 +167,7 @@ function wage() {
             </li>
           </ul>
           <br />
-          <b>Economic Impact of Minimum Wages</b>
-          <br />
+          <span className="bold">Economic Impact of Minimum Wages</span>
           <br />
           The issue regarding minimum wage’s unanticipated implications on
           employment stems from fundamental supply and demand: as labour becomes

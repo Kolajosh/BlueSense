@@ -26,6 +26,7 @@ import Iwd from "./components/blogPages/Iwd";
 import Debt from "./components/blogPages/Debt";
 import Wage from "./components/blogPages/Wage";
 import Fintech from "./components/blogPages/Fintech";
+import Flightdelays from "./components/blogPages/Flightdelays";
 
 function App() {
   return (
@@ -53,15 +54,13 @@ function App() {
         <Route exact path="/blog/6guides" component={SixGuides} />
         <Route exact path="/blog/startuptrends" component={StartupTrends} />
         <Route exact path="/blog/autogas" component={Autogas} />
-        <Route
-          exact
-          path="/blog/internationaloilcompanies"
-          component={InternationalOilCompanies}
-        />
+        <Route exact path="/blog/IOC" component={InternationalOilCompanies} />
         <Route exact path="/blog/iwd" component={Iwd} />
         <Route exact path="/blog/debt" component={Debt} />
         <Route exact path="/blog/wage" component={Wage} />
         <Route exact path="/blog/fintech" component={Fintech} />
+        <Route exact path="/blog/flightdelays" component={Flightdelays} />
+
         <Route component={custom404} />
       </Switch>
       <FooterComponent />

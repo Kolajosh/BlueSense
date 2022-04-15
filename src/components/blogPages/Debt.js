@@ -21,10 +21,7 @@ function Debt() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>
-          Everything you need to know about: Nigeria's Debt Situation | Blog |
-          BlueSense
-        </title>
+        <title>Nigeria's Debt Situation | Blog | BlueSense</title>
         <link rel="canonical" href="//www.bluesense.co/blog/debt/" />
         <meta
           name="description"
@@ -39,8 +36,7 @@ function Debt() {
         <div className="flex1">
           <p>Published on March 18, 2022 | 5 min read</p>
         </div>
-        <h1>Everything you need to know about: Nigeria's Debt Situation</h1>
-
+        <h1>Nigeria's Debt Situation</h1>
         <img src={debtmain} alt="Traits"></img>
       </div>
       <div className="debt-text">
@@ -89,8 +85,7 @@ function Debt() {
           businesses and the economy at large?’
           <br />
           <br />
-          <b>The Effects of Debt on The Economy</b>
-          <br />
+          <span className="bold">The Effects of Dept on The Economy</span>
           <br />
           <ul>
             <li>
@@ -152,11 +147,9 @@ function Debt() {
           build on that.
           <br />
           <br />
-          <b>GDP to National Debt (Billions)</b>
-          <br />
+          <span className="bold">GDP to National Debt (Billions)</span>
           <br />
           <img src={debtimg} className="debt-img" alt=""></img>
-          <br />
           <br />
           From our study, the UAE economy has economic similarities with the
           Nigerian economy; the UAE’s national debt is currently at $113
@@ -230,11 +223,10 @@ function Debt() {
           and Nigeria with regards to inflation and unemployment rates.
           <br />
           <br />
-          <b>Inflation and Unemployment Rate (%)</b>
+          <span className="bold">Inflation and Unemployment Rate (%)</span>
           <br />
           <br />
           <img src={inflation} className="debt-img" alt=""></img>
-          <br />
           <br />
           A report by The Conversation Africa, suggested that the government
           needs to promote economic growth by investing in infrastructure,
@@ -285,14 +277,14 @@ function Debt() {
       <div className="flex2">
         <TwitterShareButton
           url="https://www.bluesense.co/blog/debt"
-          title="Everything you need to know about: Nigeria's Debt Situation"
+          title="Nigeria's Debt Situation"
           hashtags={["Article", "Debt", "invest", "BlueSense"]}
         >
           <TwitterIcon size={25} round={true} fill="#666666" />
         </TwitterShareButton>
         <FacebookShareButton
           url="https://www.bluesense.co/blog/debt"
-          quote={"Everything you need to know about: Nigeria's Debt Situation"}
+          quote={"Nigeria's Debt Situation"}
           hashtag={"#Article"}
         >
           <FacebookIcon size={25} round={true} fill="#666666" />
@@ -300,14 +292,14 @@ function Debt() {
 
         <LinkedinShareButton
           url="https://www.bluesense.co/blog/debt"
-          quote={"Everything you need to know about: Nigeria's Debt Situation"}
+          quote={"Nigeria's Debt Situation"}
           hashtag={"#Article"}
         >
           <LinkedinIcon size={25} round={true} fill="#666666" />
         </LinkedinShareButton>
         <WhatsappShareButton
           url="https://www.bluesense.co/blog/debt"
-          quote={"Everything you need to know about: Nigeria's Debt Situation"}
+          quote={"Nigeria's Debt Situation"}
           hashtag={"#Article"}
         >
           <WhatsappIcon size={25} round={true} fill="#666666" />

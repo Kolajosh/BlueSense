@@ -40,7 +40,6 @@ function Iwd() {
           #Breakthebias: Everything you need to know about International Women’s
           Day and the theme for 2022{" "}
         </h1>
-
         <img src={iwd} alt="Iwd"></img>
       </div>
       <div className="blog1-text">
@@ -63,7 +62,6 @@ function Iwd() {
           <br />
           <span className="bold">IWD History</span>
           <br />
-          <br />
           In the early 1990s, the women’s rights movement in industrialising
           countries led to the creation of International Women’s Day. The notion
           of an International Women’s Day was suggested and endorsed in 1910
@@ -83,7 +81,6 @@ function Iwd() {
           <br />
           <span className="bold">IWD Colors</span>
           <br />
-          <br />
           According to the International Women’s Day website, purple, along with
           green and white, are regarded as the International Women’s Day
           colours. These colours date all the way back to the early 1900s in the
@@ -91,7 +88,6 @@ function Iwd() {
           <br />
           <br />
           <span className="bold">IWD Celebration</span>
-          <br />
           <br />
           International Women’s Day can be observed in a variety of ways. These
           can include festivals, art exhibitions, and award ceremonies organised
