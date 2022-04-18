@@ -3,11 +3,11 @@
 }
 .cookie-head {
   margin-top: 50px;
-  padding-left: 50px;
+  padding-left: 25px;
   padding-right: 50px;
   padding-bottom: 50px;
 }
-.cookie-head h1 {
+.cookie-head h3 {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   color: #666666;

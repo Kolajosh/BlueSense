@@ -74,8 +74,8 @@ function PpolicySection() {
           <h3>Changes to our Privacy Policy</h3>
           <p>
             If BlueSense decides to change our privacy policy, we will post
-            those changes on this page. This policy was last modified on
-            17.07.2020
+            those changes on this page. This policy was last modified on 17. 07.
+            2020
           </p>
         </div>
       </div>

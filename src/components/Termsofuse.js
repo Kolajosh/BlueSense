@@ -12,25 +12,20 @@ function Termsofuse() {
             Please read these Terms and Conditions carefully before using the
             http://www.bluesense.co website operated by BlueSense.
           </p>
-          <br />
           <p>
             Your access to and use of the Service is conditioned on your
             acceptance of and compliance with these Terms. These Terms apply to
-            all visitors, users and others who access or use the Service.
+            all visitors, users and others who access or use the Service. By
+            accessing or using the Service you agree to be bound by these Terms.
+            If you disagree with any part of the terms then you may not access
+            the Service.
           </p>
           <br />
-          <p>
-            By accessing or using the Service you agree to be bound by these
-            Terms. If you disagree with any part of the terms then you may not
-            access the Service.
-          </p>
-          <br />
-          <h2>Links To Other Websites</h2>
+          <h3>Links To Other Websites</h3>
           <p>
             Our Service may contain links to third-party web sites or services
             that are not owned or controlled by BlueSense.
           </p>
-          <br />
           <p>
             BlueSense has no control over, and assumes no responsibility for,
             the content, privacy policies, or practices of any third party web
@@ -53,7 +48,7 @@ function Termsofuse() {
           <h3>Contact</h3>
           <p>If you have any questions about these terms, please contact us.</p>
           <br />
-          <p>Last Updated: 8th December 2021</p>
+          <p>Last Updated: 08. 12. 21</p>
         </div>
       </div>
     </>

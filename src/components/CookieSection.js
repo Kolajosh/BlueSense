@@ -4,9 +4,9 @@ import "./CookieSection.css";
 function CookieSection() {
   return (
     <>
-      <div className='cookie-container'>
-        <div className='cookie-head'>
-          <h1>BlueSense does not use cookies</h1>
+      <div className="cookie-container">
+        <div className="cookie-head">
+          <h3>BlueSense does not use cookies</h3>
         </div>
       </div>
     </>
