@@ -8,8 +8,8 @@ import medecins from "../images/mede.png";
 import icrc from "../images/icrc.png";
 import hashvest from "../images/hash.png";
 import easme from "../images/ease.png";
-import garza from "../images/Mask Group-2.png";
-import tonye from "../images/tonye.png";
+// import garza from "../images/Mask Group-2.png";
+// import tonye from "../images/tonye.png";
 import "./LogoComponent.css";
 
 function LogoComponent() {
@@ -77,10 +77,11 @@ function LogoComponent() {
                   would highly recommend working with them.
                 </p>
               </div>
-              <div className="reviews-img">
+              {/* <div className="reviews-img">
                 <img src={garza} alt=""></img>
-              </div>
+              </div> */}
               <div className="reviews-info">
+                <br />
                 <b>Andrew Garza</b>
                 <p>Cofounder + COO Lifestores Pharmacy</p>
               </div>
@@ -96,12 +97,35 @@ function LogoComponent() {
                   They’re exceptional with their work.
                 </p>
               </div>
-              <div className="reviews-img">
+              {/* <div className="reviews-img">
                 <img src={tonye} alt=""></img>
-              </div>
+              </div> */}
               <div className="reviews-info">
+                <br />
                 <b>Tonye Membere-Otaji</b>
                 <p>Founder MVX Trader </p>
+              </div>
+            </div>
+
+            <div className="reviews-card">
+              <div className="reviews-body">
+                <p>
+                  Academic researchers looking to study management issues in
+                  Nigeria often struggle to find credible research partners.
+                  However, BlueSense was instrumental in managing a research
+                  project focused on client interactions in the banking
+                  industry. Everything was coordinated professionally without me
+                  having to physically be present in Nigeria. I was happy with
+                  quality of the results and look forward to partnering with
+                  them again for future projects.
+                </p>
+              </div>
+              {/* <div className="reviews-img">
+                <img src={tonye} alt=""></img>
+              </div> */}
+              <div className="reviews-info">
+                <b>James Adeniji PhD</b>
+                <p>University of Leeds</p>
               </div>
             </div>
           </div>

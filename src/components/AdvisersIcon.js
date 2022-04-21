@@ -46,7 +46,6 @@ function PartnerIcons1() {
           <img src={new2} alt=""></img>
           <div className="advisers-overlay">
             <p>
-              <h4>Co-founder</h4>
               <br />
               Nadayar is co-founder and CEO at Eden Life, a tech-enabled
               services company that automates home chores. Driven by a passion
@@ -77,7 +76,6 @@ function PartnerIcons1() {
           <img src={garza} alt=""></img>
           <div className="advisers-overlay">
             <p>
-              <h4>Co-founder</h4>
               <br />
               Andrew is Co-Founder and COO of Lifestores Pharmacy, a chain of
               mass-market pharmacies in Nigeria. Previously, he was the Senior
