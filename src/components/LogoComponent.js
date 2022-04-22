@@ -81,9 +81,11 @@ function LogoComponent() {
                 <img src={garza} alt=""></img>
               </div> */}
               <div className="reviews-info">
-                <br />
                 <b>Andrew Garza</b>
-                <p>Cofounder + COO Lifestores Pharmacy</p>
+                <p>
+                  Cofounder + COO <br />
+                  Lifestores Pharmacy
+                </p>
               </div>
             </div>
             <div className="reviews-card">
@@ -101,9 +103,10 @@ function LogoComponent() {
                 <img src={tonye} alt=""></img>
               </div> */}
               <div className="reviews-info">
-                <br />
                 <b>Tonye Membere-Otaji</b>
-                <p>Founder MVX Trader </p>
+                <p>
+                  Founder + CEO <br /> MVXChange
+                </p>
               </div>
             </div>
 

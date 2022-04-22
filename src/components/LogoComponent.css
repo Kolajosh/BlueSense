@@ -92,25 +92,27 @@
 }
 .reviews-flex {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   transition: 0.3s;
   padding-right: 50px;
 }
 .reviews-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   width: 30%;
   border-radius: 16px;
   background-color: #fafafb;
   box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.15);
-  text-align: left;
-  padding: 20px 25px 20px 25px;
+  text-align: center;
+  padding: 17px 17px 17px 17px;
   transition: 0.3s;
 }
 .reviews-info {
-  text-align: right;
-  padding-top: 20px;
+  text-align: center;
 }
 .reviews-img {
-  text-align: right;
+  text-align: center;
 }
 .reviews-img img {
   padding-top: 5px;
@@ -127,10 +129,16 @@
   font-family: Poppins;
   color: rgba(102, 102, 102, 0.726);
 }
+
+.reviews-body {
+  width: 100%;
+  height: 60%;
+}
 .reviews-body p {
   color: rgba(102, 102, 102, 0.726);
   margin-top: 10px;
-  font-size: 8px;
+  margin-bottom: 10px;
+  font-size: 7.9px;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
 }
 .reviews-card:hover {
@@ -144,22 +152,13 @@
     width: 40%;
   }
 }
+
 @media (max-width: 1194px) {
-  .reviews-card {
-    width: 48%;
-  }
-}
-@media (max-width: 1094px) {
-  .reviews-card {
-    width: 58%;
-  }
-}
-@media (max-width: 1055px) {
   .logo-reviews-flex {
     flex-direction: column;
   }
   .reviews-card {
-    width: 27%;
+    width: 25%;
   }
   .reviews-flex {
     padding-left: 50px;

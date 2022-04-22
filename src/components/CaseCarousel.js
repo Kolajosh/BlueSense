@@ -37,7 +37,7 @@ function CaseCarousel() {
                 build a data-entry centre in Nigeria for US large wholesalers.
                 We mapped out a strategy for the company and built a business
                 plan to help develop systems of operation. By August 2017, we
-                had run assessment centres for over 300qualified candidates and
+                had run assessment centres for over 300 qualified candidates and
                 picked out about 20 candidates to setup the founding team.
                 <br />
                 <br />
