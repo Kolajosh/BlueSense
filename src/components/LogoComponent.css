@@ -104,15 +104,15 @@
   border-radius: 16px;
   background-color: #fafafb;
   box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.15);
-  text-align: center;
+  text-align: left;
   padding: 17px 17px 17px 17px;
   transition: 0.3s;
 }
 .reviews-info {
-  text-align: center;
+  text-align: right;
 }
 .reviews-img {
-  text-align: center;
+  text-align: right;
 }
 .reviews-img img {
   padding-top: 5px;
