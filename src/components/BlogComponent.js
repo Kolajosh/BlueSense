@@ -14,6 +14,7 @@ import fintechsmall from "../images/fintechsmall.png";
 import debt from "../images/debt.png";
 import wagesmall from "../images/wagesmall.png";
 import flightsmall from "../images/flightsmall.png";
+import INCUBATORS from "../images/INCUBATORS.png";
 
 function BlogComponent() {
   return (
@@ -23,6 +24,58 @@ function BlogComponent() {
         <img src={smallblog} alt="" className="small-blog"></img>
 
         <h1>BlueSense Blog</h1>
+      </div>
+
+      <div className="blog-0">
+        <div className="blog-post-0">
+          <div className="blog-text-0">
+            <h2>
+              <a href="/blog/incubators-accelerators">
+                Incubators vs Accelerators
+              </a>
+            </h2>
+            <p>
+              Imagine you’re an early-stage start-up founder with a brilliant
+              product or service that can help thousands of people solve a
+              really painful problem. You’ve...
+              <br />
+              <br />
+              <a href="/blog/incubators-accelerators" className="linkblog">
+                {" "}
+                Read more...
+              </a>
+            </p>
+          </div>
+          <div className="blog-post-0-img">
+            <img src={INCUBATORS} alt=""></img>
+          </div>
+        </div>
+      </div>
+
+      <div className="blog-01">
+        <div className="blog-post-01">
+          <div className="blog-post-01-img">
+            <img src={INCUBATORS} alt=""></img>
+          </div>
+          <div className="blog-text-01">
+            <h2>
+              <a href="/blog/incubators-accelerators">
+                Incubators vs Accelerators
+              </a>
+            </h2>{" "}
+            <p>
+              Imagine you’re an early-stage start-up founder with a brilliant
+              product or service that can help thousands of people solve a
+              really painful problem. You’ve...
+              <br />
+              <br />
+              <a href="/blog/incubators-accelerators" className="linkblog">
+                {" "}
+                Read more...
+              </a>
+            </p>
+          </div>
+        </div>
       </div>
 
       <div className="blog-0">

@@ -27,6 +27,7 @@ import Debt from "./components/blogPages/Debt";
 import Wage from "./components/blogPages/Wage";
 import Fintech from "./components/blogPages/Fintech";
 import Flightdelays from "./components/blogPages/Flightdelays";
+import Incubators from "./components/blogPages/incubators";
 
 function App() {
   return (
@@ -60,6 +61,8 @@ function App() {
         <Route exact path="/blog/wage" component={Wage} />
         <Route exact path="/blog/fintech" component={Fintech} />
         <Route exact path="/blog/flightdelays" component={Flightdelays} />
+        <Route exact path="/blog/incubators-accelerators" component={Incubators} />
+
 
         <Route component={custom404} />
       </Switch>
