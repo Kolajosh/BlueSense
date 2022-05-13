@@ -34,6 +34,7 @@
 }
 
 .big-text h1 {
+  font-family: Poppins, sans-serif;
   font-size: 50px;
 }
 .big-text p {
@@ -57,12 +58,19 @@
   transition: 0.5s;
 }
 
+
 @media screen and (max-width: 1300px) {
   .analytics2-body-1 p {
     font-size: 20px;
   }
   .analytics2-body-2 li {
     font-size: 20px;
+  }
+  .bflex{
+    display: flex;
+    justify-content: space-between;
+  }
+  .big-text{
   }
 }
 

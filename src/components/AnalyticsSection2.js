@@ -30,26 +30,28 @@ function AnalyticsSection2() {
             </li>
           </ul>
         </div>
-        <div className="big-text">
-          <ul>
-            <div className="big-text-1">
-              <li>
-                <h1>5+</h1>
-              </li>
-              <li>
-                <p className="blue">People across solution teams</p>
-              </li>
-            </div>
-            <div className="big-text-2">
-              <li>
-                <h1>25+</h1>
-              </li>
-              <li>
-                <p className="blue">Technology-based solutions</p>
-              </li>
-            </div>
-          </ul>
-          <br />
+        <div className="bflex">
+          <div className="big-text">
+            <ul>
+              <div className="big-text-1">
+                <li>
+                  <h1>5+</h1>
+                </li>
+                <li>
+                  <p className="blue">People across solution teams</p>
+                </li>
+              </div>
+              <div className="big-text-2">
+                <li>
+                  <h1>25+</h1>
+                </li>
+                <li>
+                  <p className="blue">Technology-based solutions</p>
+                </li>
+              </div>
+            </ul>
+            <br />
+          </div>
           <div className="button-analytics">
             <button className="big-button">
               <Link to="/contact" className="big-btn-link">
@@ -58,7 +60,6 @@ function AnalyticsSection2() {
             </button>
           </div>
         </div>
-
         <div className="button-a">
           <button className="big-button-a">
             <Link to="/contact" className="big-btn-link">
