@@ -66,7 +66,7 @@
 
 .button-advisory {
   position: relative;
-  margin-top: 190px;
+  margin-top: 160px;
   margin-right: 50px;
   text-align: end;
 }
@@ -142,7 +142,7 @@
     padding-left: 250px;
   }
   .button-advisory {
-    margin-top: 20px;
+    margin-top: -20px;
   }
 }
 
